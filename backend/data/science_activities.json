@@ -1,0 +1,64 @@
+{
+  "description": "Science activities from the document: Animal Classification Flashcards, Nature Senses Detective, Scientific Mind Map",
+  "animal_classification": {
+    "vertebrates": [
+      {"group":"Fish","emoji":"🐟","key_features":["Lives in water","Has gills","Has scales","Cold-blooded","Lays eggs in water"],"examples":["Goldfish","Shark","Salmon","Clownfish","Catfish"],"class_groups":["class1","class2","class3"]},
+      {"group":"Amphibians","emoji":"🐸","key_features":["Can live on land AND water","Smooth moist skin","Cold-blooded","Starts life in water with gills","Breathes air as adult"],"examples":["Frog","Toad","Salamander","Newt","Caecilian"],"class_groups":["class1","class2","class3"]},
+      {"group":"Reptiles","emoji":"🦎","key_features":["Dry scaly skin","Cold-blooded","Breathes air","Mostly lays eggs","Lives on land or water"],"examples":["Lizard","Snake","Crocodile","Tortoise","Chameleon"],"class_groups":["class1","class2","class3"]},
+      {"group":"Birds","emoji":"🦅","key_features":["Has feathers","Has wings and beak","Warm-blooded","Lays eggs on land","Breathes air"],"examples":["Eagle","Peacock","Sparrow","Penguin","Ostrich"],"class_groups":["class1","class2","class3"]},
+      {"group":"Mammals","emoji":"🐘","key_features":["Has hair or fur","Warm-blooded","Gives birth to live young (mostly)","Feeds babies on milk","Breathes air"],"examples":["Human","Elephant","Dog","Whale","Bat"],"class_groups":["class1","class2","class3"]}
+    ],
+    "invertebrates": [
+      {"group":"Insects","emoji":"🐛","key_features":["6 legs","3 body parts (head, thorax, abdomen)","Usually has wings","Has antennae","Has exoskeleton"],"examples":["Butterfly","Ant","Bee","Beetle","Dragonfly"],"class_groups":["class2","class3","class4"]},
+      {"group":"Arachnids","emoji":"🕷️","key_features":["8 legs","2 body parts","No wings or antennae","Has exoskeleton","Most spin silk"],"examples":["Spider","Scorpion","Tick","Mite","Harvestman"],"class_groups":["class2","class3","class4"]},
+      {"group":"Molluscs","emoji":"🐌","key_features":["Soft body","Many have a shell","No legs (mostly)","Move by a muscular foot","Live in water or on land"],"examples":["Snail","Octopus","Squid","Clam","Mussel"],"class_groups":["class3","class4"]},
+      {"group":"Crustaceans","emoji":"🦞","key_features":["Hard exoskeleton","More than 6 legs","Two pairs of antennae","Mostly aquatic","Moult (shed shell) to grow"],"examples":["Crab","Lobster","Shrimp","Woodlouse","Barnacle"],"class_groups":["class3","class4"]},
+      {"group":"Worms","emoji":"🪱","key_features":["Long soft body","No legs","No hard parts","Lives in soil or water","Some are parasites"],"examples":["Earthworm","Tapeworm","Leech","Flatworm","Roundworm"],"class_groups":["class2","class3"]}
+    ],
+    "classification_quiz": [
+      {"animal":"Bat","answer":"Mammals","reason":"Bats have fur and feed their babies on milk — even though they fly!","class_groups":["class2","class3"]},
+      {"animal":"Whale","answer":"Mammals","reason":"Whales breathe air, are warm-blooded, and feed their calves on milk — classic mammal features!","class_groups":["class2","class3"]},
+      {"animal":"Penguin","answer":"Birds","reason":"Penguins have feathers, lay eggs, and are warm-blooded — even though they cannot fly!","class_groups":["class2","class3"]},
+      {"animal":"Spider","answer":"Arachnids (Invertebrate)","reason":"Spiders have 8 legs and 2 body parts — insects have 6 legs and 3 body parts!","class_groups":["class3","class4"]},
+      {"animal":"Frog","answer":"Amphibians","reason":"Frogs start life in water as tadpoles with gills, then grow legs and move to land!","class_groups":["class1","class2","class3"]},
+      {"animal":"Sea Horse","answer":"Fish","reason":"Sea horses have gills and fins — they ARE fish, even though they look very different from most!","class_groups":["class3","class4"]}
+    ]
+  },
+  "nature_senses_detective": {
+    "description": "Identify natural items using only ONE sense at a time — builds scientific observation skills",
+    "class_groups": ["lkg","ukg","class1","class2"],
+    "rounds": [
+      {"sense":"SIGHT 👁️","instruction":"Look carefully but do NOT touch, smell, or listen. Describe ONLY what you see.","items_to_find":["something green","something with bumps or texture","something smaller than your thumb","something that reflects light"],"buddy_prompt":"For each item found: 'Tell me its colour. Tell me its shape. Tell me if it is smooth or rough just from looking. What does it remind you of?'"},
+      {"sense":"TOUCH ✋","instruction":"Close your eyes! Feel an item but do NOT look or smell it.","items_to_find":["something soft","something rough","something smooth","something with edges or points"],"buddy_prompt":"'Is it warm or cold? Is it hard or soft? Is it heavy or light? Is it smooth or bumpy? Does it have corners? Can you GUESS what it is just from touching?'"},
+      {"sense":"SMELL 👃","instruction":"Smell only — eyes closed, no tasting or touching.","items_to_find":["a flower or leaf from outside","a spice from the kitchen","a piece of soil or grass","something citrus like lemon or orange peel"],"buddy_prompt":"'Is it a strong smell or faint? Is it sweet, sour, earthy, or sharp? Have you smelled this before? Where? Can you NAME the item just from the smell?'"},
+      {"sense":"SOUND 👂","instruction":"Listen very carefully — close your eyes for 30 seconds.","items_to_find":["tap water running","wind or rustling leaves","birds outside","your own heartbeat"],"buddy_prompt":"'What sounds did you hear? Were they high or low? Near or far? Steady or changing? If you heard something you could not identify — what COULD it be?'"}
+    ]
+  },
+  "mind_map": {
+    "description": "Connecting small ideas to big ideas — Scientific Mind Map for Class 3–5",
+    "class_groups": ["class3","class4","class5"],
+    "nodes": [
+      {
+        "small_idea": "Seeds germinate",
+        "medium_idea": "Plants make their own food",
+        "big_idea": "Photosynthesis and the carbon cycle",
+        "connection_chain": ["A seed sprouts when water, warmth and air are available","The seedling grows leaves to capture sunlight","Leaves use sunlight + CO₂ + water to make glucose","This process (photosynthesis) produces oxygen as a byproduct","Animals eat plants and breathe the oxygen","Animals exhale CO₂ — which plants absorb again","This endless exchange is the carbon cycle — life on Earth depends on it!"],
+        "wow_fact": "Every breath of oxygen you take was made by a plant. You are alive because of photosynthesis!"
+      },
+      {
+        "small_idea": "A magnet attracts a paperclip",
+        "medium_idea": "Forces act at a distance",
+        "big_idea": "Fundamental forces of nature",
+        "connection_chain": ["A magnet pulls iron without touching it","This is a non-contact force — it acts through space","Gravity also acts without touching (Earth pulls the Moon)","Electromagnetic forces hold atoms together","These are two of the four fundamental forces in the universe","Everything that happens in the universe comes down to these four forces!"],
+        "wow_fact": "Magnetism and electricity are actually two sides of the same force — electromagnetism! Einstein discovered this."
+      },
+      {
+        "small_idea": "Ice melts in my hand",
+        "medium_idea": "Energy causes changes in matter",
+        "big_idea": "Conservation of energy and the water cycle",
+        "connection_chain": ["Your body heat (thermal energy) transfers to the ice","The ice gains enough energy to break its crystal structure","It melts — a state change from solid to liquid","The water can then evaporate (liquid to gas) if more energy is added","Water vapour rises, cools, condenses into droplets — clouds","Rain falls — completing the water cycle","The total energy in the system is always conserved — it just changes form!"],
+        "wow_fact": "The water you hold in your hand has been ice, liquid water, and water vapour thousands of times in its multi-billion-year journey!"
+      }
+    ]
+  }
+}

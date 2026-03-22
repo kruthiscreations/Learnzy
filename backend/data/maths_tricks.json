@@ -1,0 +1,481 @@
+{
+  "tricks": [
+    {
+      "id": "mt001",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "title": "Magic Finger Counting",
+      "emoji": "🖐️",
+      "tagline": "Count anything with your 10 magic fingers!",
+      "steps": [
+        "Hold up all 10 fingers",
+        "Bend down one finger for each thing you count",
+        "When all fingers are bent — you have 10!"
+      ],
+      "example": "Count 7 apples → bend 7 fingers → 7!",
+      "practice": [
+        {
+          "q": "Show me 5 on your fingers!",
+          "answer": "5 fingers bent"
+        },
+        {
+          "q": "How many fingers on 2 hands?",
+          "answer": "10"
+        },
+        {
+          "q": "Show 3 + 2 on your fingers!",
+          "answer": "3 then 2 more = 5"
+        }
+      ]
+    },
+    {
+      "id": "mt002",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "title": "Skip Counting by 2",
+      "emoji": "🐸",
+      "tagline": "Jump like a frog — skip one number each time!",
+      "steps": [
+        "Start at 2",
+        "Jump forward 2 each time — don't land on odd numbers!",
+        "2, 4, 6, 8, 10, 12..."
+      ],
+      "example": "2 → 4 → 6 → 8 → 10 (these are all EVEN numbers!)",
+      "practice": [
+        {
+          "q": "What comes after 6 when skip counting by 2?",
+          "answer": "8"
+        },
+        {
+          "q": "What comes after 10?",
+          "answer": "12"
+        },
+        {
+          "q": "Count by 2s: 2, 4, ___, 8",
+          "answer": "6"
+        }
+      ]
+    },
+    {
+      "id": "mt003",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "title": "The +9 Shortcut",
+      "emoji": "✨",
+      "tagline": "Adding 9? Add 10 then take away 1 — super fast!",
+      "steps": [
+        "When you add 9 to any number...",
+        "First add 10 (easy!)",
+        "Then subtract 1",
+        "Done! That's your answer."
+      ],
+      "example": "7 + 9 = ? → 7 + 10 = 17 → 17 - 1 = 16 ✓",
+      "practice": [
+        {
+          "q": "5 + 9 = ?",
+          "answer": "14 (5+10=15, 15-1=14)"
+        },
+        {
+          "q": "8 + 9 = ?",
+          "answer": "17 (8+10=18, 18-1=17)"
+        },
+        {
+          "q": "13 + 9 = ?",
+          "answer": "22 (13+10=23, 23-1=22)"
+        }
+      ]
+    },
+    {
+      "id": "mt004",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "title": "Doubling Numbers",
+      "emoji": "🪞",
+      "tagline": "Double = same number + same number. Like a mirror!",
+      "steps": [
+        "Double means adding a number to itself",
+        "Double 5 = 5 + 5 = 10",
+        "Learn these doubles by heart — they're everywhere!"
+      ],
+      "example": "Double 7 = 7 + 7 = 14 | Double 8 = 8 + 8 = 16",
+      "practice": [
+        {
+          "q": "Double 6 = ?",
+          "answer": "12"
+        },
+        {
+          "q": "Double 9 = ?",
+          "answer": "18"
+        },
+        {
+          "q": "If double 4 = 8, what is 4 + 5?",
+          "answer": "9 (one more than double 4!)"
+        }
+      ]
+    },
+    {
+      "id": "mt005",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "title": "Even and Odd Pattern",
+      "emoji": "🔵🔴",
+      "tagline": "Numbers go Even, Odd, Even, Odd... forever!",
+      "steps": [
+        "Even numbers end in 0, 2, 4, 6, or 8",
+        "Odd numbers end in 1, 3, 5, 7, or 9",
+        "Even + Even = Even. Odd + Odd = Even. Even + Odd = Odd!"
+      ],
+      "example": "4 (even) + 6 (even) = 10 (even!) | 3 + 5 = 8 (even!)",
+      "practice": [
+        {
+          "q": "Is 17 even or odd?",
+          "answer": "Odd (ends in 7)"
+        },
+        {
+          "q": "Is 24 even or odd?",
+          "answer": "Even (ends in 4)"
+        },
+        {
+          "q": "Even + Odd = ?",
+          "answer": "Always Odd"
+        }
+      ]
+    },
+    {
+      "id": "mt006",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "title": "Multiply by 11 (Two-digit trick)",
+      "emoji": "🎯",
+      "tagline": "Multiplying by 11? Split and add the middle!",
+      "steps": [
+        "Take any two-digit number, say 35",
+        "Write the first digit: 3",
+        "Write the last digit: 5",
+        "Put their SUM in the middle: 3 + 5 = 8",
+        "Answer: 3 8 5 = 385!"
+      ],
+      "example": "35 × 11 = 385 | 23 × 11 = 253 | 45 × 11 = 495",
+      "practice": [
+        {
+          "q": "42 × 11 = ?",
+          "answer": "462 (4, 4+2=6, 2)"
+        },
+        {
+          "q": "36 × 11 = ?",
+          "answer": "396 (3, 3+6=9, 6)"
+        },
+        {
+          "q": "54 × 11 = ?",
+          "answer": "594 (5, 5+4=9, 4)"
+        }
+      ]
+    },
+    {
+      "id": "mt007",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "title": "Multiply by 5 Trick",
+      "emoji": "⚡",
+      "tagline": "×5 = Divide by 2 then ×10. Twice as fast!",
+      "steps": [
+        "To multiply any number by 5...",
+        "First HALVE the number (divide by 2)",
+        "Then multiply by 10 (add a zero!)"
+      ],
+      "example": "24 × 5 = ? → 24 ÷ 2 = 12 → 12 × 10 = 120 ✓",
+      "practice": [
+        {
+          "q": "16 × 5 = ?",
+          "answer": "80 (16÷2=8, 8×10=80)"
+        },
+        {
+          "q": "34 × 5 = ?",
+          "answer": "170 (34÷2=17, 17×10=170)"
+        },
+        {
+          "q": "18 × 5 = ?",
+          "answer": "90 (18÷2=9, 9×10=90)"
+        }
+      ]
+    },
+    {
+      "id": "mt008",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "title": "Square Numbers Ending in 5",
+      "emoji": "🌟",
+      "tagline": "Any number ending in 5, squared — super fast answer!",
+      "steps": [
+        "Take the digit before 5 (call it n)",
+        "Multiply n × (n+1)",
+        "Then put 25 at the end!"
+      ],
+      "example": "35² = ? → n=3 → 3×4=12 → Answer: 1225!",
+      "practice": [
+        {
+          "q": "25² = ?",
+          "answer": "625 (n=2, 2×3=6, put 25 → 625)"
+        },
+        {
+          "q": "45² = ?",
+          "answer": "2025 (n=4, 4×5=20, put 25 → 2025)"
+        },
+        {
+          "q": "55² = ?",
+          "answer": "3025 (n=5, 5×6=30, put 25 → 3025)"
+        }
+      ]
+    },
+    {
+      "id": "mt009",
+      "class_groups": [
+        "class5"
+      ],
+      "title": "Vedic ×9 Trick (Fingers!)",
+      "emoji": "🙌",
+      "tagline": "Multiply any single digit by 9 using just your hands!",
+      "steps": [
+        "Hold up all 10 fingers",
+        "To multiply 9 × N: fold down finger number N from the left",
+        "Fingers to the LEFT of folded = tens digit",
+        "Fingers to the RIGHT of folded = ones digit"
+      ],
+      "example": "9 × 7 = ? → Fold 7th finger → 6 left, 3 right → 63!",
+      "practice": [
+        {
+          "q": "9 × 4 = ? (use finger trick)",
+          "answer": "36 (fold 4th: 3 left, 6 right)"
+        },
+        {
+          "q": "9 × 8 = ?",
+          "answer": "72 (fold 8th: 7 left, 2 right)"
+        },
+        {
+          "q": "9 × 6 = ?",
+          "answer": "54 (fold 6th: 5 left, 4 right)"
+        }
+      ]
+    },
+    {
+      "id": "mt010",
+      "class_groups": [
+        "class5"
+      ],
+      "title": "Two-Digit Squaring Shortcut",
+      "emoji": "🚀",
+      "tagline": "Square any two-digit number near 50 in seconds!",
+      "steps": [
+        "Find how far the number is from 50 (call it d)",
+        "If number > 50: (25 + d) | (d²)",
+        "If number < 50: (25 - d) | (d²)"
+      ],
+      "example": "53² → d=3 → (25+3)=28 and 3²=09 → 2809!",
+      "practice": [
+        {
+          "q": "52² = ?",
+          "answer": "2704 (d=2: 25+2=27, 2²=04 → 2704)"
+        },
+        {
+          "q": "47² = ?",
+          "answer": "2209 (d=3: 25-3=22, 3²=09 → 2209)"
+        },
+        {
+          "q": "55² = ?",
+          "answer": "3025 (d=5: 25+5=30, 5²=25 → 3025)"
+        }
+      ]
+    },
+    {
+      "id": "mt011",
+      "class_groups": [
+        "class5"
+      ],
+      "title": "BODMAS Magic",
+      "emoji": "🎩",
+      "tagline": "Always solve in order: Brackets, Orders, ÷, ×, +, −",
+      "steps": [
+        "B — Brackets first (solve inside brackets)",
+        "O — Orders (powers and roots)",
+        "D — Division",
+        "M — Multiplication",
+        "A — Addition",
+        "S — Subtraction"
+      ],
+      "example": "3 + 4 × 2 = ? → 4×2=8 first → 3+8 = 11 (NOT 14!)",
+      "practice": [
+        {
+          "q": "2 + 3 × 4 = ?",
+          "answer": "14 (×first: 3×4=12, then 2+12=14)"
+        },
+        {
+          "q": "(5 + 3) × 2 = ?",
+          "answer": "16 (brackets first: 8×2=16)"
+        },
+        {
+          "q": "10 − 6 ÷ 2 = ?",
+          "answer": "7 (÷first: 6÷2=3, then 10-3=7)"
+        }
+      ]
+    },
+    {
+      "id": "mt012",
+      "class_groups": [
+        "class5"
+      ],
+      "title": "Fraction Shortcut — Cross Multiply",
+      "emoji": "✖️",
+      "tagline": "Compare fractions instantly — cross multiply and compare!",
+      "steps": [
+        "To compare 3/4 and 5/7...",
+        "Multiply 3 × 7 = 21",
+        "Multiply 5 × 4 = 20",
+        "21 > 20, so 3/4 > 5/7!"
+      ],
+      "example": "Which is bigger: 2/3 or 3/5? → 2×5=10 vs 3×3=9 → 10>9 → 2/3 wins!",
+      "practice": [
+        {
+          "q": "Which is bigger: 3/7 or 2/5?",
+          "answer": "3/7 (3×5=15 vs 2×7=14, 15>14)"
+        },
+        {
+          "q": "Which is bigger: 4/9 or 5/11?",
+          "answer": "5/11 (4×11=44 vs 5×9=45, 45>44)"
+        },
+        {
+          "q": "Are 3/6 and 1/2 equal?",
+          "answer": "Yes (3×2=6, 1×6=6, equal!)"
+        }
+      ]
+    },
+    {
+      "id": "mt013",
+      "title": "Breaking Numbers Apart",
+      "emoji": "🧩",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "description": "Split big numbers into friendly parts to add easily in your head!",
+      "steps": [
+        "Look at the numbers you want to add",
+        "Split each number into its TENS and ONES parts",
+        "Add the tens together first",
+        "Add the ones together next",
+        "Combine your two answers!"
+      ],
+      "example": "73 + 19\n→ Split: (70 + 10) + (3 + 9)\n→ Tens: 70+10 = 80\n→ Ones: 3+9 = 12\n→ Answer: 80+12 = 92 ✓",
+      "why_it_works": "Our brains find round numbers like 70 and 80 much easier than 73 and 19. Breaking numbers apart makes the hard parts easy!",
+      "practice": [
+        {
+          "q": "54 + 28 = ?",
+          "a": "(50+20)+(4+8) = 70+12 = 82"
+        },
+        {
+          "q": "67 + 35 = ?",
+          "a": "(60+30)+(7+5) = 90+12 = 102"
+        },
+        {
+          "q": "86 + 47 = ?",
+          "a": "(80+40)+(6+7) = 120+13 = 133"
+        },
+        {
+          "q": "123 + 49 = ?",
+          "a": "(120+40)+(3+9) = 160+12 = 172"
+        }
+      ]
+    },
+    {
+      "id": "mt014",
+      "title": "The Rule of 9s — Digit Detective",
+      "emoji": "🔮",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "description": "Any multiple of 9 has a secret: add all its digits and you always get 9!",
+      "steps": [
+        "Take any multiple of 9 (9, 18, 27, 36, 45...)",
+        "Add all the digits of that number",
+        "Keep adding until you get a single digit",
+        "The answer will ALWAYS be 9!"
+      ],
+      "example": "Is 171 a multiple of 9?\n→ Add digits: 1+7+1 = 9\n→ YES! It is a multiple of 9!\n\nIs 254 a multiple of 9?\n→ Add digits: 2+5+4 = 11 → 1+1 = 2\n→ NO! Not a multiple of 9.",
+      "why_it_works": "This is called the 'divisibility rule for 9'. It works because our base-10 number system has a special relationship with 9 (which is 10-1). Pure mathematical magic!",
+      "practice": [
+        {
+          "q": "Is 243 a multiple of 9?",
+          "a": "2+4+3=9 → YES ✓"
+        },
+        {
+          "q": "Is 387 a multiple of 9?",
+          "a": "3+8+7=18 → 1+8=9 → YES ✓"
+        },
+        {
+          "q": "Is 456 a multiple of 9?",
+          "a": "4+5+6=15 → 1+5=6 → NO ✗"
+        },
+        {
+          "q": "Is 729 a multiple of 9?",
+          "a": "7+2+9=18 → 1+8=9 → YES ✓"
+        }
+      ]
+    },
+    {
+      "id": "mt015",
+      "title": "The Rule of 6s",
+      "emoji": "🎲",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "description": "When you multiply 6 by any even number, the answer's last digit always matches the number you multiplied by!",
+      "steps": [
+        "Multiply 6 by an even number",
+        "Look at the LAST digit (ones place) of your answer",
+        "It will always match the even number you used!"
+      ],
+      "example": "6 × 4 = 24 → last digit is 4 ✓\n6 × 8 = 48 → last digit is 8 ✓\n6 × 12 = 72 → last digit is 2 ✓\n6 × 14 = 84 → last digit is 4 ✓\n6 × 16 = 96 → last digit is 6 ✓",
+      "why_it_works": "6 × even number always ends in the same digit because 6 = (5+1) and multiplying any even number by 5 gives a number ending in 0, so the +1 just brings back the original ones digit!",
+      "practice": [
+        {
+          "q": "6 × 18 = ? (what is the last digit?)",
+          "a": "108 → last digit 8 ✓"
+        },
+        {
+          "q": "6 × 22 = ? (what is the last digit?)",
+          "a": "132 → last digit 2 ✓"
+        },
+        {
+          "q": "6 × 34 = ?",
+          "a": "204 → last digit 4 ✓"
+        },
+        {
+          "q": "Does the rule work for ODD numbers? Try 6×7",
+          "a": "42 → last digit 2, NOT 7. Rule only works for EVEN numbers!"
+        }
+      ]
+    }
+  ],
+  "total": 15
+}

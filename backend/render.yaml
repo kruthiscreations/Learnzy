@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: learnzy-backend
+    runtime: python
+    buildCommand: pip install -r requirements.prod.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: MONGO_URL
+        sync: false
+      - key: DB_NAME
+        value: speakeasy_kids_pro
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: RAZORPAY_KEY_ID
+        sync: false
+      - key: RAZORPAY_KEY_SECRET
+        sync: false

@@ -1,0 +1,288 @@
+[
+  {
+    "word_id": "lkg1_01",
+    "word_english": "Apple",
+    "translations": {
+      "telugu": "ఆపిల్",
+      "hindi": "सेब",
+      "tamil": "ஆப்பிள்",
+      "kannada": "ಸೇಬು",
+      "malayalam": "ആപ്പിൾ"
+    },
+    "meaning": "A round fruit with red or green skin",
+    "gender": "neuter",
+    "example_sentences": [
+      "I eat an apple every day.",
+      "The apple is sweet.",
+      "Apples are healthy."
+    ],
+    "level": "lkg-1st",
+    "category": "fruits",
+    "synonyms": [],
+    "antonyms": [],
+    "part_of_speech": "noun",
+    "difficulty": 1
+  },
+  {
+    "word_id": "lkg1_02",
+    "word_english": "Banana",
+    "translations": {
+      "telugu": "అరటి",
+      "hindi": "केला",
+      "tamil": "வாழைப்பழம்",
+      "kannada": "ಬಾಳೆಹಣ್ಣು",
+      "malayalam": "വാഴപ്പഴം"
+    },
+    "meaning": "A long yellow fruit that monkeys love",
+    "gender": "neuter",
+    "example_sentences": [
+      "Monkeys eat bananas.",
+      "Bananas are yellow.",
+      "I like banana milkshake."
+    ],
+    "level": "lkg-1st",
+    "category": "fruits",
+    "synonyms": [],
+    "antonyms": [],
+    "part_of_speech": "noun",
+    "difficulty": 1
+  },
+  {
+    "word_id": "lkg1_03",
+    "word_english": "Mango",
+    "translations": {
+      "telugu": "మామిడి",
+      "hindi": "आम",
+      "tamil": "மாம்பழம்",
+      "kannada": "ಮಾವಿನಹಣ್ಣು",
+      "malayalam": "മാങ്ങ"
+    },
+    "meaning": "A sweet juicy fruit that is the king of fruits",
+    "gender": "neuter",
+    "example_sentences": [
+      "Mango is my favorite fruit.",
+      "Mangoes are very sweet.",
+      "Summer is mango season."
+    ],
+    "level": "lkg-1st",
+    "category": "fruits",
+    "synonyms": [],
+    "antonyms": [],
+    "part_of_speech": "noun",
+    "difficulty": 1
+  },
+  {
+    "word_id": "lkg1_04",
+    "word_english": "Orange",
+    "translations": {
+      "telugu": "నారింజ",
+      "hindi": "संतरा",
+      "tamil": "ஆரஞ்சு",
+      "kannada": "ಕಿತ್ತಳೆ",
+      "malayalam": "ഓറഞ്ച്"
+    },
+    "meaning": "A round citrus fruit with orange color",
+    "gender": "neuter",
+    "example_sentences": [
+      "Oranges have vitamin C.",
+      "The orange is juicy.",
+      "I drink orange juice."
+    ],
+    "level": "lkg-1st",
+    "category": "fruits",
+    "synonyms": [],
+    "antonyms": [],
+    "part_of_speech": "noun",
+    "difficulty": 1
+  },
+  {
+    "word_id": "lkg1_05",
+    "word_english": "Grape",
+    "translations": {
+      "telugu": "ద్రాక్ష",
+      "hindi": "अंगूर",
+      "tamil": "திராட்சை",
+      "kannada": "ದ್ರಾಕ್ಷಿ",
+      "malayalam": "മുന്തിരി"
+    },
+    "meaning": "Small round fruits that grow in bunches",
+    "gender": "neuter",
+    "example_sentences": [
+      "Grapes are purple or green.",
+      "I like eating grapes.",
+      "Grapes grow on vines."
+    ],
+    "level": "lkg-1st",
+    "category": "fruits",
+    "synonyms": [],
+    "antonyms": [],
+    "part_of_speech": "noun",
+    "difficulty": 1
+  },
+  {
+    "word_id": "lkg1_06",
+    "word_english": "Cat",
+    "translations": {
+      "telugu": "పిల్లి",
+      "hindi": "बिल्ली",
+      "tamil": "பூனை",
+      "kannada": "ಬೆಕ್ಕು",
+      "malayalam": "പൂച്ച"
+    },
+    "meaning": "A small furry pet that says meow",
+    "gender": "feminine",
+    "example_sentences": [
+      "The cat drinks milk.",
+      "Cats like to play.",
+      "My cat is black."
+    ],
+    "level": "lkg-1st",
+    "category": "animals",
+    "synonyms": [
+      "kitty",
+      "kitten"
+    ],
+    "antonyms": [],
+    "part_of_speech": "noun",
+    "difficulty": 1
+  },
+  {
+    "word_id": "lkg1_07",
+    "word_english": "Dog",
+    "translations": {
+      "telugu": "కుక్క",
+      "hindi": "कुत्ता",
+      "tamil": "நாய்",
+      "kannada": "ನಾಯಿ",
+      "malayalam": "നായ"
+    },
+    "meaning": "A friendly pet that barks and wags tail",
+    "gender": "masculine",
+    "example_sentences": [
+      "Dogs are loyal.",
+      "My dog plays fetch.",
+      "The dog is barking."
+    ],
+    "level": "lkg-1st",
+    "category": "animals",
+    "synonyms": [
+      "puppy"
+    ],
+    "antonyms": [],
+    "part_of_speech": "noun",
+    "difficulty": 1
+  },
+  {
+    "word_id": "2nd3rd_01",
+    "word_english": "School",
+    "translations": {
+      "telugu": "పాఠశాల",
+      "hindi": "स्कूल",
+      "tamil": "பள்ளி",
+      "kannada": "ಶಾಲೆ",
+      "malayalam": "സ്കൂൾ"
+    },
+    "meaning": "A place where children go to learn",
+    "gender": "neuter",
+    "example_sentences": [
+      "I go to school every day.",
+      "School starts at 9 AM.",
+      "We learn many things at school."
+    ],
+    "level": "2nd-3rd",
+    "category": "places",
+    "synonyms": [],
+    "antonyms": [],
+    "part_of_speech": "noun",
+    "difficulty": 2
+  },
+  {
+    "word_id": "2nd3rd_02",
+    "word_english": "Teacher",
+    "translations": {
+      "telugu": "ఉపాధ్యాయుడు",
+      "hindi": "शिक्षक",
+      "tamil": "ஆசிரியர்",
+      "kannada": "ಶಿಕ್ಷಕ",
+      "malayalam": "അദ്ധ്യാപകൻ"
+    },
+    "meaning": "A person who teaches students",
+    "gender": "masculine",
+    "example_sentences": [
+      "My teacher is kind.",
+      "The teacher explains well.",
+      "Teachers help us learn."
+    ],
+    "level": "2nd-3rd",
+    "category": "people",
+    "synonyms": [
+      "educator",
+      "instructor"
+    ],
+    "antonyms": [
+      "student"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": 2
+  },
+  {
+    "word_id": "4th5th_01",
+    "word_english": "Adventure",
+    "translations": {
+      "telugu": "సాహసం",
+      "hindi": "साहसिक कार्य",
+      "tamil": "சாகசம்",
+      "kannada": "ಸಾಹಸ",
+      "malayalam": "സാഹസികത"
+    },
+    "meaning": "An exciting or unusual experience",
+    "gender": "neuter",
+    "example_sentences": [
+      "We went on an adventure.",
+      "Life is an adventure.",
+      "Adventure stories are exciting."
+    ],
+    "level": "4th-5th",
+    "category": "abstract",
+    "synonyms": [
+      "journey",
+      "quest"
+    ],
+    "antonyms": [
+      "routine",
+      "boredom"
+    ],
+    "part_of_speech": "noun",
+    "difficulty": 4
+  },
+  {
+    "word_id": "4th5th_02",
+    "word_english": "Believe",
+    "translations": {
+      "telugu": "నమ్ము",
+      "hindi": "विश्वास करना",
+      "tamil": "நம்பு",
+      "kannada": "ನಂಬು",
+      "malayalam": "വിശ്വസിക്കുക"
+    },
+    "meaning": "To think something is true",
+    "gender": null,
+    "example_sentences": [
+      "I believe in you.",
+      "Believe in yourself.",
+      "Do you believe this story?"
+    ],
+    "level": "4th-5th",
+    "category": "verbs",
+    "synonyms": [
+      "trust",
+      "accept"
+    ],
+    "antonyms": [
+      "doubt",
+      "disbelieve"
+    ],
+    "part_of_speech": "verb",
+    "difficulty": 3
+  }
+]

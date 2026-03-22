@@ -1,0 +1,498 @@
+{
+  "description": "Learnzy Math Play Zone — Phase-based hands-on activities, interactive games, and mindset tools. No duplication of existing tricks or quests.",
+  "phases": [
+    {
+      "id": "phase1",
+      "title": "Number Explorer",
+      "subtitle": "Pre-K to Class 1",
+      "class_groups": ["lkg", "ukg", "class1"],
+      "emoji": "🌱",
+      "color": "#10B981",
+      "description": "Build number sense and spatial awareness through discovery and play",
+      "activities": [
+        {
+          "id": "a101",
+          "title": "Number Hunt",
+          "emoji": "🔍",
+          "type": "daily_challenge",
+          "description": "Find numbers hiding in the real world around you!",
+          "instructions": "Go around your home and find these numbers: a 2, a 5, and a number bigger than 8. They could be on a clock, a book, a phone, anywhere! Tell your buddy what you found.",
+          "buddy_prompt": "Let's go on a number hunt! Ask the child to describe where they found each number. Celebrate each discovery enthusiastically. Ask: 'Which was the biggest number you found?'",
+          "duration_min": 5,
+          "stars": 2
+        },
+        {
+          "id": "a102",
+          "title": "Ice Cream Scoop Maths",
+          "emoji": "🍦",
+          "type": "visualization",
+          "description": "Add numbers by imagining delicious ice cream scoops!",
+          "instructions": "Imagine you have 3 scoops of vanilla and someone adds 2 scoops of chocolate. How many scoops total? Close your eyes and count them all!",
+          "buddy_prompt": "Use the ice cream scoop visualization. 'Let's build an ice cream tower! First put 3 vanilla scoops... now add 2 chocolate scoops... count them all! How many scoops in your imaginary cone?' Make addition feel delicious and fun.",
+          "duration_min": 5,
+          "stars": 2
+        },
+        {
+          "id": "a103",
+          "title": "Race to 20",
+          "emoji": "🎲",
+          "type": "game",
+          "description": "Roll, add, and race to 20!",
+          "instructions": "You start at 0. Each turn, I give you a number between 1 and 6 (like a dice). Add it to your total. First to reach exactly 20 wins! If you go over, you go back to 15.",
+          "buddy_prompt": "Play Race to 20 interactively. Give a random number each turn: 'Roll! You got a [1-6]. You were at [X], now you are at [X+roll]. How many more do you need to reach 20?' Keep score and celebrate the win.",
+          "duration_min": 8,
+          "stars": 3,
+          "interactive": true
+        },
+        {
+          "id": "a104",
+          "title": "Shape Detective",
+          "emoji": "🔺",
+          "type": "game",
+          "description": "Guess the shape by asking Yes/No questions!",
+          "instructions": "I am thinking of a shape. Ask me YES or NO questions to figure out what it is! Questions like: Does it have straight sides? Does it have more than 3 sides? Is it round?",
+          "buddy_prompt": "Play the shape guessing game. Think of: circle, triangle, square, rectangle, oval, diamond. Answer only Yes/No. After the child guesses, say if they are right and describe the shape's properties. Then swap — they think of a shape and YOU guess!",
+          "duration_min": 8,
+          "stars": 2,
+          "interactive": true
+        },
+        {
+          "id": "a105",
+          "title": "Kitchen Counting",
+          "emoji": "🥄",
+          "type": "daily_challenge",
+          "description": "Use real things in your kitchen to practise measuring!",
+          "instructions": "Find a spoon and a cup in your kitchen. How many spoonfuls does it take to fill the cup with water? Count each spoonful out loud! Then try with a bigger spoon.",
+          "buddy_prompt": "Ask the child to count their spoonfuls. 'How many did it take? If we use a bigger spoon, will we need more or fewer spoonfuls? Why do you think that?' Connect to the concept of measurement units.",
+          "duration_min": 7,
+          "stars": 2
+        }
+      ]
+    },
+    {
+      "id": "phase2",
+      "title": "Maths Builder",
+      "subtitle": "Class 2 to Class 3",
+      "class_groups": ["class2", "class3"],
+      "emoji": "🏗️",
+      "color": "#6366F1",
+      "description": "Master multiplication, place value and time through hands-on strategies",
+      "activities": [
+        {
+          "id": "a201",
+          "title": "Equal Groups Game",
+          "emoji": "🎒",
+          "type": "visualization",
+          "description": "See multiplication as bags of things — not just a sum!",
+          "instructions": "Imagine 4 bags. Each bag has 6 marbles. WITHOUT multiplying yet — can you figure out the total by counting or adding? Then check: does 4×6 give the same answer?",
+          "buddy_prompt": "Walk through the equal groups visualization. 'Picture 4 bags. Each has 6 marbles. Bag 1: 6. Bag 2: 12. Bag 3: 18. Bag 4: 24! See how we just skip-counted by 6? Now try: what is 3 bags of 8 marbles?' Build intuition for multiplication as repeated addition.",
+          "duration_min": 8,
+          "stars": 3
+        },
+        {
+          "id": "a202",
+          "title": "Target Toss — Place Value",
+          "emoji": "🎯",
+          "type": "game",
+          "description": "Build big numbers by landing in the right zone!",
+          "instructions": "I will give you three numbers: ones, tens, and hundreds. You arrange them into the BIGGEST possible number, then the SMALLEST. Ready? Ones: 3, Tens: 7, Hundreds: 1. Go!",
+          "buddy_prompt": "Play target toss digitally. Give 3 digits each round, e.g. 4, 8, 2. Ask child to form the largest (842) and smallest (248) number. Increase difficulty: 'Now I give you FOUR digits!' Explain why place value matters for each arrangement.",
+          "duration_min": 8,
+          "stars": 3,
+          "interactive": true
+        },
+        {
+          "id": "a203",
+          "title": "Human Clock",
+          "emoji": "🕐",
+          "type": "activity",
+          "description": "Use YOUR ARMS to show the time!",
+          "instructions": "Stand up and stretch your arms out. Your RIGHT arm is the MINUTE hand (longer). Your LEFT arm is the HOUR hand (shorter). I will call out a time — you make your arms show it! Ready? Show me 3 o'clock!",
+          "buddy_prompt": "Call out times one at a time. Start easy: 3:00, 6:00, 12:00. Then harder: 4:30, 9:15, 7:45. Ask the child to describe where their arms are pointing. 'Your minute hand is pointing straight down — what does that tell us?' Make it energetic and fun.",
+          "duration_min": 8,
+          "stars": 2,
+          "interactive": true
+        },
+        {
+          "id": "a204",
+          "title": "Array Explorer",
+          "emoji": "⬛",
+          "type": "visualization",
+          "description": "See multiplication as rows and columns — like a grid!",
+          "instructions": "Draw 3 rows of dots, with 4 dots in each row. Count ALL the dots — that is 3×4! Now turn your paper sideways — now it is 4 rows of 3. Same dots! This is why 3×4 = 4×3!",
+          "buddy_prompt": "Guide the array discovery. 'Imagine a grid — 5 rows, 6 columns. How many squares total? Count across: 6, 12, 18, 24, 30! Now flip it — 6 rows of 5. Same answer! This is called the commutative property. Can you think of another pair that works this way?'",
+          "duration_min": 8,
+          "stars": 3
+        },
+        {
+          "id": "a205",
+          "title": "Number Line Hop",
+          "emoji": "🐸",
+          "type": "game",
+          "description": "Hop along the number line to multiply!",
+          "instructions": "Start at 0. Make 5 EQUAL hops of 4. Where do you land? That is 5×4! Draw the hops in your mind or on paper. Each hop lands at: 4, 8, 12, 16, 20!",
+          "buddy_prompt": "Give multiplication as number line challenges. 'Start at 0. Make 6 hops of 3. Call out where you land each hop: 3... 6... 9... You are building your 3 times table! Now try 4 hops of 7!' Connect physically to the feel of multiplication.",
+          "duration_min": 7,
+          "stars": 3,
+          "interactive": true
+        }
+      ]
+    },
+    {
+      "id": "phase3",
+      "title": "Maths Champion",
+      "subtitle": "Class 4 to Class 5",
+      "class_groups": ["class4", "class5"],
+      "emoji": "🏆",
+      "color": "#D97706",
+      "description": "Master fractions, decimals, geometry and real-world problem solving",
+      "activities": [
+        {
+          "id": "a301",
+          "title": "Pizza Fractions",
+          "emoji": "🍕",
+          "type": "visualization",
+          "description": "Fractions make perfect sense with pizza!",
+          "instructions": "Imagine a pizza cut into 8 slices. You eat 3 slices. What fraction did you eat? What fraction is LEFT? If your friend eats 2 more, what fraction remains? Write each answer as a fraction.",
+          "buddy_prompt": "Use pizza to build fraction intuition. 'Our pizza has 8 slices — so the denominator is always 8. You eat 3 slices. That means 3/8 is eaten. What is 8/8 minus 3/8? Now your friend eats 2 more — now what fraction is left? Can you simplify 3/8 or 2/8?' Progress from concrete to symbolic.",
+          "duration_min": 8,
+          "stars": 3
+        },
+        {
+          "id": "a302",
+          "title": "Halving the Recipe",
+          "emoji": "👨‍🍳",
+          "type": "problem_solving",
+          "description": "Real cooking = real fractions!",
+          "instructions": "Amma's cake recipe needs: 2 cups flour, 3 eggs, 1/2 cup butter, 1 cup sugar. She wants to make HALF the recipe. What is the new amount of each ingredient?",
+          "buddy_prompt": "Work through recipe halving step by step. 'Half of 2 cups flour is... 1 cup! Easy. Half of 3 eggs is... 1.5 eggs — or 1 and a half! What do you do in real life when you need half an egg? Half of 1/2 cup butter is... 1/4 cup! Can you see how fractions of fractions work?' Connect to real kitchen situations.",
+          "duration_min": 10,
+          "stars": 3
+        },
+        {
+          "id": "a303",
+          "title": "Room Designer",
+          "emoji": "📐",
+          "type": "project",
+          "description": "Design your dream room and calculate area and perimeter!",
+          "instructions": "Imagine your DREAM bedroom. Choose a size: 4m × 5m, or 6m × 4m, or make your own! Now calculate: (1) the PERIMETER — total length of all the walls. (2) the AREA — total floor space in square metres. Then tell me what you would put in your room!",
+          "buddy_prompt": "Guide the room design challenge. 'You chose [dimensions]. Perimeter = add all 4 sides: [length + width + length + width]. Area = [length × width]. Now let's furnish it! A bed is about 2m × 1m. How many square metres does it use? What fraction of the total floor is that?' Make geometry feel real and personal.",
+          "duration_min": 12,
+          "stars": 4
+        },
+        {
+          "id": "a304",
+          "title": "Ratio Mixer — Colours & Recipes",
+          "emoji": "🎨",
+          "type": "problem_solving",
+          "description": "Understand ratios by mixing things in the right proportions!",
+          "instructions": "To make orange paint, you mix RED and YELLOW in a ratio of 2:3. If you use 10ml of red, how much yellow do you need? If you want to make 50ml of orange total, how much of each colour?",
+          "buddy_prompt": "Build ratio intuition through colour mixing. '2:3 means for every 2 parts red, we need 3 parts yellow. If red = 10ml, what is one PART? (10÷2=5ml). So yellow = 3 parts = 15ml! Total = 25ml. To make 50ml — double everything! Can you think of another ratio you have seen in real life?' Reference the earlier Holi problem for connection.",
+          "duration_min": 10,
+          "stars": 4
+        },
+        {
+          "id": "a305",
+          "title": "LEGO Bar Graph (Digital)",
+          "emoji": "📊",
+          "type": "data",
+          "description": "Collect real data and build a graph from it!",
+          "instructions": "Survey: Ask 5 people in your home their FAVOURITE fruit. Tally the results. Then build a bar graph — each person = 1 block tall. Which fruit won? What fraction of people chose the winning fruit?",
+          "buddy_prompt": "Help interpret the child's survey results. 'You surveyed [X] people. The most popular was [fruit] with [Y] votes. What fraction is that? [Y]/[X]. Is that more or less than half? What might happen if you asked 10 more people? This is how scientists collect DATA to understand the world!'",
+          "duration_min": 15,
+          "stars": 4
+        }
+      ]
+    }
+  ],
+  "mental_math_tricks_new": [
+    {
+      "id": "trick_new_01",
+      "title": "Breaking Numbers Down",
+      "emoji": "🧱",
+      "class_groups": ["class2", "class3", "class4", "class5"],
+      "description": "Split big numbers into friendly smaller parts before adding!",
+      "the_trick": "Instead of adding awkward numbers, break them into tens and ones first.",
+      "steps": [
+        "See a hard sum like 73 + 19",
+        "Break both numbers: (70 + 3) + (10 + 9)",
+        "Add the tens: 70 + 10 = 80",
+        "Add the ones: 3 + 9 = 12",
+        "Combine: 80 + 12 = 92 ✓"
+      ],
+      "example": "67 + 28 → (60+7) + (20+8) → 80 + 15 = 95",
+      "practice": [
+        {"q": "54 + 37", "a": "(50+4)+(30+7) = 80+11 = 91"},
+        {"q": "46 + 28", "a": "(40+6)+(20+8) = 60+14 = 74"},
+        {"q": "83 + 19", "a": "(80+3)+(10+9) = 90+12 = 102"}
+      ],
+      "why_it_works": "Our brains find it much easier to add round tens than messy mixed numbers. Breaking down is a professional mathematician's secret!"
+    },
+    {
+      "id": "trick_new_02",
+      "title": "The Rule of 9s — Magic Digit Sum",
+      "emoji": "🔮",
+      "class_groups": ["class3", "class4", "class5"],
+      "description": "Any multiple of 9 has digits that add up to 9 (or a multiple of 9)!",
+      "the_trick": "Add the digits of any multiple of 9 — the sum will always be 9 or divisible by 9.",
+      "steps": [
+        "Take any multiple of 9: 18, 27, 36, 45...",
+        "Add its digits together",
+        "18: 1+8=9 ✓",
+        "27: 2+7=9 ✓",
+        "99: 9+9=18, then 1+8=9 ✓",
+        "Use this to CHECK if a number divides by 9!"
+      ],
+      "example": "Is 837 divisible by 9? 8+3+7=18, then 1+8=9 ✓ YES!",
+      "practice": [
+        {"q": "Is 126 divisible by 9?", "a": "1+2+6=9 ✓ YES"},
+        {"q": "Is 245 divisible by 9?", "a": "2+4+5=11 ✗ NO"},
+        {"q": "What is 9×7?", "a": "63. Check: 6+3=9 ✓"}
+      ],
+      "why_it_works": "It is a beautiful property of the decimal number system. The number 9 is one less than 10 (our base), which creates this magical pattern!"
+    },
+    {
+      "id": "trick_new_03",
+      "title": "Multiply ANY Number by 9 — Finger Trick",
+      "emoji": "🖐️",
+      "class_groups": ["class2", "class3", "class4"],
+      "description": "Use your 10 fingers as a calculator for the 9 times table!",
+      "the_trick": "Hold up both hands. For 9×N, fold down your Nth finger. Left fingers = tens, right fingers = ones.",
+      "steps": [
+        "Hold up all 10 fingers, spread wide",
+        "To calculate 9×6: fold down your 6th finger",
+        "Count fingers to the LEFT of the folded one: 5",
+        "Count fingers to the RIGHT: 4",
+        "Answer: 54! So 9×6=54"
+      ],
+      "example": "9×8: fold finger 8. Left=7 fingers, Right=2 fingers. Answer: 72!",
+      "practice": [
+        {"q": "9×3 using fingers", "a": "Fold finger 3. Left=2, Right=7. Answer: 27"},
+        {"q": "9×7 using fingers", "a": "Fold finger 7. Left=6, Right=3. Answer: 63"},
+        {"q": "9×9 using fingers", "a": "Fold finger 9. Left=8, Right=1. Answer: 81"}
+      ],
+      "why_it_works": "The digits of 9×N always add up to 9, so knowing the tens digit tells you the ones digit automatically. Your fingers encode this relationship perfectly!"
+    },
+    {
+      "id": "trick_new_04",
+      "title": "Rule of 5s — Even Numbers Only",
+      "emoji": "🖐️",
+      "class_groups": ["class3", "class4", "class5"],
+      "description": "Multiply any EVEN number by 5 in your head — instantly!",
+      "the_trick": "To multiply an even number by 5: halve it, then add a zero.",
+      "steps": [
+        "Take an even number, e.g. 18",
+        "Half of 18 = 9",
+        "Add a zero: 90",
+        "So 5×18=90 ✓"
+      ],
+      "example": "5×64: half of 64=32, add zero=320. So 5×64=320",
+      "practice": [
+        {"q": "5×24", "a": "Half of 24=12, add zero → 120"},
+        {"q": "5×36", "a": "Half of 36=18, add zero → 180"},
+        {"q": "5×88", "a": "Half of 88=44, add zero → 440"}
+      ],
+      "why_it_works": "Multiplying by 5 is the same as multiplying by 10 and dividing by 2. Halving then adding a zero does both steps at once!"
+    },
+    {
+      "id": "trick_new_05",
+      "title": "Rule of 6s — Even Numbers Magic",
+      "emoji": "6️⃣",
+      "class_groups": ["class3", "class4", "class5"],
+      "description": "When 6 multiplies an even number, the answer ENDS in that number!",
+      "the_trick": "6 × any even number: the ones digit of the answer matches the ones digit of the number you multiplied.",
+      "steps": [
+        "6×4=24 — ends in 4 ✓",
+        "6×6=36 — ends in 6 ✓",
+        "6×8=48 — ends in 8 ✓",
+        "6×14=84 — ends in 4 ✓",
+        "Use this to check your answer is correct!"
+      ],
+      "example": "6×18=108. Does it end in 8? YES ✓. But 6×18=109 would be wrong — ends in 9, not 8!",
+      "practice": [
+        {"q": "6×12 — what should the ones digit be?", "a": "2. Answer: 72 ✓"},
+        {"q": "6×16 — what should the ones digit be?", "a": "6. Answer: 96 ✓"},
+        {"q": "Spot the error: 6×14=86", "a": "WRONG! Should end in 4. 6×14=84 ✓"}
+      ],
+      "why_it_works": "Even numbers follow a repeating pattern when multiplied by 6. It is a property of modular arithmetic — the ones digits cycle: 0,6,2,8,4,0..."
+    },
+    {
+      "id": "trick_new_06",
+      "title": "BODMAS — Please Help My Dear Aunt Sally",
+      "emoji": "📐",
+      "class_groups": ["class4", "class5"],
+      "description": "Never get the order of operations wrong again with this trick!",
+      "the_trick": "When a sum has multiple operations, always solve in this order: Brackets → Orders (powers) → Division → Multiplication → Addition → Subtraction",
+      "steps": [
+        "B — Brackets first: solve what is inside (  ) first",
+        "O — Orders: solve powers/square roots next",
+        "D — Division: left to right",
+        "M — Multiplication: left to right",
+        "A — Addition: left to right",
+        "S — Subtraction: left to right"
+      ],
+      "example": "3 + 6 × 2 = ? Wrong: 9×2=18. Right (BODMAS): 6×2=12 first, then 3+12=15",
+      "practice": [
+        {"q": "5 + 3 × 4", "a": "Multiply first: 5+12=17"},
+        {"q": "(5+3) × 4", "a": "Brackets first: 8×4=32"},
+        {"q": "20 ÷ 4 + 3 × 2", "a": "Div/Mult first: 5+6=11"}
+      ],
+      "why_it_works": "Without an agreed order, the same sum could have different answers! BODMAS is the international agreement mathematicians use so everyone gets the same result."
+    }
+  ],
+  "daily_games": [
+    {
+      "id": "game_salute",
+      "title": "Salute!",
+      "emoji": "🫡",
+      "class_groups": ["class1", "class2", "class3"],
+      "type": "multiplayer_logic",
+      "players": "2 players + 1 caller (can be child vs buddy)",
+      "difficulty": 2,
+      "description": "Each player holds a number to their own forehead. The caller says the SUM. Each player must figure out THEIR number by looking at the other player's!",
+      "how_to_play_with_buddy": "Buddy is Player 1 and the caller. Child is Player 2. Buddy says 'I am holding [X]. The total of our two numbers is [X+Y]. What number are YOU holding?' Child must subtract: Y = Total - X.",
+      "skill": "Subtraction, mental arithmetic, number sense",
+      "rounds": 10,
+      "stars": 3,
+      "example": {
+        "setup": "Buddy holds 7. Child holds 5. Total = 12.",
+        "buddy_says": "My number is 7. Our total is 12. What is YOUR number?",
+        "child_thinks": "12 - 7 = 5. My number is 5!"
+      }
+    },
+    {
+      "id": "game_countdown",
+      "title": "Count Down — Target Number",
+      "emoji": "🎯",
+      "class_groups": ["class3", "class4", "class5"],
+      "type": "arithmetic_challenge",
+      "players": "1 player vs the puzzle",
+      "difficulty": 3,
+      "description": "Use 6 given numbers and any operations (+, -, ×, ÷) to reach a target 3-digit number. Classic TV game — adapted for India!",
+      "how_to_play_with_buddy": "Buddy generates a target (e.g. 352) and gives 6 numbers (e.g. 25, 50, 8, 3, 7, 1). Child has 60 seconds to find a way to reach 352 using some or all of the numbers with any operations. Buddy gives hints if stuck.",
+      "skill": "All four operations, order of operations, creative thinking",
+      "stars": 4,
+      "example": {
+        "target": 352,
+        "numbers": [25, 50, 8, 3, 7, 1],
+        "solution": "25 × (8 + 7) - 3 - 50 + 1 = 25×15 - 52 = 375-52 = NO. Try: 50 × 7 + 3 - 1 = 350+2 = 352 ✓"
+      }
+    },
+    {
+      "id": "game_grocery_run",
+      "title": "Grocery Budget Run",
+      "emoji": "🛒",
+      "class_groups": ["class2", "class3", "class4", "class5"],
+      "type": "real_world_estimation",
+      "players": "1 player",
+      "difficulty": 2,
+      "description": "Amma gives you ₹200 and a shopping list. Can you estimate the total and stay under budget — WITHOUT using a calculator?",
+      "how_to_play_with_buddy": "Buddy presents a shopping scenario with 5-7 items and Indian prices. Child must estimate each price to the nearest round number, add them mentally, and decide what to buy or skip to stay under budget. Buddy plays the shopkeeper.",
+      "skill": "Estimation, mental addition, real-world maths",
+      "stars": 3,
+      "scenarios": [
+        {
+          "budget": 200,
+          "items": [
+            {"name": "Tomatoes 1kg", "price": 32},
+            {"name": "Onions 1kg", "price": 28},
+            {"name": "Milk 1L", "price": 65},
+            {"name": "Bread", "price": 45},
+            {"name": "Eggs (6)", "price": 54},
+            {"name": "Biscuits", "price": 30}
+          ],
+          "total": 254,
+          "challenge": "You are ₹54 over! Which 1-2 items would you skip today?"
+        },
+        {
+          "budget": 150,
+          "items": [
+            {"name": "Banana (dozen)", "price": 40},
+            {"name": "Curd 500g", "price": 35},
+            {"name": "Masala packet", "price": 22},
+            {"name": "Coconut", "price": 30},
+            {"name": "Green chillies", "price": 15},
+            {"name": "Curry leaves", "price": 5}
+          ],
+          "total": 147,
+          "challenge": "You have ₹3 to spare! What is the percentage you saved?"
+        }
+      ]
+    },
+    {
+      "id": "game_scavenger_hunt",
+      "title": "Maths Scavenger Hunt",
+      "emoji": "🗺️",
+      "class_groups": ["lkg", "ukg", "class1", "class2", "class3"],
+      "type": "real_world_discovery",
+      "players": "1 player",
+      "difficulty": 1,
+      "description": "Find real objects that match maths descriptions — right in your own home!",
+      "how_to_play_with_buddy": "Buddy gives a list of maths clues. Child finds matching objects and reports back. Buddy asks follow-up questions about each object found.",
+      "skill": "Number sense, measurement, geometry, estimation",
+      "stars": 3,
+      "clue_sets": [
+        {
+          "class_groups": ["lkg", "ukg", "class1"],
+          "clues": [
+            "Find something with 4 CORNERS",
+            "Find something LONGER than your hand",
+            "Find something you can COUNT to 10 of",
+            "Find something ROUND like a circle",
+            "Find something HEAVIER than a pencil"
+          ]
+        },
+        {
+          "class_groups": ["class2", "class3"],
+          "clues": [
+            "Find something that weighs about 500g",
+            "Find something approximately 30cm long",
+            "Find a container that holds about 1 litre",
+            "Find a number on something that is between 50 and 100",
+            "Find something that has a right angle (90°)"
+          ]
+        }
+      ]
+    }
+  ],
+  "mindset_module": {
+    "title": "Math Mindset",
+    "emoji": "🧠",
+    "description": "Build a growth mindset around maths — anxiety strategies, confidence builders, and the science of learning",
+    "buddy_anxiety_responses": [
+      {
+        "trigger": "I can't do this",
+        "response": "The most powerful words in maths are NOT YET! You cannot do this YET. Every mathematician who ever lived started exactly where you are right now. Let's try just the first tiny step together."
+      },
+      {
+        "trigger": "Maths is too hard",
+        "response": "You know what? Hard things are the ONLY things worth doing. Easy maths would not make you smarter! The struggle you feel right now is your brain literally growing. Scientists can see it on a brain scan. You are getting smarter RIGHT NOW!"
+      },
+      {
+        "trigger": "I got it wrong",
+        "response": "AMAZING! Getting it wrong is how mathematicians learn. Thomas Edison made 10,000 mistakes before the lightbulb worked. He said he did not fail — he found 10,000 ways that did not work. What did THIS mistake teach you?"
+      },
+      {
+        "trigger": "I am bad at maths",
+        "response": "Here is the truth that most people do not know: there is NO SUCH THING as a maths brain. Scientists have proven this. Maths ability comes from PRACTICE — not from being born special. With enough practice, ANYONE can master maths. Including you. Especially you."
+      },
+      {
+        "trigger": "I give up",
+        "response": "Before you give up — let's try one different strategy. If the way we tried does not work, we try ANOTHER way. Mathematicians call this being tenacious. Can we try just ONE more approach before we stop?"
+      }
+    ],
+    "confidence_boosters": [
+      "Before a test: write down the 3 most important formulas you know at the TOP of the page immediately. Now your brain does not need to remember them — it can focus on thinking!",
+      "When you feel stuck: say out loud 'I am confused and that is GOOD — it means I am learning something genuinely new.'",
+      "After getting something right: do NOT say 'I was lucky.' Say 'I earned that. My practice paid off.'",
+      "When a friend gets it faster: 'They are not smarter. They have practised more. I can practise more too.'"
+    ],
+    "daily_affirmations": [
+      "Maths is a language, and I am learning to speak it.",
+      "Every mistake I make is making me better.",
+      "I do not need to be perfect. I need to be persistent.",
+      "The struggle means I am growing.",
+      "I am a mathematician. I just have not solved everything YET."
+    ]
+  }
+}

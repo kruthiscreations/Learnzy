@@ -1,0 +1,337 @@
+{
+  "description": "Real-world math missions from the document's activity framework. Kids do these at home or outside — no screen needed except to read the mission!",
+  "missions": [
+    {
+      "id": "m001",
+      "phase": 1,
+      "emoji": "🚗",
+      "title": "Number Hunt",
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1"
+      ],
+      "where": "Car ride or walk outside",
+      "time_minutes": 15,
+      "what_you_need": [
+        "Just your eyes!"
+      ],
+      "description": "Go on a number hunt! See how many numbers you can find.",
+      "steps": [
+        "Look for numbers on number plates, shop signs, house doors, buses",
+        "Call out each number you see as loudly as you can!",
+        "For older kids: add up the digits on a number plate",
+        "Challenge: find the numbers 1 to 20 in order before you reach your destination!"
+      ],
+      "buddy_prompt": "What is the biggest number you found? What is the smallest? Can you count how many number plates you spotted?",
+      "concept": "Number recognition, sequential counting",
+      "parent_tip": "Make it competitive — first to spot a number plate with a 7 wins!"
+    },
+    {
+      "id": "m002",
+      "phase": 1,
+      "emoji": "🍪",
+      "title": "Kitchen Counting",
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1"
+      ],
+      "where": "Kitchen",
+      "time_minutes": 20,
+      "what_you_need": [
+        "Measuring cup",
+        "flour or rice or dal",
+        "spoon"
+      ],
+      "description": "Help in the kitchen and learn counting and measurement at the same time!",
+      "steps": [
+        "Ask your parent what they are cooking today",
+        "Count how many spoons of dal go into the pressure cooker",
+        "Count how many cups of rice or flour are needed",
+        "Pour each one yourself, counting out loud as you go"
+      ],
+      "buddy_prompt": "How many spoons did you put in? If we needed double the amount, how many would that be?",
+      "concept": "Counting, one-to-one correspondence, early measurement",
+      "parent_tip": "Let the child actually measure and pour. The physical action builds number sense far better than worksheets."
+    },
+    {
+      "id": "m003",
+      "phase": 1,
+      "emoji": "🍦",
+      "title": "Smart Scoops",
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2"
+      ],
+      "where": "Kitchen or dining table",
+      "time_minutes": 15,
+      "what_you_need": [
+        "Small bowls",
+        "spoon or scoop",
+        "any small objects (marbles, coins, laddoos, stones)"
+      ],
+      "description": "Use 'scoops' to visualise addition — the tastiest maths you'll ever do!",
+      "steps": [
+        "Put out 3 bowls. Each bowl is an 'ice cream order'",
+        "Order 1: put 2 scoops (objects) in bowl 1",
+        "Order 2: put 3 scoops in bowl 2",
+        "Put all scoops together: how many total?",
+        "Make your own orders and add them up!"
+      ],
+      "buddy_prompt": "If I order 4 scoops and you order 5 scoops, how many scoops is that altogether?",
+      "concept": "Addition as combining groups",
+      "parent_tip": "Use actual ice cream for a special treat version. Real food makes maths memorable!"
+    },
+    {
+      "id": "m004",
+      "phase": 1,
+      "emoji": "⏰",
+      "title": "Human Clock",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "where": "Any open space (living room, terrace, garden)",
+      "time_minutes": 20,
+      "what_you_need": [
+        "Chalk (if outside) OR paper plate",
+        "marker"
+      ],
+      "description": "Turn your whole body into a clock and never forget how to tell time!",
+      "steps": [
+        "Draw a giant clock circle on the floor with chalk, OR place a paper plate in the centre",
+        "Write 12 at the top, 6 at the bottom, 3 on the right, 9 on the left",
+        "Stand in the middle. Your RIGHT arm is the minute hand, LEFT arm is the hour hand",
+        "Parent calls out a time: '3 o'clock!' — child points both arms correctly",
+        "Take turns calling times and showing them with your body!"
+      ],
+      "buddy_prompt": "What time do you wake up for school? Can you show me that time? What time do you eat lunch?",
+      "concept": "Telling time, clock reading, spatial reasoning",
+      "parent_tip": "Start with o'clock times, then half past, then quarter past/to. Build up gradually."
+    },
+    {
+      "id": "m005",
+      "phase": 2,
+      "emoji": "🎯",
+      "title": "Target Toss",
+      "class_groups": [
+        "class2",
+        "class3"
+      ],
+      "where": "Floor or ground",
+      "time_minutes": 25,
+      "what_you_need": [
+        "Paper",
+        "marker",
+        "any small object to toss (eraser, stone, coin)"
+      ],
+      "description": "Build a target on the floor and make 3-digit numbers by tossing!",
+      "steps": [
+        "Draw three large rings on paper: inner ring = HUNDREDS, middle = TENS, outer = ONES",
+        "Toss your eraser from 1 metre away",
+        "Where it lands tells you the place value: inner=5 hundreds, middle=3 tens, outer=7 ones",
+        "Write down your number (537 in this example)",
+        "Both players toss 3 times each. Whoever makes the BIGGEST number wins!"
+      ],
+      "buddy_prompt": "If you got 4 in the hundreds ring, 2 in the tens ring, and 8 in the ones ring — what number did you make?",
+      "concept": "Place value, 3-digit numbers, comparing numbers",
+      "parent_tip": "After a few rounds, add: whose number is closest to 500? This introduces approximation."
+    },
+    {
+      "id": "m006",
+      "phase": 2,
+      "emoji": "🃏",
+      "title": "Salute! (The Card Game)",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "where": "Anywhere with a deck of cards",
+      "time_minutes": 20,
+      "what_you_need": [
+        "Playing cards (or numbered chits 1-10)"
+      ],
+      "description": "A brilliant two-player game that builds mental arithmetic speed!",
+      "steps": [
+        "Player A and Player B each hold ONE card facing OUTWARD on their forehead (don't look!)",
+        "A third person (parent/sibling) looks at BOTH cards and says the SUM",
+        "Example: cards are 7 and 4. Leader says '11!'",
+        "Each player must figure out THEIR OWN card by looking at the other person's",
+        "Player A sees 4 on B's head, hears 11: 'My card must be 7!' — First correct answer wins the round!"
+      ],
+      "buddy_prompt": "The leader said 15. You can see the other person's card is 8. What is YOUR card?",
+      "concept": "Mental subtraction, algebraic thinking (unknown + known = total)",
+      "parent_tip": "Once mastered with addition, use MULTIPLICATION as the rule instead. Harder but brilliant!"
+    },
+    {
+      "id": "m007",
+      "phase": 2,
+      "emoji": "📐",
+      "title": "Maths Scavenger Hunt",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "where": "Around your home",
+      "time_minutes": 30,
+      "what_you_need": [
+        "Ruler or measuring tape",
+        "weighing scale (kitchen scale works)",
+        "pencil and paper"
+      ],
+      "description": "Find real objects that match given measurements — maths detective at home!",
+      "steps": [
+        "Write a mission list: Find something that is 20cm long. Find something that weighs about 200g. Find something roughly 1 litre. Find something that fits in your palm.",
+        "Give the child a ruler and scale",
+        "They hunt around the house, measure, and write down what they find",
+        "Compare results — did you find the same things?"
+      ],
+      "buddy_prompt": "What was the heaviest thing you found? What was the longest? Did anything surprise you?",
+      "concept": "Measurement (length, weight, volume), estimation, real-world application",
+      "parent_tip": "Make it competitive with siblings. Give a time limit of 20 minutes. The one who finds items closest to the target measurements wins."
+    },
+    {
+      "id": "m008",
+      "phase": 2,
+      "emoji": "🛒",
+      "title": "Grocery Budget Run",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "where": "Market or supermarket",
+      "time_minutes": 30,
+      "what_you_need": [
+        "₹200 budget (real or pretend)"
+      ],
+      "description": "Give the child a shopping budget and a list — they manage the money!",
+      "steps": [
+        "Before going: write a list of 5-6 items you actually need to buy",
+        "Give the child ₹200 (or show them the budget)",
+        "Their job: estimate the cost of each item BEFORE checking the price",
+        "At the shop: check actual prices, add them up, decide what fits in the budget",
+        "At checkout: let them count the money and check the change"
+      ],
+      "buddy_prompt": "Which items were more expensive than you expected? Did you have to make any hard choices about what not to buy? How much change did you get?",
+      "concept": "Addition, estimation, budgeting, decimals (prices), real-world decision making",
+      "parent_tip": "If anything is left over, it's theirs to keep! This motivation is extraordinary for engagement."
+    },
+    {
+      "id": "m009",
+      "phase": 2,
+      "emoji": "🎱",
+      "title": "Count Down Challenge",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "where": "Anywhere",
+      "time_minutes": 20,
+      "what_you_need": [
+        "6 number cards (write digits 1-9 on chits)",
+        "pencil and paper"
+      ],
+      "description": "Pick a 3-digit target. Use 6 random numbers and the 4 operations to reach it — like the TV game show!",
+      "steps": [
+        "Generate a target: roll a die 3 times to make a 3-digit number (e.g., 347)",
+        "Shuffle number chits (1-9) and pick 6 at random",
+        "Using ONLY those 6 numbers and +, -, ×, ÷, try to reach 347",
+        "You don't have to use all 6 numbers",
+        "Closest answer in 3 minutes wins!"
+      ],
+      "buddy_prompt": "What was your target? How close did you get? What operations did you use?",
+      "concept": "All four operations, order of operations, strategic thinking",
+      "parent_tip": "This is directly from the British game show 'Countdown'. Look it up on YouTube with your child for inspiration!"
+    },
+    {
+      "id": "m010",
+      "phase": 3,
+      "emoji": "🍕",
+      "title": "Kitchen Fractions",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "where": "Kitchen at meal time",
+      "time_minutes": 20,
+      "what_you_need": [
+        "Any food that can be divided: chapati, pizza, cake, watermelon"
+      ],
+      "description": "Use real food to understand fractions — the most delicious maths lesson ever!",
+      "steps": [
+        "Take one chapati or piece of bread. This is your WHOLE (1/1)",
+        "Cut it in HALF: each piece is 1/2. How many halves make a whole?",
+        "Cut into QUARTERS: each piece is 1/4. How many quarters make one half?",
+        "Now the challenge questions: If we eat 3 quarters, what fraction is left? (1/4)",
+        "If the chapati had 8 parts and we eat 3, what fraction is left? (5/8)"
+      ],
+      "buddy_prompt": "We cut the pizza into 8 slices. Your family ate 5 slices. What fraction is left? What fraction did you eat?",
+      "concept": "Fractions, equivalent fractions, fraction of a whole",
+      "parent_tip": "Never let the child see the answer before they try. The struggle to figure it out is what builds the understanding."
+    },
+    {
+      "id": "m011",
+      "phase": 3,
+      "emoji": "🥗",
+      "title": "Recipe Ratio Challenge",
+      "class_groups": [
+        "class4",
+        "class5"
+      ],
+      "where": "Kitchen",
+      "time_minutes": 25,
+      "what_you_need": [
+        "A simple recipe (dal, salad dressing, lassi)",
+        "measuring cups/spoons"
+      ],
+      "description": "Double or halve a recipe — and discover ratios in the process!",
+      "steps": [
+        "Pick a simple recipe. Lassi: 2 cups curd, 1 cup water, sugar to taste",
+        "Task 1: Double the recipe for more guests. (4 cups curd, 2 cups water)",
+        "Task 2: Halve it for fewer people. (1 cup curd, ½ cup water)",
+        "Task 3: Make it for exactly 5 people if the recipe serves 2",
+        "Discuss: what stayed the same? The RATIO of curd to water (2:1) never changed!"
+      ],
+      "buddy_prompt": "The recipe uses 3 cups of oil and 1 cup of vinegar. What is the ratio? If you triple the recipe, how much oil and vinegar do you need?",
+      "concept": "Ratios, proportions, fractions, scaling",
+      "parent_tip": "Actually cook the recipe together after the maths. Children who cook with parents develop lifelong quantitative thinking."
+    },
+    {
+      "id": "m012",
+      "phase": 3,
+      "emoji": "🏠",
+      "title": "Room Designer Challenge",
+      "class_groups": [
+        "class4",
+        "class5"
+      ],
+      "where": "Home",
+      "time_minutes": 40,
+      "what_you_need": [
+        "Graph paper",
+        "ruler",
+        "pencil",
+        "measuring tape"
+      ],
+      "description": "Measure a real room, design it on graph paper, then calculate area and perimeter!",
+      "steps": [
+        "Choose a room: bedroom, hall, or living room",
+        "Measure its length and width using a measuring tape",
+        "Draw it on graph paper: 1 square = 1 foot (or 10cm)",
+        "Calculate the AREA (how much floor space?) and PERIMETER (how much wall?)",
+        "Now design the IDEAL room! Add furniture cutouts drawn to scale. Would the sofa fit?"
+      ],
+      "buddy_prompt": "Your room is 12 feet long and 10 feet wide. What is its area? If you want to put carpet, and carpet costs ₹50 per square foot, how much would it cost?",
+      "concept": "Area, perimeter, scale drawing, measurement, multiplication",
+      "parent_tip": "This activity takes 40-60 minutes but is one of the most powerful geometry learning experiences possible. Many engineers and architects trace their interest to exactly this kind of activity as children."
+    }
+  ]
+}

@@ -1,0 +1,698 @@
+{
+  "categories": [
+    {
+      "id": "space",
+      "name": "Space & The Universe",
+      "emoji": "🔭",
+      "color": "#6366F1",
+      "guide": "Nova the Telescope",
+      "description": "Explore stars, planets and the mysteries of space!"
+    },
+    {
+      "id": "body",
+      "name": "Human Body & Biology",
+      "emoji": "🫀",
+      "color": "#EF4444",
+      "guide": "Doc Beaker",
+      "description": "Discover the amazing machine that is your body!"
+    },
+    {
+      "id": "earth",
+      "name": "Earth & Nature",
+      "emoji": "🌿",
+      "color": "#10B981",
+      "guide": "Parna the Plant",
+      "description": "Uncover secrets of our incredible planet!"
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry & Matter",
+      "emoji": "🧪",
+      "color": "#F59E0B",
+      "guide": "Doc Beaker & Sunny Ray",
+      "description": "Everything is made of atoms — let's explore!"
+    },
+    {
+      "id": "inventions",
+      "name": "Inventions & Machines",
+      "emoji": "⚙️",
+      "color": "#8B5CF6",
+      "guide": "Gigi the Gear",
+      "description": "How did humans build the modern world?"
+    }
+  ],
+  "videos": [
+    {
+      "id": "v001", "category": "space", "order": 1,
+      "title": "How Big is the Sun?",
+      "fact": "One million Earths could fit inside the Sun!",
+      "youtube_search": "how big is the sun for kids",
+      "youtube_id": null,
+      "duration_min": 4,
+      "class_groups": ["lkg","ukg","class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "How many Earths can fit inside the Sun?", "options": ["10", "1,000", "1 million", "100"], "answer": 2},
+        {"q": "What is the Sun made of?", "options": ["Rock and soil", "Hot gas and fire", "Ice and water", "Metal"], "answer": 1},
+        {"q": "How far is the Sun from Earth?", "options": ["Very close", "150 million km", "1 km", "On the Moon"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v002", "category": "space", "order": 2,
+      "title": "Why Does the Moon Change Shape?",
+      "fact": "The Moon doesn't glow — it acts like a giant mirror reflecting the Sun's light!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["lkg","ukg","class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "Does the Moon make its own light?", "options": ["Yes", "No — it reflects sunlight", "Only at night", "Sometimes"], "answer": 1},
+        {"q": "How long does the Moon take to go around Earth?", "options": ["1 day", "1 week", "About 1 month", "1 year"], "answer": 2},
+        {"q": "What are the Moon's phases called?", "options": ["Sizes", "Phases", "Turns", "Spins"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v003", "category": "space", "order": 3,
+      "title": "The Invisible Magnet — Gravity",
+      "fact": "On the Moon you would weigh 6 times less than you do on Earth!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "What keeps us stuck to the ground?", "options": ["Sticky shoes", "Gravity", "The wind", "Our weight"], "answer": 1},
+        {"q": "Who discovered gravity?", "options": ["Einstein", "Newton", "Galileo", "Edison"], "answer": 1},
+        {"q": "On the Moon your weight would be?", "options": ["6x more", "Same", "6x less", "Zero"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v004", "category": "space", "order": 4,
+      "title": "Shooting Stars Aren't Stars!",
+      "fact": "Shooting stars are tiny space rocks that burn up when they enter Earth's air.",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "What is a shooting star actually?", "options": ["A falling star", "A meteor burning in air", "A comet", "A satellite"], "answer": 1},
+        {"q": "What do we call a meteorite that reaches the ground?", "options": ["Shooting star", "Meteor", "Meteorite", "Comet"], "answer": 2},
+        {"q": "Why do meteors glow?", "options": ["They are hot from the Sun", "They burn in Earth's atmosphere", "They have fire", "They reflect light"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v005", "category": "space", "order": 5,
+      "title": "What are Black Holes?",
+      "fact": "Black holes have gravity so strong that not even light can escape them!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "Can light escape a black hole?", "options": ["Yes always", "No, nothing can", "Only sometimes", "Only fast light"], "answer": 1},
+        {"q": "What forms a black hole?", "options": ["A planet exploding", "A very massive star collapsing", "Two planets colliding", "A comet"], "answer": 1},
+        {"q": "Black holes are:", "options": ["Visible to eyes", "Invisible — detected by effects", "Blue in color", "Small as a ball"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v006", "category": "space", "order": 6,
+      "title": "The Rings of Saturn",
+      "fact": "Saturn's rings are made of billions of pieces of floating ice and rock.",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "What are Saturn's rings made of?", "options": ["Clouds", "Ice and rock", "Gas", "Light"], "answer": 1},
+        {"q": "How many rings does Saturn have?", "options": ["1", "3", "Many rings in groups", "100"], "answer": 2},
+        {"q": "Saturn is a:", "options": ["Rocky planet", "Gas giant", "Dwarf planet", "Star"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v007", "category": "space", "order": 7,
+      "title": "How Do Astronauts Sleep?",
+      "fact": "Astronauts strap themselves to the wall so they don't float away while dreaming!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["lkg","ukg","class1","class2","class3"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "Why do astronauts float in space?", "options": ["No gravity", "They are very light", "Space is empty", "No air"], "answer": 0},
+        {"q": "How do astronauts sleep?", "options": ["On beds", "Strapped to walls/sleep bags", "Floating freely", "Sitting"], "answer": 1},
+        {"q": "What is the space station called?", "options": ["Space Hotel", "ISS", "Shuttle", "NASA"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v008", "category": "space", "order": 8,
+      "title": "The Red Planet — Mars",
+      "fact": "Mars is red because its soil is full of iron rust — just like an old bicycle left in the rain!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "Why is Mars red?", "options": ["It's hot", "Iron rust in soil", "Red rocks", "Red atmosphere"], "answer": 1},
+        {"q": "Mars is the ___ planet from the Sun?", "options": ["2nd", "3rd", "4th", "5th"], "answer": 2},
+        {"q": "What is the name of NASA's Mars rover?", "options": ["Explorer", "Curiosity/Perseverance", "Voyager", "Apollo"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v009", "category": "space", "order": 9,
+      "title": "What is a Galaxy?",
+      "fact": "Our galaxy, the Milky Way, is spinning at 130 miles per second!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What is our galaxy called?", "options": ["Andromeda", "Milky Way", "Solar System", "Cosmos"], "answer": 1},
+        {"q": "What shape is the Milky Way?", "options": ["Round ball", "Flat spiral", "Square", "Triangle"], "answer": 1},
+        {"q": "How many stars are in the Milky Way?", "options": ["1,000", "1 million", "200+ billion", "Just our Sun"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v010", "category": "space", "order": 10,
+      "title": "How Telescopes See the Past",
+      "fact": "When you look at stars, you are actually looking back in time because light takes time to travel!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "Why does looking at stars mean looking at the past?", "options": ["Stars are old", "Light takes time to travel", "Telescopes are slow", "Space is dark"], "answer": 1},
+        {"q": "What is light speed?", "options": ["300 km/s", "300,000 km/s", "3000 km/s", "30 km/s"], "answer": 1},
+        {"q": "The Hubble telescope is:", "options": ["On a mountain", "In the ocean", "In space", "Underground"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v011", "category": "body", "order": 1,
+      "title": "The Thump-Thump Machine — Your Heart",
+      "fact": "Your heart beats over 100,000 times in a single day!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["lkg","ukg","class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "How many times does the heart beat per day?", "options": ["1,000", "10,000", "Over 100,000", "1 million"], "answer": 2},
+        {"q": "What does the heart pump?", "options": ["Air", "Water", "Blood", "Food"], "answer": 2},
+        {"q": "Which side of the chest is your heart on?", "options": ["Right", "Left (slightly)", "Middle", "Back"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v012", "category": "body", "order": 2,
+      "title": "The Supercomputer in Your Head — Brain",
+      "fact": "Your brain uses enough electricity to power a small lightbulb!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "What does the brain use to send signals?", "options": ["Blood", "Electricity", "Air", "Sound"], "answer": 1},
+        {"q": "How much of your body weight is your brain?", "options": ["50%", "25%", "About 2%", "10%"], "answer": 2},
+        {"q": "Which part controls balance?", "options": ["Cerebrum", "Cerebellum", "Brain stem", "Frontal lobe"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v013", "category": "body", "order": 3,
+      "title": "Why Do We Sneeze?",
+      "fact": "A sneeze travels out of your nose at over 100 miles per hour!",
+      "youtube_id": null, "duration_min": 3,
+      "class_groups": ["lkg","ukg","class1","class2","class3"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "How fast does a sneeze travel?", "options": ["10 mph", "50 mph", "Over 100 mph", "1 mph"], "answer": 2},
+        {"q": "Why do we sneeze?", "options": ["We are tired", "To remove irritants from nose", "We are cold", "Just for fun"], "answer": 1},
+        {"q": "Can you sneeze with your eyes open?", "options": ["Yes easily", "Very difficult — eyes close automatically", "Always open", "Never tested"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v014", "category": "body", "order": 4,
+      "title": "The Armor of Skin",
+      "fact": "You get a completely new layer of skin every 30 days as old cells fall off!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "How often do you get new skin?", "options": ["Every day", "Every week", "Every 30 days", "Every year"], "answer": 2},
+        {"q": "What is the largest organ of the body?", "options": ["Heart", "Liver", "Skin", "Brain"], "answer": 2},
+        {"q": "What does skin protect us from?", "options": ["Only sun", "Germs, water loss, injury", "Only cold", "Nothing"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v015", "category": "body", "order": 5,
+      "title": "How Do We See Color?",
+      "fact": "Your eyes can tell the difference between 10 million different colors!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "How many colors can human eyes detect?", "options": ["1,000", "1 million", "10 million", "100"], "answer": 2},
+        {"q": "What cells in the eye detect color?", "options": ["Rods", "Cones", "Pupils", "Lenses"], "answer": 1},
+        {"q": "Color blindness means:", "options": ["Can't see at all", "Can't distinguish certain colors", "Sees in black/white", "Sees too many colors"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v016", "category": "body", "order": 6,
+      "title": "The Bone Framework — Skeleton",
+      "fact": "Babies are born with 300 bones but adults have only 206 — some fuse as we grow!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "How many bones does an adult have?", "options": ["300", "206", "100", "500"], "answer": 1},
+        {"q": "What is the longest bone in the body?", "options": ["Spine", "Femur (thigh bone)", "Arm bone", "Skull"], "answer": 1},
+        {"q": "What is bone made of?", "options": ["Iron", "Calcium and collagen", "Wood", "Plastic"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v017", "category": "body", "order": 7,
+      "title": "What is Blood Made Of?",
+      "fact": "A single drop of blood has millions of tiny red cells carrying oxygen like delivery trucks!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What carries oxygen in blood?", "options": ["White blood cells", "Red blood cells", "Platelets", "Plasma"], "answer": 1},
+        {"q": "What color is blood inside the body?", "options": ["Blue", "Always red", "Purple", "Clear"], "answer": 1},
+        {"q": "What blood component helps clot wounds?", "options": ["Red cells", "White cells", "Platelets", "Plasma"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v018", "category": "body", "order": 8,
+      "title": "How Do We Taste Sweet and Sour?",
+      "fact": "You have about 10,000 tiny taste buds hiding on your tongue!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["lkg","ukg","class1","class2","class3"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "How many taste buds does a human have?", "options": ["100", "1,000", "About 10,000", "1 million"], "answer": 2},
+        {"q": "Which are the 5 basic tastes?", "options": ["Sweet, sour, salty, bitter, umami", "Sweet, spicy, sour, bland, hot", "Sweet, bitter, cold, hot, salty", "Only sweet and sour"], "answer": 0},
+        {"q": "Which part of the tongue tastes sweet?", "options": ["Back", "Sides", "Tip", "Whole tongue (myth — all areas taste all)"], "answer": 3}
+      ]
+    },
+    {
+      "id": "v019", "category": "body", "order": 9,
+      "title": "The Oxygen Sponges — Your Lungs",
+      "fact": "If you opened your lungs flat, they would cover a whole tennis court!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "What gas do lungs absorb from air?", "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"], "answer": 2},
+        {"q": "What gas do we breathe out?", "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Helium"], "answer": 2},
+        {"q": "Tiny air sacs in lungs are called?", "options": ["Alveoli", "Bronchi", "Trachea", "Capillaries"], "answer": 0}
+      ]
+    },
+    {
+      "id": "v020", "category": "body", "order": 10,
+      "title": "Why Do We Sleep?",
+      "fact": "While you sleep, your brain acts like a librarian — organising all the memories from your day!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["lkg","ukg","class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "Why do we need sleep?", "options": ["We don't need it", "Brain organises memories, body repairs", "Just to rest eyes", "No one knows"], "answer": 1},
+        {"q": "How many hours should children sleep?", "options": ["4–5 hours", "6–7 hours", "9–11 hours", "12–14 hours"], "answer": 2},
+        {"q": "What happens during deep sleep?", "options": ["We are fully awake", "Body grows and repairs itself", "Brain shuts off", "Nothing"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v021", "category": "earth", "order": 1,
+      "title": "The Water Cycle — Rain & Clouds",
+      "fact": "The water you drink today is the exact same water the dinosaurs drank millions of years ago!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "What is the process of water turning to vapor called?", "options": ["Condensation", "Evaporation", "Precipitation", "Collection"], "answer": 1},
+        {"q": "How old is Earth's water?", "options": ["100 years", "1,000 years", "Billions of years — recycled constantly", "New every year"], "answer": 2},
+        {"q": "What makes clouds form?", "options": ["Wind", "Water vapor cools and condenses", "Sun heat", "Pollution"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v022", "category": "earth", "order": 2,
+      "title": "How Do Volcanoes Erupt?",
+      "fact": "The word volcano comes from Vulcan, the ancient Roman god of fire!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What is the molten rock inside Earth called?", "options": ["Lava", "Magma", "Ash", "Tectonic"], "answer": 1},
+        {"q": "What is it called when magma comes out?", "options": ["Magma", "Lava", "Ash", "Steam"], "answer": 1},
+        {"q": "Volcanoes can also be found:", "options": ["Only on land", "Only on islands", "Under the ocean", "Only in cold areas"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v023", "category": "earth", "order": 3,
+      "title": "What is an Earthquake?",
+      "fact": "Earth's crust is made of giant puzzle pieces (tectonic plates) always slowly crashing into each other!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What causes earthquakes?", "options": ["Rain", "Tectonic plates moving", "Wind", "Animals underground"], "answer": 1},
+        {"q": "What instrument measures earthquakes?", "options": ["Thermometer", "Seismograph", "Barometer", "Compass"], "answer": 1},
+        {"q": "Earthquake strength is measured in?", "options": ["Degrees", "Richter Scale", "Meters", "Litres"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v024", "category": "earth", "order": 4,
+      "title": "The Deep Ocean Mystery",
+      "fact": "We have explored more of outer space than the bottom of our own oceans!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What percentage of the ocean is unexplored?", "options": ["10%", "Over 80%", "50%", "5%"], "answer": 1},
+        {"q": "What is the deepest part of the ocean?", "options": ["Atlantic Trench", "Mariana Trench", "Pacific Trench", "Indian Trench"], "answer": 1},
+        {"q": "Can sunlight reach the deepest parts of the ocean?", "options": ["Yes fully", "Yes partially", "No — completely dark", "Only at noon"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v025", "category": "earth", "order": 5,
+      "title": "How Do Trees Talk?",
+      "fact": "Trees send chemical warnings to each other through the air when bugs eat their leaves!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "How do trees communicate?", "options": ["They can't", "Through chemical signals and fungal networks", "By moving branches", "By sounds"], "answer": 1},
+        {"q": "Underground fungi that connect trees are called?", "options": ["Tree roots", "Wood Wide Web / mycorrhizal network", "Soil bacteria", "Tree veins"], "answer": 1},
+        {"q": "Why might a tree release chemicals when attacked?", "options": ["To attract insects", "To warn nearby trees", "To make fruit", "To grow faster"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v026", "category": "earth", "order": 6,
+      "title": "The Power of Camouflage",
+      "fact": "An octopus can change the colour AND texture of its skin in less than a second to hide!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "Which animal can change colour and texture instantly?", "options": ["Chameleon", "Octopus", "Squid", "All of these"], "answer": 3},
+        {"q": "Camouflage helps animals:", "options": ["Attract mates only", "Hide from predators and sneak up on prey", "Look beautiful", "Move faster"], "answer": 1},
+        {"q": "What are the colour-changing cells in a cephalopod called?", "options": ["Pigments", "Chromatophores", "Photoreceptors", "Melanin"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v027", "category": "earth", "order": 7,
+      "title": "What are Fossils?",
+      "fact": "Fossils aren't actual bones — they are rocks shaped exactly like bones that turned to stone over millions of years!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What is a fossil?", "options": ["An old bone", "Rock shaped like ancient organisms", "A type of rock", "A dinosaur toy"], "answer": 1},
+        {"q": "How long does it take fossils to form?", "options": ["100 years", "1,000 years", "Millions of years", "10 years"], "answer": 2},
+        {"q": "Scientists who study fossils are called?", "options": ["Geologists", "Palaeontologists", "Archaeologists", "Biologists"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v028", "category": "earth", "order": 8,
+      "title": "Why Do Leaves Change Colour?",
+      "fact": "Yellow and orange colours are always inside leaves — green chlorophyll just covers them up until autumn!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What green pigment in leaves hides other colours?", "options": ["Carotene", "Chlorophyll", "Anthocyanin", "Xanthophyll"], "answer": 1},
+        {"q": "Leaves change colour because:", "options": ["Temperature paints them", "Chlorophyll breaks down revealing other pigments", "They absorb rain colour", "Insects colour them"], "answer": 1},
+        {"q": "What gas do leaves absorb to make food?", "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v029", "category": "earth", "order": 9,
+      "title": "The Journey of a Seed",
+      "fact": "Some seeds can stay dormant in the soil for hundreds of years before sprouting!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["lkg","ukg","class1","class2","class3"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "What does a seed need to grow?", "options": ["Only water", "Water, warmth, and air (oxygen)", "Only sunlight", "Only soil"], "answer": 1},
+        {"q": "The process of a seed sprouting is called?", "options": ["Fertilisation", "Germination", "Photosynthesis", "Pollination"], "answer": 1},
+        {"q": "How do some seeds travel?", "options": ["They walk", "Wind, water, animals, exploding pods", "Only by falling", "They can't travel"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v030", "category": "earth", "order": 10,
+      "title": "What are Coral Reefs?",
+      "fact": "Coral looks like colourful rock but is actually made of thousands of tiny soft animals!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What are corals made of?", "options": ["Rocks", "Plants", "Tiny animals called polyps", "Shells"], "answer": 2},
+        {"q": "Why are coral reefs important?", "options": ["They look pretty", "Home to 25% of all marine life", "They make oxygen only", "They are useless"], "answer": 1},
+        {"q": "What threatens coral reefs today?", "options": ["Too much rain", "Ocean warming and pollution", "Fish swimming", "Wind"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v031", "category": "chemistry", "order": 1,
+      "title": "Solid, Liquid, Gas — States of Matter",
+      "fact": "Glass is not a true solid — it is an incredibly slow-moving liquid!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "Which state has a fixed shape and volume?", "options": ["Gas", "Liquid", "Solid", "Plasma"], "answer": 2},
+        {"q": "What happens when you heat a solid?", "options": ["It becomes smaller", "It may melt into a liquid", "Nothing changes", "It becomes a gas immediately"], "answer": 1},
+        {"q": "What state does water turn into at 100°C?", "options": ["Ice", "Still water", "Steam (gas)", "Solid"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v032", "category": "chemistry", "order": 2,
+      "title": "What is Everything Made Of? — Atoms",
+      "fact": "You are made of a billion-billion-billion atoms — and mostly empty space!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What is the smallest particle of an element?", "options": ["Molecule", "Atom", "Cell", "Electron"], "answer": 1},
+        {"q": "What is inside an atom?", "options": ["Protons, neutrons, electrons", "Just protons", "Nothing", "Molecules"], "answer": 0},
+        {"q": "Who proposed the first atomic theory?", "options": ["Newton", "Democritus (ancient) / Dalton (modern)", "Einstein", "Bohr"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v033", "category": "chemistry", "order": 3,
+      "title": "The Invisible Gas Around Us — Air",
+      "fact": "Air feels invisible but it has weight and is pushing against you right now!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class1","class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "What is air mostly made of?", "options": ["Oxygen", "Carbon dioxide", "Nitrogen (78%)", "Hydrogen"], "answer": 2},
+        {"q": "What is air pressure?", "options": ["Air temperature", "Weight of air pushing down", "Wind speed", "Air humidity"], "answer": 1},
+        {"q": "What percentage of air is oxygen?", "options": ["78%", "21%", "1%", "50%"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v034", "category": "chemistry", "order": 4,
+      "title": "Why Do Things Float or Sink? — Density",
+      "fact": "A giant steel ship floats because it is shaped to hold lots of light air inside its hull!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What determines if something floats?", "options": ["Weight only", "Size only", "Density compared to water", "Shape only"], "answer": 2},
+        {"q": "Why does a ship float despite being made of steel?", "options": ["Steel is light", "It traps air making average density less than water", "Magic", "Ships don't float"], "answer": 1},
+        {"q": "Density is:", "options": ["Mass × volume", "Mass ÷ volume", "Weight", "Size"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v035", "category": "chemistry", "order": 5,
+      "title": "The Fizzing Potion — Acids & Bases",
+      "fact": "Your stomach acid is strong enough to melt a zinc metal coin!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class4","class5"],
+      "difficulty": "hard",
+      "quiz": [
+        {"q": "What scale measures how acidic or basic something is?", "options": ["Richter scale", "pH scale", "Celsius scale", "Density scale"], "answer": 1},
+        {"q": "What pH is neutral?", "options": ["0", "7", "14", "3"], "answer": 1},
+        {"q": "Lemon juice is:", "options": ["Neutral", "Basic", "Acidic", "Neither"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v036", "category": "chemistry", "order": 6,
+      "title": "How Are Crystals Formed?",
+      "fact": "No two snowflakes have ever been exactly the same — they are all unique water crystals!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "How do crystals form?", "options": ["Melting", "Atoms arrange in repeating patterns", "Mixing liquids", "Freezing only"], "answer": 1},
+        {"q": "Salt is an example of:", "options": ["Non-crystal", "A crystal", "A liquid", "A gas"], "answer": 1},
+        {"q": "What shape does a snowflake always have?", "options": ["Round", "Square", "6-fold symmetry", "Random"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v037", "category": "chemistry", "order": 7,
+      "title": "Why Does Metal Rust?",
+      "fact": "Rust is just what happens when iron 'breathes in' oxygen and water!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What is rust?", "options": ["Dirt on metal", "Iron oxide formed with water and oxygen", "Paint peeling", "Metal melting"], "answer": 1},
+        {"q": "Which metals do NOT rust?", "options": ["Iron", "Steel", "Gold and stainless steel", "Copper"], "answer": 2},
+        {"q": "How can you prevent rusting?", "options": ["Painting, galvanising, oil coating", "Adding water", "Heating it", "Cannot be prevented"], "answer": 0}
+      ]
+    },
+    {
+      "id": "v038", "category": "chemistry", "order": 8,
+      "title": "The Magic of Magnets",
+      "fact": "The Earth itself is a giant magnet — which is why compasses always point North!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "What does a magnet attract?", "options": ["All metals", "Only iron, nickel, cobalt", "Gold and silver", "All materials"], "answer": 1},
+        {"q": "What do we call the ends of a magnet?", "options": ["Sides", "Poles (North and South)", "Edges", "Tops"], "answer": 1},
+        {"q": "Like poles (N-N or S-S):", "options": ["Attract", "Repel", "Nothing", "Stick together"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v039", "category": "chemistry", "order": 9,
+      "title": "What Makes Fireworks Colourful?",
+      "fact": "Fireworks get colours from burning metals — copper makes blue, strontium makes red!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What gives fireworks their colours?", "options": ["Dye", "Different burning metals", "Gas", "Electricity"], "answer": 1},
+        {"q": "Which metal makes red colour in fireworks?", "options": ["Copper", "Strontium", "Barium", "Magnesium"], "answer": 1},
+        {"q": "What gas is used to launch fireworks?", "options": ["Air", "Oxygen alone", "Black powder (gunpowder)", "Hydrogen"], "answer": 2}
+      ]
+    },
+    {
+      "id": "v040", "category": "chemistry", "order": 10,
+      "title": "Why Does Ice Float?",
+      "fact": "Water is one of the only things in the universe that gets bigger and lighter when it freezes!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "Why does ice float on water?", "options": ["Ice is cold", "Frozen water is less dense than liquid water", "Ice is lighter", "Magic"], "answer": 1},
+        {"q": "Why is this important for life?", "options": ["It looks nice", "Ice insulates water below, keeping life alive in winter", "Fish like it", "No reason"], "answer": 1},
+        {"q": "At what temperature does water freeze?", "options": ["0°F", "0°C", "10°C", "32°C"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v041", "category": "inventions", "order": 1,
+      "title": "The First Wheel",
+      "fact": "The wheel wasn't invented for driving — the first wheels spun clay to make pots!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What was the wheel first used for?", "options": ["Chariots", "Spinning clay pots (pottery)", "Carts", "Toys"], "answer": 1},
+        {"q": "When was the wheel invented?", "options": ["100 years ago", "About 5,500 years ago", "1,000 years ago", "Yesterday"], "answer": 1},
+        {"q": "Why is the wheel one of the greatest inventions?", "options": ["It rolls", "It allows movement, transport, machines, energy", "It's round", "It's wooden"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v042", "category": "inventions", "order": 2,
+      "title": "How Do Planes Fly?",
+      "fact": "Airplane wings are shaped so air below pushes up harder than air above pushes down — this is called lift!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What force keeps planes in the air?", "options": ["Thrust", "Lift", "Gravity", "Drag"], "answer": 1},
+        {"q": "Wing shape that creates lift is called?", "options": ["Triangle", "Aerofoil", "Flat board", "Circle"], "answer": 1},
+        {"q": "Who made the first successful airplane?", "options": ["Edison", "Wright Brothers", "Newton", "Da Vinci"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v043", "category": "inventions", "order": 3,
+      "title": "The Magic of Lenses — Microscopes",
+      "fact": "The first person to see bacteria called them 'animalcules' because they looked like tiny animals!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "Who first saw bacteria through a microscope?", "options": ["Pasteur", "Antonie van Leeuwenhoek", "Darwin", "Fleming"], "answer": 1},
+        {"q": "What year were microscopes invented approximately?", "options": ["1590s", "1800s", "1200s", "1900s"], "answer": 0},
+        {"q": "A microscope magnifies because:", "options": ["It has lights", "Curved lenses bend light to make things appear bigger", "It uses electricity", "Magic glass"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v044", "category": "inventions", "order": 4,
+      "title": "Catching Sound — The Telephone",
+      "fact": "The first phone book in history was just a single piece of cardboard with 50 names on it!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "Who invented the telephone?", "options": ["Edison", "Graham Bell", "Morse", "Tesla"], "answer": 1},
+        {"q": "When was the telephone invented?", "options": ["1776", "1876", "1976", "1576"], "answer": 1},
+        {"q": "The telephone converts sound to:", "options": ["Light signals", "Electrical signals", "Radio waves (original)", "Physical vibrations only"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v045", "category": "inventions", "order": 5,
+      "title": "How Do Clocks Know the Time?",
+      "fact": "Before mechanical clocks, people used dripping water and burning candles to tell time!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class2","class3","class4","class5"],
+      "difficulty": "easy",
+      "quiz": [
+        {"q": "What did people use before clocks?", "options": ["Guess", "Sundials, water clocks, candle clocks", "Stars always", "Nothing"], "answer": 1},
+        {"q": "How do modern digital clocks work?", "options": ["Swinging pendulum", "Vibrating quartz crystal", "Water dripping", "Electricity only"], "answer": 1},
+        {"q": "What time instrument uses the Sun's shadow?", "options": ["Hourglass", "Sundial", "Water clock", "Candle clock"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v046", "category": "inventions", "order": 6,
+      "title": "The First Computers",
+      "fact": "The first computers were bigger than a whole room and couldn't even play a simple video game!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What was the first electronic computer called?", "options": ["Windows", "ENIAC", "IBM 1", "Apple I"], "answer": 1},
+        {"q": "Who is considered the first computer programmer?", "options": ["Bill Gates", "Ada Lovelace", "Steve Jobs", "Alan Turing"], "answer": 1},
+        {"q": "Computers use which number system?", "options": ["Decimal (0-9)", "Binary (0 and 1 only)", "Hexadecimal", "Roman numerals"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v047", "category": "inventions", "order": 7,
+      "title": "How Do Cameras Trap Light?",
+      "fact": "The first photograph ever taken required the camera to sit perfectly still for 8 whole hours!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "What does a camera capture?", "options": ["Sound", "Light reflected from objects", "Air", "Heat"], "answer": 1},
+        {"q": "Who took the first photograph?", "options": ["Thomas Edison", "Joseph Nicéphore Niépce", "Graham Bell", "James Watt"], "answer": 1},
+        {"q": "Digital cameras store images as:", "options": ["Film negatives", "Digital pixels (binary data)", "Paper prints", "Light"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v048", "category": "inventions", "order": 8,
+      "title": "The Submarine",
+      "fact": "Submarines dive by filling tanks with heavy water, and rise by blowing the water out with air!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "How do submarines sink?", "options": ["Engines pull down", "Ballast tanks filled with water", "Gravity only", "Magnets"], "answer": 1},
+        {"q": "What do submarines use to navigate without GPS?", "options": ["Sonar (sound waves)", "Radar", "Light", "Compass only"], "answer": 0},
+        {"q": "What gas do submarines carry for the crew?", "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Helium"], "answer": 1}
+      ]
+    },
+    {
+      "id": "v049", "category": "inventions", "order": 9,
+      "title": "How Do Pulleys Make Things Lighter?",
+      "fact": "Using a clever system of ropes and pulleys, one person can lift a car all by themselves!",
+      "youtube_id": null, "duration_min": 4,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "A pulley makes lifting easier by:", "options": ["Making objects lighter", "Distributing force across multiple rope sections", "Adding magic", "Using electricity"], "answer": 1},
+        {"q": "Who described the mechanical advantage of pulleys?", "options": ["Newton", "Archimedes", "Galileo", "Da Vinci"], "answer": 1},
+        {"q": "More pulleys means:", "options": ["Less force needed but more distance pulled", "More force needed", "Same force", "Faster lifting"], "answer": 0}
+      ]
+    },
+    {
+      "id": "v050", "category": "inventions", "order": 10,
+      "title": "The Internet Highway",
+      "fact": "The internet travels across the world through massive cables laid deep at the bottom of the ocean!",
+      "youtube_id": null, "duration_min": 5,
+      "class_groups": ["class3","class4","class5"],
+      "difficulty": "medium",
+      "quiz": [
+        {"q": "How does internet travel between continents?", "options": ["Satellites only", "Undersea fibre optic cables", "Radio towers", "Wi-Fi"], "answer": 1},
+        {"q": "What was the first internet called?", "options": ["WorldWideWeb", "ARPANET", "CompuServe", "Internet 1.0"], "answer": 1},
+        {"q": "Fibre optic cables carry data as:", "options": ["Electrical signals", "Pulses of light", "Sound waves", "Radio waves"], "answer": 1}
+      ]
+    }
+  ]
+}

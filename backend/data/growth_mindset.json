@@ -1,0 +1,41 @@
+{
+  "description": "Learnzy Growth Mindset — daily affirmations, challenges, and a fixed vs growth mindset tracker for children",
+  "for_child": {
+    "intro": "Your brain is like a muscle — the more you use it, the stronger it gets! Every time you make a mistake and try again, your brain grows new connections.",
+    "daily_challenges": [
+      {"id":"gm01","day_type":"Monday","title":"Try Something Hard","emoji":"💪","challenge":"Do something today that you find difficult. Try for 5 minutes without giving up. Tell your buddy what you tried and how it went — even if you didn't succeed yet!","buddy_prompt":"Ask: What did you try? Was it hard? Did you want to quit? What kept you going? Celebrate the ATTEMPT, not just success.","stars":3},
+      {"id":"gm02","day_type":"Tuesday","title":"Mistake Moment","emoji":"🎯","challenge":"Think of a mistake you made recently. Write or tell 3 things: what happened, what you learned, what you'll try differently next time.","buddy_prompt":"Normalise the mistake. 'Every scientist ever made mistakes — that's HOW science works! What did this mistake teach you that getting it right never would have?'","stars":3},
+      {"id":"gm03","day_type":"Wednesday","title":"Yet Power","emoji":"✨","challenge":"Write 3 things you cannot do YET. Add the word YET to each. Say them out loud: 'I cannot do this... YET.'","buddy_prompt":"Ask the child to share their 'yet' sentences. Respond: 'I believe you WILL be able to do all three of those! Which one feels closest to happening? What is one small step toward it?'","stars":2},
+      {"id":"gm04","day_type":"Thursday","title":"Effort Spotting","emoji":"🔍","challenge":"Today, notice when YOU put in effort — even on small things. Count how many times you tried hard. Then notice someone else trying hard and tell them!","buddy_prompt":"Ask: How many times did you try hard today? What was the hardest thing? Did you tell someone they were doing well? How did they react?","stars":3},
+      {"id":"gm05","day_type":"Friday","title":"Week Reflection","emoji":"🌟","challenge":"Think back on this whole week. What is ONE thing you got better at? It can be anything — not just school work. Maybe you got better at being patient, or kind, or trying!","buddy_prompt":"Celebrate the growth enthusiastically. 'You improved at [X] this week — that is REAL progress! What made the difference? Can you keep doing that next week?'","stars":4},
+      {"id":"gm06","day_type":"Weekend","title":"Teach Someone","emoji":"👨‍🏫","challenge":"Pick something you know well and teach it to someone at home. Teaching is the BEST way to deepen your own understanding!","buddy_prompt":"Ask what they taught and to whom. 'What questions did they ask that you couldn't answer? Those gaps are your next learning targets! Teaching others makes YOU smarter.'","stars":4}
+    ],
+    "fixed_vs_growth": [
+      {"fixed":"I'm not good at maths","growth":"I'm not good at maths yet — but I can improve with practice","situation":"Getting a low mark on a test"},
+      {"fixed":"This is too hard","growth":"This is hard right now — it means my brain is working hard","situation":"Struggling with a problem"},
+      {"fixed":"I give up","growth":"I need a different strategy — let me try another way","situation":"When things don't work"},
+      {"fixed":"I made a mistake, I'm so stupid","growth":"I made a mistake — that tells me exactly what I need to practise more","situation":"Making an error"},
+      {"fixed":"She's smarter than me","growth":"She's worked harder at this than I have so far — I can do the same","situation":"Comparing to others"},
+      {"fixed":"I can't do this","growth":"I can't do this YET","situation":"Facing something new"}
+    ],
+    "affirmations": [
+      "My brain grows stronger every time I try something hard.",
+      "Mistakes are not failures — they are information.",
+      "I am not comparing myself to others — only to who I was yesterday.",
+      "The word YET is my superpower.",
+      "Every expert was once a complete beginner.",
+      "I choose to be curious, not afraid.",
+      "Hard work beats talent when talent doesn't work hard.",
+      "I am building my brain right now."
+    ]
+  },
+  "for_parent": {
+    "intro": "Children who believe their intelligence can grow consistently outperform those who believe it is fixed — regardless of their current ability level. Here is how to build this mindset at home.",
+    "tips": [
+      {"title":"Praise effort, not ability","wrong":"You're so clever!","right":"You worked really hard on that!","why":"Praising intelligence creates fear of failure — 'if I fail, maybe I'm NOT clever.' Praising effort teaches that success comes from trying."},
+      {"title":"React to failure positively","wrong":"Don't worry, not everyone is good at maths","right":"This is tricky! What strategy could we try differently?","why":"Writing off an area as 'not for you' closes doors permanently. Reframing as 'not yet' keeps them open."},
+      {"title":"Share your own struggles","wrong":"Just get it done","right":"I find this hard too — let me try a different approach with you","why":"Children who see adults struggle and persist learn that struggle is normal, not a sign of inability."},
+      {"title":"Celebrate process, not just results","wrong":"Did you get full marks?","right":"What did you learn today? What was the hardest thing? Did you ask for help when you needed it?","why":"Grades measure a moment. Process questions measure growth — which is what actually matters long-term."}
+    ]
+  }
+}

@@ -1,0 +1,267 @@
+import React, { useEffect, useState } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Alert, ActivityIndicator } from 'react-native';
+import { useRouter } from 'expo-router';
+import { LinearGradient } from 'expo-linear-gradient';
+import { Ionicons } from '@expo/vector-icons';
+import { getWords } from '../../utils/api';
+import { useAppStore } from '../../store/appStore';
+import Paywall from '../../components/Paywall';
+
+export default function GamesScreen() {
+  const router = useRouter();
+  const { user } = useAppStore();
+
+  // Wrap with Paywall - will show paywall if subscription expired
+  return (
+    <Paywall featureName="Learning Games">
+      <GamesContent />
+    </Paywall>
+  );
+}
+
+function GamesContent() {
+  const router = useRouter();
+  const { user } = useAppStore();
+
+  // Check if user is LKG-1st level (young kids)
+  const isYoungKid = user?.current_level === 'lkg-1st';
+
+  const games = [
+    // Interactive Learning - Only for LKG-1st
+    ...(isYoungKid ? [{
+      id: 'interactive',
+      title: 'Learn & Play!',
+      description: 'Colors, Shapes, Family, Body Parts',
+      icon: 'color-palette',
+      colors: ['#EC4899', '#8B5CF6'],
+      route: '/games/interactive-learning',
+      enabled: true,
+    }] : []),
+    {
+      id: 'flashcards',
+      title: 'Flashcards',
+      description: 'Flip cards to learn new words',
+      icon: 'albums',
+      colors: ['#FF6B9D', '#FF8E53'],
+      route: '/games/flashcards',
+      enabled: true,
+    },
+    {
+      id: 'quiz',
+      title: 'Word Quiz',
+      description: 'Test your vocabulary knowledge',
+      icon: 'help-circle',
+      colors: ['#667EEA', '#4F46E5'],
+      route: '/games/quiz',
+      enabled: true,
+    },
+    // Crossword - Only for 2nd standard and above (not for LKG-1st)
+    ...(!isYoungKid ? [{
+      id: 'crossword',
+      title: 'Crossword Puzzle',
+      description: 'Solve word puzzles with hints',
+      icon: 'grid',
+      colors: ['#10B981', '#059669'],
+      route: '/games/crossword',
+      enabled: true,
+    }] : []),
+    {
+      id: 'dictation',
+      title: 'Dictation',
+      description: 'Listen and type the word',
+      icon: 'create',
+      colors: ['#F59E0B', '#D97706'],
+      route: '/games/dictation',
+      enabled: true,
+    },
+    // New games — NEP 2020 research
+    {
+      id: 'word-matching',
+      title: 'Word Matching',
+      description: 'Match words to their meanings',
+      icon: 'copy',
+      colors: ['#4F46E5', '#7C3AED'],
+      route: '/games/word-matching',
+      enabled: true,
+    },
+    {
+      id: 'sentence-builder',
+      title: 'Sentence Builder',
+      description: 'Arrange words to make sentences',
+      icon: 'reorder-four',
+      colors: ['#10B981', '#059669'],
+      route: '/games/sentence-builder',
+      enabled: true,
+    },
+    ...(!isYoungKid ? [{
+      id: 'grammar-quests',
+      title: 'Grammar Quests',
+      description: 'Fill in the blanks & master grammar',
+      icon: 'school',
+      colors: ['#F59E0B', '#B45309'],
+      route: '/games/grammar-quests',
+      enabled: true,
+    }] : []),
+
+    {
+      id: 'phonics',
+      title: 'Phonics Fun',
+      description: 'Learn letter sounds & blending',
+      icon: 'musical-notes',
+      colors: ['#EF4444', '#F97316'],
+      route: '/games/phonics',
+      enabled: true,
+    },
+    {
+      id: 'manners',
+      title: 'Manners & Social English',
+      description: 'Learn polite phrases & role-play',
+      icon: 'happy',
+      colors: ['#EC4899', '#8B5CF6'],
+      route: '/games/manners',
+      enabled: true,
+    },
+    ...(!isYoungKid ? [{
+      id: 'spot-the-mistake',
+      title: 'Spot the Mistake',
+      description: 'Find grammar errors — be the teacher!',
+      icon: 'bug',
+      colors: ['#7C3AED', '#4F46E5'],
+      route: '/games/spot-the-mistake',
+      enabled: true,
+    }] : []),
+
+    {
+      id: 'reading-fluency',
+      title: 'Reading Fluency',
+      description: 'Read aloud & measure your speed',
+      icon: 'book-outline',
+      colors: ['#0EA5E9', '#0284C7'],
+      route: '/games/reading-fluency',
+      enabled: true,
+    },
+    // Writing Workshop - Only for young kids (up to 6 years / LKG-1st)
+    ...(isYoungKid ? [{
+      id: 'writing-workshop',
+      title: 'Writing Workshop',
+      description: 'Trace letters & write sentences by hand!',
+      icon: 'pencil',
+      colors: ['#F97316', '#EF4444'],
+      route: '/games/writing-workshop',
+      enabled: true,
+    }] : []),
+  ];
+
+  return (
+    <View style={styles.container}>
+      <LinearGradient
+        colors={['#667EEA', '#764BA2']}
+        style={styles.header}
+      >
+        <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
+          <Ionicons name="arrow-back" size={28} color="#fff" />
+        </TouchableOpacity>
+        <Text style={styles.headerTitle}>🎮 Game Zone</Text>
+        <Text style={styles.headerSubtitle}>Learn English the fun way!</Text>
+      </LinearGradient>
+
+      <ScrollView contentContainerStyle={styles.content}>
+        {games.map((game) => (
+          <TouchableOpacity 
+            key={game.id}
+            style={[styles.gameCard, !game.enabled && { opacity: 0.6 }]}
+            onPress={() => game.enabled && router.push(game.route as any)}
+            disabled={!game.enabled}
+          >
+            <LinearGradient
+              colors={game.colors}
+              style={styles.gameGradient}
+            >
+              <View style={styles.gameIcon}>
+                <Ionicons name={game.icon as any} size={40} color="#fff" />
+              </View>
+              <View style={styles.gameContent}>
+                <Text style={styles.gameTitle}>{game.title}</Text>
+                <Text style={styles.gameDescription}>{game.description}</Text>
+              </View>
+              <Ionicons 
+                name={game.enabled ? "play-circle" : "lock-closed"} 
+                size={32} 
+                color="#fff" 
+              />
+            </LinearGradient>
+          </TouchableOpacity>
+        ))}
+      </ScrollView>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F9FAFB',
+  },
+  header: {
+    paddingTop: 60,
+    paddingBottom: 24,
+    paddingHorizontal: 20,
+    borderBottomLeftRadius: 24,
+    borderBottomRightRadius: 24,
+  },
+  backButton: {
+    marginBottom: 16,
+  },
+  headerTitle: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#fff',
+    marginBottom: 4,
+  },
+  headerSubtitle: {
+    fontSize: 16,
+    color: '#fff',
+    opacity: 0.9,
+  },
+  content: {
+    padding: 20,
+    gap: 16,
+  },
+  gameCard: {
+    borderRadius: 20,
+    overflow: 'hidden',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 5,
+  },
+  gameGradient: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 24,
+    gap: 16,
+  },
+  gameIcon: {
+    width: 64,
+    height: 64,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    borderRadius: 32,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  gameContent: {
+    flex: 1,
+    gap: 4,
+  },
+  gameTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  gameDescription: {
+    fontSize: 14,
+    color: '#fff',
+    opacity: 0.9,
+  },
+});

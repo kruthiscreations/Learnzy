@@ -1,0 +1,998 @@
+{
+  "total": 59,
+  "description": "Learnzy Word Spark — daily vocabulary with AI conversation, one word per day per class level",
+  "words": [
+    {
+      "day": 1,
+      "word": "Happy",
+      "type": "adjective",
+      "pron": "HAP-ee",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Feeling very good and smiling!",
+      "ma": "Feeling pleasure and joy",
+      "es": "The happy puppy wagged its tail.",
+      "ea": "The happy family celebrated together.",
+      "story": "The little rabbit found a carrot and felt so happy...",
+      "opener": "Good morning! Today's Word Spark is a FEELING word! How do YOU feel right now? Let me teach you today's word!",
+      "ct": "feelings"
+    },
+    {
+      "day": 2,
+      "word": "Big",
+      "type": "adjective",
+      "pron": "BIG",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Very large in size!",
+      "ma": "Of great size or amount",
+      "es": "The big elephant splashed in the river.",
+      "ea": "A big storm covered the whole city.",
+      "story": "Ramu the ant wanted to carry a big leaf...",
+      "opener": "Hello! Today's word is a SIZE word! Can you show me with your arms how BIG today's word is?",
+      "ct": "act_it_out"
+    },
+    {
+      "day": 3,
+      "word": "Run",
+      "type": "verb",
+      "pron": "RUN",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Move your legs very fast!",
+      "ma": "To move swiftly on foot",
+      "es": "The dog likes to run in the park.",
+      "ea": "She runs every morning to stay healthy.",
+      "story": "Tara had to run as fast as she could to catch the school bus...",
+      "opener": "Ready to move? Today's word is an ACTION word! Stand up and show me what it means!",
+      "ct": "act_it_out"
+    },
+    {
+      "day": 4,
+      "word": "Soft",
+      "type": "adjective",
+      "pron": "SOFT",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Smooth and gentle to touch — not hard!",
+      "ma": "Not hard or firm; gentle in texture",
+      "es": "The soft kitten loves to cuddle.",
+      "ea": "The baby rabbit had the softest fur.",
+      "story": "Little Maya found something soft and fluffy under her bed...",
+      "opener": "Touch something near you! Is it hard or SOFT? Today we learn this wonderful word!",
+      "ct": "real_life"
+    },
+    {
+      "day": 5,
+      "word": "Eat",
+      "type": "verb",
+      "pron": "EET",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Put food in your mouth and chew!",
+      "ma": "To consume food",
+      "es": "I eat rice and dal for lunch.",
+      "ea": "The hungry bear eats berries before winter.",
+      "story": "The hungry little monster found a whole cake...",
+      "opener": "Yummy! Today's word is about one of your favourite things! What do YOU love to eat?",
+      "ct": "real_life"
+    },
+    {
+      "day": 6,
+      "word": "Blue",
+      "type": "adjective",
+      "pron": "BLOO",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "The colour of the sky and the sea!",
+      "ma": "Having the colour of a clear sky",
+      "es": "The blue bird sat on the branch.",
+      "ea": "The ocean looks deep blue from the beach.",
+      "story": "One day the sky turned a different colour — not blue but green!...",
+      "opener": "Look up at the sky! What colour is it? Today we learn that BEAUTIFUL colour word!",
+      "ct": "real_life"
+    },
+    {
+      "day": 7,
+      "word": "Jump",
+      "type": "verb",
+      "pron": "JUMP",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Push up from the ground with your feet!",
+      "ma": "To spring upward or forward",
+      "es": "The frog can jump very high.",
+      "ea": "The excited child jumped with joy at the surprise.",
+      "story": "Bunny wanted to jump over the tallest mountain...",
+      "opener": "On your feet! Can you JUMP right now? Today's word is a super FUN action word!",
+      "ct": "act_it_out"
+    },
+    {
+      "day": 8,
+      "word": "Loud",
+      "type": "adjective",
+      "pron": "LAWD",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Making a lot of noise — very easy to hear!",
+      "ma": "Making a great sound; noisy",
+      "es": "The lion made a loud roar.",
+      "ea": "The thunderstorm was so loud it woke everyone up.",
+      "story": "The tiny mouse wanted to make a very loud sound...",
+      "opener": "ROAR! Was that loud? Today we learn a word about sound! Can you make a loud sound?",
+      "ct": "act_it_out"
+    },
+    {
+      "day": 9,
+      "word": "Help",
+      "type": "verb",
+      "pron": "HELP",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Do something kind for someone who needs it!",
+      "ma": "To make it easier for someone to do something",
+      "es": "I help my mother wash the dishes.",
+      "ea": "The neighbours helped the family after the flood.",
+      "story": "A little star fell from the sky and needed help getting back up...",
+      "opener": "Today's word is one of the most important words in the world! When did someone last HELP you?",
+      "ct": "real_life"
+    },
+    {
+      "day": 10,
+      "word": "Sleep",
+      "type": "verb",
+      "pron": "SLEEP",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Rest your body and close your eyes at night!",
+      "ma": "A state of natural rest for the body and mind",
+      "es": "The tired baby wants to sleep.",
+      "ea": "Bears sleep all winter long — it is called hibernation.",
+      "story": "Little Tara refused to sleep and discovered what happens to toys at night...",
+      "opener": "Did you sleep well last night? Today's word is what we all need to stay healthy and strong!",
+      "ct": "real_life"
+    },
+    {
+      "day": 11,
+      "word": "Friend",
+      "type": "noun",
+      "pron": "FREND",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Someone you like and play with!",
+      "ma": "A person you know, like and trust",
+      "es": "My best friend shares her lunch with me.",
+      "ea": "A true friend stays with you even when things are hard.",
+      "story": "The tiny cloud was lonely until it made a very special friend...",
+      "opener": "Who is your best friend? Tell me about them! Today's word is all about friendship!",
+      "ct": "real_life"
+    },
+    {
+      "day": 12,
+      "word": "Dark",
+      "type": "adjective",
+      "pron": "DARK",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "No light — you cannot see well!",
+      "ma": "Having little or no light",
+      "es": "The dark cave was scary for the rabbit.",
+      "ea": "The forest was dark and quiet after sunset.",
+      "story": "Priya was scared of the dark until she discovered something magical in it...",
+      "opener": "Have you ever been in a really dark place? Today's word is a little bit spooky! Are you brave?",
+      "ct": "feelings"
+    },
+    {
+      "day": 13,
+      "word": "Fast",
+      "type": "adjective",
+      "pron": "FAST",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Moving very quickly — not slow!",
+      "ma": "Moving or able to move quickly",
+      "es": "The cheetah is the fastest animal.",
+      "ea": "The race car zoomed past so fast we could barely see it.",
+      "story": "A slow tortoise wanted to be FAST for just one day...",
+      "opener": "Who is faster — a rabbit or a turtle? Today we learn a SPEED word! Ready?",
+      "ct": "opposite_game"
+    },
+    {
+      "day": 14,
+      "word": "Flower",
+      "type": "noun",
+      "pron": "FLOW-er",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "The colourful, pretty part of a plant!",
+      "ma": "The seed-bearing part of a plant; a blossom",
+      "es": "The flower smells so sweet.",
+      "ea": "Each flower has its own colour and fragrance.",
+      "story": "There was one magical flower in the forest that only bloomed at midnight...",
+      "opener": "What is your favourite flower? Today's word is something BEAUTIFUL from nature!",
+      "ct": "real_life"
+    },
+    {
+      "day": 15,
+      "word": "Clean",
+      "type": "adjective",
+      "pron": "KLEEN",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Not dirty — fresh and tidy!",
+      "ma": "Free from dirt or germs",
+      "es": "Wash your hands to keep them clean.",
+      "ea": "A clean classroom helps everyone learn better.",
+      "story": "The little pig decided to make the muddiest, messiest thing in the world clean...",
+      "opener": "Are your hands clean right now? Today's word is something your parents say a LOT!",
+      "ct": "real_life"
+    },
+    {
+      "day": 16,
+      "word": "Warm",
+      "type": "adjective",
+      "pron": "WORM",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Nicely hot — not too cold, not too hot!",
+      "ma": "Of a fairly high temperature",
+      "es": "A warm cup of milk helps me sleep.",
+      "ea": "The warm sun felt wonderful after the cold night.",
+      "story": "The little polar bear visited India and felt warm for the very first time...",
+      "opener": "Touch the sunny side of something near you. How does it feel? That is today's word!",
+      "ct": "real_life"
+    },
+    {
+      "day": 17,
+      "word": "Laugh",
+      "type": "verb",
+      "pron": "LAF",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Make a happy sound because something is funny!",
+      "ma": "To make sounds of amusement",
+      "es": "We laugh at funny cartoons.",
+      "ea": "Laughter is the best medicine when you are sad.",
+      "story": "The grumpy old king forgot how to laugh until one small child visited...",
+      "opener": "HAHAHA! Did that make you smile? Today's word is the sound of happiness!",
+      "ct": "act_it_out"
+    },
+    {
+      "day": 18,
+      "word": "Beautiful",
+      "type": "adjective",
+      "pron": "BYOO-tih-ful",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Very pretty to look at or hear!",
+      "ma": "Pleasing to the senses or mind",
+      "es": "The peacock has beautiful feathers.",
+      "ea": "India is a beautiful country with many landscapes.",
+      "story": "The ugly duckling thought it would never be beautiful...",
+      "opener": "What is the most BEAUTIFUL thing you have ever seen in your life? Tell me!",
+      "ct": "real_life"
+    },
+    {
+      "day": 19,
+      "word": "Swim",
+      "type": "verb",
+      "pron": "SWIM",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Move through water using your body!",
+      "ma": "To propel oneself through water",
+      "es": "Fish can swim faster than us.",
+      "ea": "Learning to swim is an important life skill.",
+      "story": "A little elephant wanted to learn to swim but was afraid of the water...",
+      "opener": "Can you SWIM? Today's action word is about moving through water like a fish!",
+      "ct": "real_life"
+    },
+    {
+      "day": 20,
+      "word": "Kind",
+      "type": "adjective",
+      "pron": "KYND",
+      "class_groups": [
+        "lkg",
+        "ukg"
+      ],
+      "ms": "Being nice and caring to others!",
+      "ma": "Having a friendly, caring nature",
+      "es": "It is kind to share your lunch.",
+      "ea": "A kind word can change someone's entire day.",
+      "story": "The most powerful king in the land wanted to learn kindness from a small girl...",
+      "opener": "What is the KINDEST thing someone has done for you? Today's word is one of the most important in the world!",
+      "ct": "real_life"
+    },
+    {
+      "day": 53,
+      "word": "Curious",
+      "type": "adjective",
+      "pron": "KYOO-ree-us",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Wanting to know or find out about things!",
+      "ma": "Eager to know or learn something",
+      "es": "The curious monkey opened every box.",
+      "ea": "A curious scientist asks questions about everything.",
+      "story": "Meena was SO curious she followed a butterfly to discover where it slept...",
+      "opener": "Today's word describes YOU — because you opened this app to LEARN! That makes you today's word!",
+      "ct": "story_mode"
+    },
+    {
+      "day": 54,
+      "word": "Brave",
+      "type": "adjective",
+      "pron": "BRAYV",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Not scared — ready to do hard things even when afraid!",
+      "ma": "Ready to face danger without showing fear",
+      "es": "The brave firefighter saved the kitten.",
+      "ea": "It takes a brave person to stand up for what is right.",
+      "story": "Little Rohan was afraid of the dark but had to go into the forest anyway...",
+      "opener": "Have you ever done something scary but did it anyway? THAT is today's word! Tell me your brave moment!",
+      "ct": "real_life"
+    },
+    {
+      "day": 55,
+      "word": "Discover",
+      "type": "verb",
+      "pron": "dis-KUV-er",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Find or learn something for the very first time!",
+      "ma": "To find something previously unknown",
+      "es": "We discovered a frog under the stone.",
+      "ea": "Scientists discover new medicines every year.",
+      "story": "Ananya went digging in her garden and discovered something nobody had ever seen before...",
+      "opener": "What is something YOU discovered recently? Today's word is one of the most exciting words in science!",
+      "ct": "word_detective"
+    },
+    {
+      "day": 56,
+      "word": "Shine",
+      "type": "verb",
+      "pron": "SHYNE",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Give out bright light — like the sun!",
+      "ma": "To give out or reflect bright light",
+      "es": "The stars shine beautifully at night.",
+      "ea": "Her kindness made her shine brighter than anyone else.",
+      "story": "One small firefly wanted to shine as brightly as the moon...",
+      "opener": "What things SHINE? Think of three things before I tell you what today's word means!",
+      "ct": "word_detective"
+    },
+    {
+      "day": 57,
+      "word": "Gentle",
+      "type": "adjective",
+      "pron": "JEN-tul",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Soft, calm and careful — not rough!",
+      "ma": "Mild, kind and careful in action",
+      "es": "Please be gentle with the baby bird.",
+      "ea": "The gentle teacher always spoke in a calm, soft voice.",
+      "story": "The giant had big hands but learned to be gentle with small things...",
+      "opener": "Can you touch something near you very, very gently? Today's word is about being CAREFUL and KIND!",
+      "ct": "act_it_out"
+    },
+    {
+      "day": 58,
+      "word": "Imagine",
+      "type": "verb",
+      "pron": "ih-MAJ-in",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Picture something in your mind that is not real yet!",
+      "ma": "To form a picture or idea in your mind",
+      "es": "Imagine you can fly like a bird!",
+      "ea": "Great inventors imagine things before they build them.",
+      "story": "Priya closed her eyes and imagined a world made entirely of sweets...",
+      "opener": "Close your eyes! Now IMAGINE you are standing on the moon. What do you see? Today's word is MAGIC!",
+      "ct": "act_it_out"
+    },
+    {
+      "day": 59,
+      "word": "Tricky",
+      "type": "adjective",
+      "pron": "TRIK-ee",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Difficult and needs careful thinking!",
+      "ma": "Requiring care and skill; difficult to handle",
+      "es": "The maths problem was tricky but I solved it!",
+      "ea": "The magician performed a very tricky disappearing act.",
+      "story": "The fox was known for being tricky — but one day he met his match...",
+      "opener": "Have you ever had a TRICKY question in school? Tell me about it! Today's word is about difficulty!",
+      "ct": "real_life"
+    },
+    {
+      "day": 60,
+      "word": "Empty",
+      "type": "adjective",
+      "pron": "EMP-tee",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Nothing inside — no people, no things!",
+      "ma": "Containing nothing; not occupied",
+      "es": "The empty bowl means I ate everything!",
+      "ea": "The old house stood empty for many years.",
+      "story": "The magic jar was completely empty — or so everyone thought...",
+      "opener": "Can you find something EMPTY near you right now? Today's word is the opposite of full!",
+      "ct": "opposite_game"
+    },
+    {
+      "day": 61,
+      "word": "Quiet",
+      "type": "adjective",
+      "pron": "KWY-et",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "No noise — very peaceful and still!",
+      "ma": "Making little or no noise; calm",
+      "es": "The library must be quiet so people can read.",
+      "ea": "The forest was quiet and peaceful after the rain.",
+      "story": "In a world where everything was loud, one tiny village found the secret of quiet...",
+      "opener": "Shh! Can you be completely QUIET for 5 seconds? One, two, three, four, five! That is today's word!",
+      "ct": "act_it_out"
+    },
+    {
+      "day": 62,
+      "word": "Collect",
+      "type": "verb",
+      "pron": "kuh-LEKT",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Gather many things together in one place!",
+      "ma": "To gather together; accumulate things",
+      "es": "I collect colourful stones from the river.",
+      "ea": "The museum collects ancient objects from all over India.",
+      "story": "Rahul collected something unusual — he collected smiles from everyone he met...",
+      "opener": "Do YOU collect anything? Stickers? Rocks? Cards? Today's word is about gathering things you love!",
+      "ct": "real_life"
+    },
+    {
+      "day": 63,
+      "word": "Whisper",
+      "type": "verb",
+      "pron": "WIS-per",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Speak very, very softly — almost no sound!",
+      "ma": "To speak very softly using the breath",
+      "es": "She whispered a secret in my ear.",
+      "ea": "The doctor whispered so as not to wake the sleeping baby.",
+      "story": "In the enchanted forest, the trees knew how to whisper secrets to children...",
+      "opener": "Lean in close — I am going to WHISPER today's word to you! Are you ready? Listen carefully...",
+      "ct": "story_mode"
+    },
+    {
+      "day": 64,
+      "word": "Proud",
+      "type": "adjective",
+      "pron": "PROWD",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "A wonderful feeling when you do something great!",
+      "ma": "Feeling deep pleasure from one's achievements",
+      "es": "I am so proud of my drawing!",
+      "ea": "Her parents were proud when she won the science award.",
+      "story": "The little duckling had one special skill and finally felt proud of it...",
+      "opener": "Think of something YOU did that made you feel amazing inside. THAT feeling is today's word!",
+      "ct": "feelings"
+    },
+    {
+      "day": 65,
+      "word": "Share",
+      "type": "verb",
+      "pron": "SHAYR",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Give some of what you have to others!",
+      "ma": "To have or use something jointly with others",
+      "es": "Please share your crayons with your friend.",
+      "ea": "A good leader shares credit with the whole team.",
+      "story": "The boy had one apple and seven hungry friends...",
+      "opener": "When did you last SHARE something? Was it hard? Was it easy? Today's word is about kindness!",
+      "ct": "real_life"
+    },
+    {
+      "day": 66,
+      "word": "Adventure",
+      "type": "noun",
+      "pron": "ad-VEN-cher",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "An exciting trip or experience with surprises!",
+      "ma": "An exciting and sometimes dangerous experience",
+      "es": "Going to the forest was a great adventure.",
+      "ea": "Every explorer loves a good adventure.",
+      "story": "Three friends packed their bags for the biggest adventure of their lives...",
+      "opener": "Where would YOUR adventure take you? The mountains? The ocean? Space? Tell me!",
+      "ct": "story_mode"
+    },
+    {
+      "day": 67,
+      "word": "Patient",
+      "type": "adjective",
+      "pron": "PAY-shent",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Able to wait calmly without getting upset!",
+      "ma": "Able to accept delay without getting angry",
+      "es": "Be patient — the food is still cooking.",
+      "ea": "A patient person waits for the right opportunity.",
+      "story": "The impatient rabbit and the patient turtle had a race...",
+      "opener": "How long can you wait for something you really want? Today's word is a superpower!",
+      "ct": "opposite_game"
+    },
+    {
+      "day": 68,
+      "word": "Protect",
+      "type": "verb",
+      "pron": "pro-TEKT",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "ms": "Keep someone or something safe from danger!",
+      "ma": "To keep safe from harm or injury",
+      "es": "The mother bird protects her eggs.",
+      "ea": "Forests protect us from floods and soil erosion.",
+      "story": "A young boy discovered he had the power to protect his whole village...",
+      "opener": "Who PROTECTS you? And who do YOU protect? Today's word is about being a guardian!",
+      "ct": "real_life"
+    },
+    {
+      "day": 157,
+      "word": "Adventure",
+      "type": "noun",
+      "pron": "ad-VEN-cher",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "An exciting journey or experience with surprises!",
+      "ma": "An unusual, exciting and daring experience",
+      "es": "The trek through the jungle was a real adventure.",
+      "ea": "Reading a great book can be as thrilling as any adventure.",
+      "story": "Three friends set off into the hills with only a map, a compass, and three biscuits...",
+      "opener": "What would your PERFECT adventure look like? Tell me everything! Today's word is one of my favourites!",
+      "ct": "story_mode"
+    },
+    {
+      "day": 158,
+      "word": "Dedicate",
+      "type": "verb",
+      "pron": "DED-ih-kayt",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "Give all your effort and time to something important!",
+      "ma": "To devote time and effort to a purpose or person",
+      "es": "She dedicated three months to learning to swim.",
+      "ea": "The scientist dedicated his life to finding a cure for the disease.",
+      "story": "Young Vikram decided to dedicate every evening to one impossible goal...",
+      "opener": "Is there something you want to get really, REALLY good at? Today's word is about giving it EVERYTHING!",
+      "ct": "real_life"
+    },
+    {
+      "day": 159,
+      "word": "Magnificent",
+      "type": "adjective",
+      "pron": "mag-NIF-ih-sent",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "Absolutely beautiful and amazing — beyond words!",
+      "ma": "Impressively beautiful, elaborate, or extravagant",
+      "es": "The Taj Mahal is a magnificent monument.",
+      "ea": "The sunset over the mountains was truly magnificent.",
+      "story": "The villagers had never seen anything so magnificent — the whole sky turned gold...",
+      "opener": "Today's word is a BIG, beautiful word. It means MORE than just beautiful. Say it with me: MAGNIFICENT!",
+      "ct": "word_detective"
+    },
+    {
+      "day": 160,
+      "word": "Persevere",
+      "type": "verb",
+      "pron": "per-suh-VEER",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "Keep trying even when it is really hard — never give up!",
+      "ma": "Continue steadily in spite of difficulties",
+      "es": "She persevered with her maths practice every day.",
+      "ea": "Sachin Tendulkar persevered through injuries to become the greatest.",
+      "story": "Riya failed the swimming test 4 times but refused to stop...",
+      "opener": "Today's word is one of the most important words for YOUR life. It is what champions are made of!",
+      "ct": "real_life"
+    },
+    {
+      "day": 161,
+      "word": "Curious",
+      "type": "adjective",
+      "pron": "KYOO-ree-us",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "Having a strong desire to know and understand everything!",
+      "ma": "Eager to investigate and learn",
+      "es": "The curious scientist spent nights studying the stars.",
+      "ea": "A curious mind questions everything — and that leads to great discoveries.",
+      "story": "A curious boy in Mumbai discovered something in a drain that changed his whole city...",
+      "opener": "Name ONE thing you are really, truly curious about. ONE question you wish you knew the answer to!",
+      "ct": "story_mode"
+    },
+    {
+      "day": 162,
+      "word": "Ancient",
+      "type": "adjective",
+      "pron": "AYN-shent",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "Very, very old — from thousands of years ago!",
+      "ma": "Belonging to the very distant past",
+      "es": "India is home to many ancient temples.",
+      "ea": "Ancient Egyptian pharaohs built the pyramids 4,500 years ago.",
+      "story": "The old man in the village claimed the ancient tree in the square could grant one wish...",
+      "opener": "What is the OLDEST thing you have ever seen or touched? Today's word goes back THOUSANDS of years!",
+      "ct": "word_detective"
+    },
+    {
+      "day": 163,
+      "word": "Generous",
+      "type": "adjective",
+      "pron": "JEN-er-us",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "Giving a lot to others without expecting anything back!",
+      "ma": "Showing readiness to give more than necessary",
+      "es": "The generous farmer shared his harvest with the whole village.",
+      "ea": "A generous spirit makes the world a kinder place.",
+      "story": "The wealthiest man in town had nothing, and the poorest had everything — here is why...",
+      "opener": "Think of the most generous person you know. What do they do that is generous? Today's word is about giving!",
+      "ct": "real_life"
+    },
+    {
+      "day": 164,
+      "word": "Astonish",
+      "type": "verb",
+      "pron": "uh-STON-ish",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "Surprise someone so much they cannot believe it!",
+      "ma": "To surprise greatly; to amaze",
+      "es": "The magician's trick astonished the whole audience.",
+      "ea": "Scientists were astonished to find life in the deepest ocean.",
+      "story": "The quiet new student in class 4 astonished everyone on sports day...",
+      "opener": "What is something that has truly ASTONISHED you? Something that made your jaw drop? Tell me!",
+      "ct": "feelings"
+    },
+    {
+      "day": 165,
+      "word": "Migrate",
+      "type": "verb",
+      "pron": "MY-grayt",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "Move from one place to another — especially animals in seasons!",
+      "ma": "To move from one region or habitat to another",
+      "es": "Many birds migrate to India in winter.",
+      "ea": "The Siberian cranes migrate 5,000 kilometres every year to reach India.",
+      "story": "A small sparrow refused to migrate with the flock and decided to stay...",
+      "opener": "Have you ever moved house or city? Imagine doing it EVERY YEAR, twice a year! Today's word is for creatures that do this!",
+      "ct": "real_life"
+    },
+    {
+      "day": 166,
+      "word": "Compete",
+      "type": "verb",
+      "pron": "kum-PEET",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "Try to win against others in a contest!",
+      "ma": "To strive against others to win something",
+      "es": "Twenty students will compete in the spelling bee.",
+      "ea": "Teams from all over India competed in the national quiz championship.",
+      "story": "Two best friends ended up competing for the same prize — and had to make a difficult choice...",
+      "opener": "What is something you are REALLY good at competing in? Sports? Games? Studies? Tell me!",
+      "ct": "real_life"
+    },
+    {
+      "day": 167,
+      "word": "Extraordinary",
+      "type": "adjective",
+      "pron": "ek-STROR-dih-nair-ee",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "Far beyond ordinary — completely remarkable!",
+      "ma": "Very unusual or remarkable",
+      "es": "Kalpana Chawla's journey to space was extraordinary.",
+      "ea": "An ordinary person who keeps going can achieve extraordinary things.",
+      "story": "The most extraordinary thing happened in the most ordinary village on an ordinary Monday...",
+      "opener": "Today's word is EXTRA ordinary — it means more than ordinary. What extraordinary thing would you like to do in your life?",
+      "ct": "real_life"
+    },
+    {
+      "day": 168,
+      "word": "Consequence",
+      "type": "noun",
+      "pron": "KON-sih-kwens",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "ms": "What happens because of something you did!",
+      "ma": "A result or effect of an action",
+      "es": "The consequence of not studying was a poor test result.",
+      "ea": "Every action has a consequence — good choices lead to good outcomes.",
+      "story": "One small decision by one child changed the consequence for an entire town...",
+      "opener": "Today's word is about CAUSE and EFFECT. Everything you do has a consequence. Can you think of one?",
+      "ct": "real_life"
+    },
+    {
+      "day": 262,
+      "word": "Tenacious",
+      "type": "adjective",
+      "pron": "tuh-NAY-shus",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "Holding on with great strength and never giving up!",
+      "ma": "Holding firmly; persistent in maintaining a position",
+      "es": "The tenacious climber reached the peak after three attempts.",
+      "ea": "Her tenacious effort over four years earned her the scholarship.",
+      "story": "Everyone told him to give up. He became the most tenacious person the school had ever seen...",
+      "opener": "Today's word is a POWER word. It describes people who refuse — absolutely REFUSE — to quit. Are you this word?",
+      "ct": "real_life"
+    },
+    {
+      "day": 263,
+      "word": "Illuminate",
+      "type": "verb",
+      "pron": "ih-LOO-mih-nayt",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "Light something up — or make an idea very clear!",
+      "ma": "To light up; to make understandable",
+      "es": "Diwali diyas illuminate every home.",
+      "ea": "A great teacher illuminates ideas that seemed impossible to understand.",
+      "story": "One young scientist found a way to illuminate an entire village with just river water...",
+      "opener": "A word can ILLUMINATE your mind just like a lamp illuminates a room. What idea has a teacher recently illuminated for you?",
+      "ct": "story_mode"
+    },
+    {
+      "day": 264,
+      "word": "Collaborate",
+      "type": "verb",
+      "pron": "kuh-LAB-uh-rayt",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "Work together with others towards one shared goal!",
+      "ma": "To work jointly on an activity or project",
+      "es": "The students collaborated to build the best science project.",
+      "ea": "Scientists across 50 countries collaborated to photograph a black hole.",
+      "story": "Four students who disliked each other were forced to collaborate on one project...",
+      "opener": "What is something you have COLLABORTED on? Working together makes things possible that you could never do alone!",
+      "ct": "real_life"
+    },
+    {
+      "day": 265,
+      "word": "Deduce",
+      "type": "verb",
+      "pron": "dih-DYOOS",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "Figure out the answer by thinking carefully about the clues!",
+      "ma": "To reach a conclusion by reasoning from evidence",
+      "es": "From the muddy footprints, we deduced that someone had walked in the rain.",
+      "ea": "Sherlock Holmes could deduce a person's life story from one glance.",
+      "story": "The class discovered a mystery — who ate the teacher's lunch? They had to deduce the answer from clues...",
+      "opener": "You are a detective! I will give you THREE clues and you must DEDUCE what I am thinking of. Ready?",
+      "ct": "word_detective"
+    },
+    {
+      "day": 266,
+      "word": "Phenomenon",
+      "type": "noun",
+      "pron": "fih-NOM-ih-non",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "Something remarkable that happens and can be observed!",
+      "ma": "A fact or situation that is observed to exist or happen",
+      "es": "The Northern Lights are a breathtaking natural phenomenon.",
+      "ea": "The silence after a snowfall is a beautiful acoustic phenomenon.",
+      "story": "Every year in one small village, an unexplained phenomenon brought everyone together...",
+      "opener": "Have you ever witnessed something and thought — WOW, how does THAT happen?! That experience has today's word!",
+      "ct": "word_detective"
+    },
+    {
+      "day": 267,
+      "word": "Resilient",
+      "type": "adjective",
+      "pron": "rih-ZIL-ee-ent",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "Able to bounce back quickly after something difficult!",
+      "ma": "Able to recover quickly from difficulties; tough",
+      "es": "The resilient city rebuilt itself after the flood in just one year.",
+      "ea": "Resilient people do not let failure define them — they use it as fuel.",
+      "story": "The bamboo tree bent almost to the ground in the storm. Then it stood straight again...",
+      "opener": "Have you ever fallen down — not physically, but in a challenge — and got back up? TODAY'S word is what you were being!",
+      "ct": "feelings"
+    },
+    {
+      "day": 268,
+      "word": "Eloquent",
+      "type": "adjective",
+      "pron": "EL-oh-kwent",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "Expressing ideas clearly and beautifully with words!",
+      "ma": "Fluent and persuasive in speaking or writing",
+      "es": "The eloquent student won every debate competition.",
+      "ea": "An eloquent speech can change the minds of thousands.",
+      "story": "A shy girl who could barely speak in class became the most eloquent speaker the school ever produced...",
+      "opener": "Words are weapons, tools, and magic. An ELOQUENT person uses words like an artist uses a paintbrush. Do you know anyone like this?",
+      "ct": "story_mode"
+    },
+    {
+      "day": 269,
+      "word": "Integrity",
+      "type": "noun",
+      "pron": "in-TEG-rih-tee",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "Always doing the right thing even when nobody is watching!",
+      "ma": "The quality of being honest and having strong moral principles",
+      "es": "A person of integrity returns money they find to the owner.",
+      "ea": "Integrity means being the same person in public as you are in private.",
+      "story": "Arjun found a bag full of money on the street. Nobody saw him. What he did next showed his integrity...",
+      "opener": "Today's word is one of the most valuable things a person can have. You cannot buy it or borrow it. You can only BUILD it!",
+      "ct": "real_life"
+    },
+    {
+      "day": 270,
+      "word": "Empathy",
+      "type": "noun",
+      "pron": "EM-puh-thee",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "Understanding and sharing the feelings of another person!",
+      "ma": "The ability to understand and share another's emotions",
+      "es": "With empathy, she understood why her friend was crying.",
+      "ea": "Great leaders have deep empathy — they feel what their people feel.",
+      "story": "The most popular boy in school met a boy nobody spoke to, and chose empathy over popularity...",
+      "opener": "Can you remember a time you felt EXACTLY what someone else was feeling? That experience is today's word!",
+      "ct": "feelings"
+    },
+    {
+      "day": 271,
+      "word": "Ambition",
+      "type": "noun",
+      "pron": "am-BISH-un",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "A strong desire to achieve something great!",
+      "ma": "A strong desire and determination to succeed",
+      "es": "Her ambition was to become a doctor and help thousands of people.",
+      "ea": "Without ambition, great discoveries would never be made.",
+      "story": "A child from a small village in Andhra Pradesh had one big ambition...",
+      "opener": "What is YOUR biggest ambition? The thing you want more than anything else in life? Today's word is exactly that!",
+      "ct": "real_life"
+    },
+    {
+      "day": 272,
+      "word": "Perspective",
+      "type": "noun",
+      "pron": "per-SPEK-tiv",
+      "class_groups": [
+        "class5"
+      ],
+      "ms": "The way YOU see and understand things — your point of view!",
+      "ma": "A particular way of viewing facts",
+      "es": "From the ant's perspective, a pencil is a giant tree.",
+      "ea": "Understanding different perspectives makes you a better thinker and friend.",
+      "story": "Two children saw the same event and had completely different stories. Both were right...",
+      "opener": "Imagine you are an ant looking at this room. What would you see? Changing your PERSPECTIVE changes everything!",
+      "ct": "act_it_out"
+    }
+  ]
+}

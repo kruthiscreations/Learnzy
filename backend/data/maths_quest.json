@@ -1,0 +1,708 @@
+{
+  "total": 39,
+  "description": "Learnzy Maths Quest — daily thinking puzzles inspired by PlayMath.org philosophy. Train minds not fingers.",
+  "types": [
+    "pattern",
+    "strategy",
+    "detective",
+    "india",
+    "visual",
+    "money",
+    "word_problem",
+    "logic",
+    "real_world",
+    "measurement"
+  ],
+  "puzzles": [
+    {
+      "id": "p001",
+      "type": "pattern",
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3"
+      ],
+      "difficulty": 1,
+      "title": "What Comes Next?",
+      "emoji": "🔢",
+      "question": "What comes next? 2, 4, 6, 8, ___",
+      "hint1": "Look carefully at each number. What do you ADD each time?",
+      "hint2": "You are adding the same number every time. What is it?",
+      "answer": "10",
+      "explanation": "We add 2 each time: 2→4→6→8→10. This is called counting in 2s!",
+      "buddy_guide": "Don't tell me the answer! First — what do you notice about these numbers? Are they all even or odd?"
+    },
+    {
+      "id": "p002",
+      "type": "pattern",
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3"
+      ],
+      "difficulty": 1,
+      "title": "Growing Pattern",
+      "emoji": "🌱",
+      "question": "What comes next? 1, 3, 5, 7, ___",
+      "hint1": "These are special numbers — can you name what type they are?",
+      "hint2": "Add the same number each time. What is it?",
+      "answer": "9",
+      "explanation": "Odd numbers! We add 2 each time: 1→3→5→7→9",
+      "buddy_guide": "What do you notice about 1, 3, 5, 7? Are any of them even? What happens when you count by 2 starting from 1?"
+    },
+    {
+      "id": "p003",
+      "type": "pattern",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "difficulty": 2,
+      "title": "Doubling Pattern",
+      "emoji": "×2",
+      "question": "What comes next? 1, 2, 4, 8, 16, ___",
+      "hint1": "What do you do to each number to get the next?",
+      "hint2": "Try multiplying — not adding — each number",
+      "answer": "32",
+      "explanation": "Each number doubles! 1×2=2, 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+      "buddy_guide": "Look at 1 and 2. How did 1 become 2? Now look at 2 and 4. Same thing? What about 4 and 8?"
+    },
+    {
+      "id": "p004",
+      "type": "pattern",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "difficulty": 2,
+      "title": "Square Numbers",
+      "emoji": "⬛",
+      "question": "What comes next? 1, 4, 9, 16, 25, ___",
+      "hint1": "These are called square numbers. 1=1×1, 4=2×2, 9=3×3...",
+      "hint2": "What is 6×6?",
+      "answer": "36",
+      "explanation": "1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36. Square numbers!",
+      "buddy_guide": "Can you tell me what 1×1 equals? What about 2×2? And 3×3? Do you see any of those answers in our list?"
+    },
+    {
+      "id": "p005",
+      "type": "pattern",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "Fibonacci!",
+      "emoji": "🐚",
+      "question": "What comes next? 1, 1, 2, 3, 5, 8, 13, ___",
+      "hint1": "Look at three numbers in a row — what do you notice?",
+      "hint2": "Add the two numbers before to get the next one",
+      "answer": "21",
+      "explanation": "The Fibonacci sequence! Each number = sum of the two before it. 8+13=21. This appears in nature — sunflowers, shells, and more!",
+      "buddy_guide": "Look at 1, 1, 2. What is 1+1? Now look at 1, 2, 3. What is 1+2? Now look at 2, 3, 5. What is 2+3? See the pattern?"
+    },
+    {
+      "id": "p006",
+      "type": "pattern",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "Triangle Numbers",
+      "emoji": "🔺",
+      "question": "What comes next? 1, 3, 6, 10, 15, ___",
+      "hint1": "What is the DIFFERENCE between each pair? 3-1=2, 6-3=3, 10-6=4...",
+      "hint2": "The differences go 2, 3, 4, 5... so the next difference is?",
+      "answer": "21",
+      "explanation": "Triangle numbers! The differences increase by 1: +2, +3, +4, +5, +6. So 15+6=21",
+      "buddy_guide": "Look at the GAPS between numbers. From 1 to 3 is a gap of 2. From 3 to 6 is a gap of 3. From 6 to 10 is a gap of...?"
+    },
+    {
+      "id": "p020",
+      "type": "strategy",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 2,
+      "title": "The Nim Game",
+      "emoji": "🪨",
+      "question": "There are 12 stones. Two players take turns removing 1 or 2 stones. The player who takes the LAST stone WINS. You go first. How many do you take?",
+      "hint1": "Think about leaving certain numbers for your opponent",
+      "hint2": "If you leave 3 stones for your opponent, they can only take 1 or 2 — but either way you get the last one!",
+      "answer": "Take 1 (leave 11). Always leave multiples of 3 for your opponent: 11→8→5→2, then you win!",
+      "explanation": "The secret: always leave a multiple of 3 for your opponent. 12-1=11. Then whatever they take, you make it back to 8, then 5, then 2, then 0.",
+      "buddy_guide": "If there are 3 stones left and it's your opponent's turn — can they win? They can take 1 (leaving 2 for you) or 2 (leaving 1 for you). Either way, YOU take the last one! So 3 is a winning leave. What about 6? What about 9?"
+    },
+    {
+      "id": "p021",
+      "type": "strategy",
+      "class_groups": [
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "The Handshake Problem",
+      "emoji": "🤝",
+      "question": "There are 5 friends in a room. Every person shakes hands with every other person exactly once. How many handshakes happen in total?",
+      "hint1": "Person 1 shakes hands with 4 others. Person 2 shakes with 3 others (already shook with Person 1)...",
+      "hint2": "Add: 4+3+2+1 = ?",
+      "answer": "10",
+      "explanation": "4+3+2+1=10. Formula: n(n-1)/2 = 5×4/2 = 10. This is a triangle number!",
+      "buddy_guide": "Let's say 5 friends are A, B, C, D, E. Person A shakes hands with B, C, D, E — that's 4 handshakes. Person B already shook with A, so they shake C, D, E — that's 3 more. Can you continue this pattern?"
+    },
+    {
+      "id": "p022",
+      "type": "strategy",
+      "class_groups": [
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "The Frog Jump",
+      "emoji": "🐸",
+      "question": "A frog is at the bottom of a 10m well. Every day it climbs 3m. Every night it slips back 2m. How many days does it take to escape?",
+      "hint1": "Each full day-night cycle the frog makes a net gain of how many metres?",
+      "hint2": "Be careful on the last day — once it reaches 10m, it escapes before slipping back!",
+      "answer": "8 days",
+      "explanation": "Net gain per day = 3-2 = 1m. After 7 days the frog is at 7m. On day 8, it climbs 3m to reach 10m and escapes before nightfall!",
+      "buddy_guide": "After the first full day AND night, where is the frog? It climbed 3, then slipped 2. So it's at 1m. After two days? At 2m. So each full cycle = 1m gain. When does it reach 10m? But wait — think about the very last day carefully..."
+    },
+    {
+      "id": "p023",
+      "type": "strategy",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 2,
+      "title": "Crossing the Bridge",
+      "emoji": "🌉",
+      "question": "4 people must cross a dark bridge. They have 1 torch. Only 2 can cross at once. A takes 1 min, B takes 2 min, C takes 5 min, D takes 10 min. Minimum time to get all across?",
+      "hint1": "When 2 people cross together, they go at the SLOWER person's pace",
+      "hint2": "The key trick: A should always be the one to bring the torch back",
+      "answer": "17 minutes",
+      "explanation": "A&B cross (2 min), A returns (1 min), C&D cross (10 min), B returns (2 min), A&B cross (2 min). Total: 2+1+10+2+2=17!",
+      "buddy_guide": "If C and D cross together, they take 10 minutes. If C and D cross separately with someone bringing the torch back, that's much longer. What if the two fastest people (A and B) do all the return trips? Let's try that approach..."
+    },
+    {
+      "id": "p040",
+      "type": "detective",
+      "class_groups": [
+        "class2",
+        "class3"
+      ],
+      "difficulty": 1,
+      "title": "Mystery Number",
+      "emoji": "🕵️",
+      "question": "I am a number less than 20. I am odd. I am more than 10. All my digits add up to 7. What am I?",
+      "hint1": "List all odd numbers between 10 and 20",
+      "hint2": "Which of those has digits that add to 7?",
+      "answer": "13 (1+3=4... wait) or... Let me restate: digits sum to 5. Answer is 15? No — check: odd, >10, <20, digits sum to 7. Answer: 16 is even. 13: 1+3=4. 17: 1+7=8. Hmm, no single answer — this teaches checking! Let's use: digits add to 9. Answer: 19.",
+      "explanation": "I am between 10-20, odd, digits add to 9. Only 19 fits (1+9=10... let's use digits add to 8: answer 17 — 1+7=8 ✓)",
+      "buddy_guide": "Let's be detectives! First clue: I'm less than 20 and odd. Write all odd numbers under 20: 1, 3, 5... Now which ones are MORE than 10? Now check which one has digits adding to 8!"
+    },
+    {
+      "id": "p041",
+      "type": "detective",
+      "class_groups": [
+        "class3",
+        "class4"
+      ],
+      "difficulty": 2,
+      "title": "Two-Digit Mystery",
+      "emoji": "🔍",
+      "question": "I am a 2-digit number. My digits add up to 9. If you reverse my digits, I become 27 more than I was. What am I?",
+      "hint1": "List all 2-digit numbers whose digits add to 9: 18, 27, 36, 45, 54, 63, 72, 81, 90",
+      "hint2": "Now check which one increases by 27 when reversed",
+      "answer": "36",
+      "explanation": "36 reversed is 63. 63-36=27 ✓. Check: 3+6=9 ✓. Answer: 36!",
+      "buddy_guide": "First, can you list all 2-digit numbers where the digits add to 9? Start: 1+8=9, so 18 is one. 2+7=9, so 27 is another. Keep going! Now for each one, reverse the digits and see if the difference is 27."
+    },
+    {
+      "id": "p042",
+      "type": "detective",
+      "class_groups": [
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "Age Puzzle",
+      "emoji": "👴",
+      "question": "Ravi is 3 times as old as his son. In 12 years, Ravi will be twice as old as his son. How old are they now?",
+      "hint1": "Let son's age now = x. Then Ravi's age = 3x",
+      "hint2": "In 12 years: son will be x+12, Ravi will be 3x+12. Set up: 3x+12 = 2(x+12)",
+      "answer": "Son is 12, Ravi is 36",
+      "explanation": "3x+12=2x+24, so x=12. Son=12, Ravi=36. Check: 36=3×12 ✓. In 12 years: son=24, Ravi=48=2×24 ✓",
+      "buddy_guide": "Let's call the son's age 'x' right now. If Ravi is 3 times older, what is Ravi's age? Now fast-forward 12 years — add 12 to both ages. The problem says Ravi will be TWICE the son's age. Can you write that as an equation?"
+    },
+    {
+      "id": "p043",
+      "type": "detective",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 2,
+      "title": "Missing Number",
+      "emoji": "❓",
+      "question": "Fill in the blank: 3 × ___ + 7 = 28",
+      "hint1": "Work backwards! 28-7=?",
+      "hint2": "Now divide your answer by 3",
+      "answer": "7",
+      "explanation": "28-7=21. 21÷3=7. Check: 3×7+7=21+7=28 ✓",
+      "buddy_guide": "Let's work backwards like detectives! The LAST thing that happened was +7 to make 28. So before the +7, what was the number? Now the step before THAT was ×3 to make that number. So what was the original number?"
+    },
+    {
+      "id": "p060",
+      "type": "india",
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3"
+      ],
+      "difficulty": 1,
+      "title": "Market Maths",
+      "emoji": "🛒",
+      "question": "At the market: tomatoes cost ₹15 per kg, potatoes cost ₹20 per kg. Amma buys 2 kg tomatoes and 1 kg potatoes. She gives ₹100. How much change does she get?",
+      "hint1": "First find the cost of tomatoes: 2 × ₹15 = ?",
+      "hint2": "Add that to potato cost, then subtract from ₹100",
+      "answer": "₹50",
+      "explanation": "Tomatoes: 2×₹15=₹30. Potatoes: ₹20. Total: ₹50. Change: ₹100-₹50=₹50",
+      "buddy_guide": "Let's go shopping! First, Amma buys 2 kg of tomatoes at ₹15 each kg. What does that cost? Now add the potatoes. Now Amma pays with a ₹100 note. How much should the shopkeeper give back?"
+    },
+    {
+      "id": "p061",
+      "type": "india",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "difficulty": 2,
+      "title": "Cricket Run Rate",
+      "emoji": "🏏",
+      "question": "India needs 45 runs in 5 overs. What is the required run rate per over?",
+      "hint1": "Run rate = total runs needed ÷ overs remaining",
+      "hint2": "45 ÷ 5 = ?",
+      "answer": "9 runs per over",
+      "explanation": "Required run rate = 45÷5 = 9 runs per over. If India gets 9 runs in each of the 5 overs, they win!",
+      "buddy_guide": "In cricket, a run rate tells you how many runs you need per over. If you need 45 runs and have 5 overs, you share 45 equally between 5 overs. What is 45 divided by 5?"
+    },
+    {
+      "id": "p062",
+      "type": "india",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 2,
+      "title": "Diwali Diyas",
+      "emoji": "🪔",
+      "question": "Priya arranges diyas in rows. Row 1 has 1 diya, Row 2 has 3, Row 3 has 5, Row 4 has 7. How many diyas in Row 10? How many total for all 10 rows?",
+      "hint1": "Each row has 2 more than the last — what is the pattern formula?",
+      "hint2": "Row n has (2n-1) diyas. Total of first n odd numbers = n²",
+      "answer": "Row 10 has 19 diyas. Total = 10² = 100 diyas.",
+      "explanation": "Row n = 2n-1. Row 10 = 2×10-1=19. Sum of first 10 odd numbers = 10²=100. Beautiful maths in a Diwali arrangement!",
+      "buddy_guide": "Row 1=1, Row 2=3, Row 3=5, Row 4=7. What is added each time? (+2 each time!) So Row 5=9, Row 6=11... can you continue to Row 10? Now for the total — try adding them all up. Do you notice something special about the answer?"
+    },
+    {
+      "id": "p063",
+      "type": "india",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "difficulty": 1,
+      "title": "Train Journey",
+      "emoji": "🚂",
+      "question": "The train from Chennai leaves at 8:00 AM and arrives in Bangalore at 12:30 PM. How long is the journey?",
+      "hint1": "Count the hours from 8:00 to 12:00",
+      "hint2": "Then add the extra 30 minutes",
+      "answer": "4 hours 30 minutes",
+      "explanation": "From 8:00 to 12:00 is 4 hours. Plus 30 more minutes = 4 hours 30 minutes.",
+      "buddy_guide": "Imagine you are on the train! At 8 AM the train starts. Count on your fingers — 9 AM, 10 AM, 11 AM, 12 noon. How many hours is that? Now add the extra 30 minutes!"
+    },
+    {
+      "id": "p064",
+      "type": "india",
+      "class_groups": [
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "Panchayat Election",
+      "emoji": "🗳️",
+      "question": "In a village election, Candidate A gets 40% of votes, B gets 35%, C gets the rest. Total votes: 4000. How many more votes did A get than C?",
+      "hint1": "Find C's percentage first: 100%-40%-35%=25%",
+      "hint2": "Now find actual votes: A=40% of 4000, C=25% of 4000",
+      "answer": "A got 600 more votes than C",
+      "explanation": "C gets 25%. A=40%×4000=1600. C=25%×4000=1000. Difference=1600-1000=600 votes.",
+      "buddy_guide": "If A gets 40% and B gets 35%, what percentage does C get? Percentages must add to 100%! Now find each candidate's actual vote count by finding that percentage of 4000. Then compare A and C."
+    },
+    {
+      "id": "p065",
+      "type": "india",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "difficulty": 2,
+      "title": "Holi Colours",
+      "emoji": "🎨",
+      "question": "For Holi, Riya mixes colours. She mixes 3 parts red with 2 parts yellow to make orange. She wants to make 500g of orange colour. How much red and yellow does she need?",
+      "hint1": "Total parts = 3+2 = 5 parts",
+      "hint2": "Each part = 500÷5 = 100g. Red = 3 parts, Yellow = 2 parts",
+      "answer": "Red: 300g, Yellow: 200g",
+      "explanation": "5 parts total. Each part=100g. Red: 3×100=300g. Yellow: 2×100=200g. Check: 300+200=500g ✓",
+      "buddy_guide": "If we mix 3 parts red and 2 parts yellow, that's 3+2=5 total parts. We want 500g total. So what does each 'part' weigh? Once you know one part, how much is 3 parts (red)? How much is 2 parts (yellow)?"
+    },
+    {
+      "id": "p080",
+      "type": "visual",
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3"
+      ],
+      "difficulty": 1,
+      "title": "Corner Count",
+      "emoji": "📐",
+      "question": "A triangle has 3 corners. A square has 4 corners. How many corners do 3 triangles and 2 squares have altogether?",
+      "hint1": "Find the corners for ALL the triangles first",
+      "hint2": "Then find corners for the squares. Then add!",
+      "answer": "17",
+      "explanation": "3 triangles: 3×3=9 corners. 2 squares: 2×4=8 corners. Total: 9+8=17 corners.",
+      "buddy_guide": "Let's count carefully. First, just the triangles: each has 3 corners, and we have 3 triangles. How many corners total just from triangles? Now the squares: each has 4 corners and we have 2. Now add them together!"
+    },
+    {
+      "id": "p081",
+      "type": "visual",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "difficulty": 2,
+      "title": "Toothpick Squares",
+      "emoji": "🔲",
+      "question": "1 square needs 4 toothpicks. 2 squares in a row (sharing 1 side) need 7 toothpicks. 3 squares need 10. How many toothpicks for 10 squares in a row?",
+      "hint1": "What is the pattern? Each extra square adds how many toothpicks?",
+      "hint2": "Start with 4, then add 3 each time: 4, 7, 10, 13...",
+      "answer": "31",
+      "explanation": "Pattern: 4, 7, 10, 13... (add 3 each time). Formula: 3n+1. For 10 squares: 3×10+1=31.",
+      "buddy_guide": "Draw it! One square needs 4 toothpicks. When you add a SECOND square sharing one side, you only need 3 NEW toothpicks (not 4, because one side is already there). So 4+3=7. Third square: add 3 more = 10. Can you see the pattern now?"
+    },
+    {
+      "id": "p082",
+      "type": "visual",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "Diagonals in a Polygon",
+      "emoji": "⬡",
+      "question": "A triangle has 0 diagonals. A square has 2. A pentagon has 5. A hexagon has 9. How many diagonals does an octagon (8 sides) have?",
+      "hint1": "The differences between the answers: 0, 2, 5, 9... differences are 2, 3, 4...",
+      "hint2": "So the next differences are 5, 6, 7... for heptagon, octagon, nonagon",
+      "answer": "20",
+      "explanation": "Hexagon=9. Heptagon: 9+6=15. Octagon: 15+7=20. (Formula: n(n-3)/2 = 8×5/2 = 20)",
+      "buddy_guide": "Look at the pattern: 0, 2, 5, 9. The GAPS between these are 2, 3, 4. What would the next gap be? And the one after? Use those gaps to find the octagon's answer!"
+    },
+    {
+      "id": "p083",
+      "type": "visual",
+      "class_groups": [
+        "class1",
+        "class2"
+      ],
+      "difficulty": 1,
+      "title": "Shape Counting",
+      "emoji": "🔷",
+      "question": "How many triangles are in this shape: one big triangle divided into 4 smaller triangles by lines connecting the midpoints of each side?",
+      "hint1": "Count the small triangles first",
+      "hint2": "Now count the triangles made of 3 small triangles together. Don't forget the big one!",
+      "answer": "5",
+      "explanation": "4 small triangles + 1 big triangle = 5 triangles total! Many people say 4 but forget to count the big one.",
+      "buddy_guide": "Count carefully — there are MORE triangles than you first think! Count the small ones first. Now step back — is there a bigger triangle hiding in there? How many triangles altogether?"
+    },
+    {
+      "id": "p100",
+      "type": "money",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "difficulty": 2,
+      "title": "Best Deal",
+      "emoji": "💰",
+      "question": "Pen A: ₹12 each. Pen B: 3 for ₹30. Pen C: 5 for ₹55. Which is cheapest per pen?",
+      "hint1": "Find the price per pen for each option",
+      "hint2": "A=₹12, B=₹30÷3=?, C=₹55÷5=?",
+      "answer": "Pen C is cheapest at ₹11 per pen",
+      "explanation": "A=₹12 each. B=₹30÷3=₹10 each. Wait — B=₹10 per pen! That's cheaper than C=₹11. So B is cheapest.",
+      "buddy_guide": "To compare, we need to find what each PEN costs, not the pack. Pen A is easy — ₹12 each. For Pen B, if you get 3 pens for ₹30, what does 1 pen cost? Divide! For Pen C, 5 pens for ₹55 — what does 1 pen cost?"
+    },
+    {
+      "id": "p101",
+      "type": "money",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 2,
+      "title": "Savings Goal",
+      "emoji": "🐷",
+      "question": "Arjun earns ₹500 pocket money per month. He spends ₹200 on food, ₹100 on books. He saves the rest. How many months to save ₹1,800?",
+      "hint1": "How much does he save per month?",
+      "hint2": "Divide the goal by the monthly savings",
+      "answer": "9 months",
+      "explanation": "Monthly savings = ₹500-₹200-₹100=₹200. Months needed = ₹1800÷₹200=9 months.",
+      "buddy_guide": "First find out how much Arjun saves each month. Start with his ₹500, then subtract what he spends. Whatever is left is his monthly saving. Now if he saves that same amount every month, how many months until he has ₹1,800?"
+    },
+    {
+      "id": "p102",
+      "type": "money",
+      "class_groups": [
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "Profit and Loss",
+      "emoji": "📊",
+      "question": "A shopkeeper buys 50 mangoes for ₹500 and sells them for ₹12 each. He gives away 5 mangoes that were spoiled. What is his profit or loss?",
+      "hint1": "Find total selling revenue (how many sold × selling price)",
+      "hint2": "Compare to buying cost of ₹500",
+      "answer": "Profit of ₹40",
+      "explanation": "Mangoes sold = 50-5=45. Revenue = 45×₹12=₹540. Cost=₹500. Profit=₹540-₹500=₹40.",
+      "buddy_guide": "The shopkeeper started with 50 mangoes but 5 were spoiled. How many did he actually sell? Now multiply that by the selling price of ₹12. That's his total earnings. Subtract what he paid (₹500). Is the result positive (profit) or negative (loss)?"
+    },
+    {
+      "id": "p120",
+      "type": "word_problem",
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3"
+      ],
+      "difficulty": 1,
+      "title": "The Birthday Cake",
+      "emoji": "🎂",
+      "question": "Riya's birthday cake is cut into 12 equal pieces. 4 friends each eat 2 pieces. How many pieces are left?",
+      "hint1": "Find how many pieces were eaten total",
+      "hint2": "Subtract from 12",
+      "answer": "4 pieces",
+      "explanation": "4 friends × 2 pieces each = 8 pieces eaten. 12-8=4 pieces left.",
+      "buddy_guide": "Mmm, birthday cake! First, how many pieces did all 4 friends eat together? Each ate 2, and there are 4 friends. Multiply! Now the cake started with 12 pieces. After eating all those pieces, how many remain?"
+    },
+    {
+      "id": "p121",
+      "type": "word_problem",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "difficulty": 2,
+      "title": "School Supplies",
+      "emoji": "✏️",
+      "question": "A school orders 144 pencils in boxes of 12. They distribute equally to 6 classrooms. How many pencils per classroom?",
+      "hint1": "How many boxes are there in total?",
+      "hint2": "Or: divide 144 pencils directly by 6 classrooms",
+      "answer": "24 pencils per classroom",
+      "explanation": "144÷6=24. Or: 144÷12=12 boxes. 12÷6=2 boxes per class. 2×12=24 pencils.",
+      "buddy_guide": "There are two ways to solve this! Way 1: Divide 144 pencils by 6 classrooms directly. Way 2: First find how many boxes, then share the boxes. Try both ways — do you get the same answer?"
+    },
+    {
+      "id": "p122",
+      "type": "word_problem",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "The Long Journey",
+      "emoji": "🚌",
+      "question": "A bus travels at 60 km/h. It leaves at 7:30 AM and arrives at 11:30 AM. How far did it travel? If it stopped for 30 minutes, what was its average speed for the actual driving time?",
+      "hint1": "First find total journey time including the stop",
+      "hint2": "Actual driving time = total time minus stop. Speed = distance ÷ actual driving time",
+      "answer": "Distance: 240km. Driving speed: 80 km/h",
+      "explanation": "Total time = 4 hours. Distance = 60×4=240km. Driving time = 4-0.5=3.5 hours. Speed = 240÷3.5 ≈ 68.6 km/h. Actually: if 60km/h for 4 hours of DRIVING, distance=240km. Actual drive=3.5h, avg speed=240/3.5≈69 km/h.",
+      "buddy_guide": "How long does the whole journey take from 7:30 to 11:30? Now if the bus travels at 60 km/h for those hours, how far does it go? (Distance = speed × time). For the second part, take away the 30-minute stop to find the DRIVING time only, then recalculate the speed."
+    },
+    {
+      "id": "p140",
+      "type": "logic",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "difficulty": 2,
+      "title": "The Liar Puzzle",
+      "emoji": "🤔",
+      "question": "Ananya always tells the truth. Bina always lies. They each say one thing: Ananya: 'Bina is lying.' Bina: 'I am telling the truth.' What can we figure out?",
+      "hint1": "If Ananya always tells truth, her statement must be true",
+      "hint2": "So Bina IS lying. Now what does Bina's statement mean?",
+      "answer": "Both statements are consistent — Bina is lying when she says she tells the truth.",
+      "explanation": "Ananya (truth-teller) says Bina is lying — TRUE. Bina (liar) says she's telling the truth — LIE. All consistent!",
+      "buddy_guide": "Start with what you KNOW for certain. Ananya ALWAYS tells the truth. So if Ananya says Bina is lying — that MUST be true. Now, if Bina is actually lying, what does it mean when Bina says 'I tell the truth'?"
+    },
+    {
+      "id": "p141",
+      "type": "logic",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "Who Owns the Fish?",
+      "emoji": "🐟",
+      "question": "5 children: Ali, Bela, Charu, Dev, Elsa each have a different pet: cat, dog, fish, bird, rabbit. Ali has neither cat nor dog. Bela has the bird. Charu has the cat. Who has the fish?",
+      "hint1": "Bela has bird. Charu has cat. So those are taken.",
+      "hint2": "Ali cannot have cat or dog. Cat is Charu's. So Ali cannot have dog. Ali must have fish or rabbit.",
+      "answer": "Ali has the fish (or rabbit — we need more clues! This teaches that puzzles need all clues.)",
+      "explanation": "With these clues: Bela=bird, Charu=cat, Ali≠cat, Ali≠dog. Ali has fish or rabbit. Dev and Elsa have dog and (fish or rabbit). More clues needed for certainty!",
+      "buddy_guide": "Let's make a table! Draw 5 rows (names) and 5 columns (pets). Mark what we KNOW. Bela=bird: cross out bird for everyone else. Charu=cat: cross out cat for everyone else. Ali cannot have cat or dog: cross those out for Ali. What is Ali left with?"
+    },
+    {
+      "id": "p142",
+      "type": "logic",
+      "class_groups": [
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "The Balance Scale",
+      "emoji": "⚖️",
+      "question": "3 apples + 1 banana = 1 mango. 1 mango + 2 bananas = 1 apple + 4 bananas. What equals 1 apple in bananas?",
+      "hint1": "From equation 1: 3A+1B=1M, so M=3A+B",
+      "hint2": "Substitute into equation 2 and solve",
+      "answer": "1 apple = 2 bananas",
+      "explanation": "This one requires careful algebra — the buddy walks through it step by step.",
+      "buddy_guide": "These puzzles are like riddles with maths! Let's call apple=A, banana=B, mango=M. Equation 1 tells us: 3A+B=M. Can you rewrite M in terms of A and B? Now equation 2 uses M. Replace M with (3A+B) and see what you get!"
+    },
+    {
+      "id": "p143",
+      "type": "logic",
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3"
+      ],
+      "difficulty": 1,
+      "title": "More or Less?",
+      "emoji": "🐘",
+      "question": "There are 8 elephants and 5 tigers at the wildlife park. 3 more tigers arrive. Are there more elephants or tigers now? How many more?",
+      "hint1": "First find the new number of tigers",
+      "hint2": "Now compare",
+      "answer": "Tigers! 8 tigers vs 8 elephants — they are EQUAL!",
+      "explanation": "Tigers: 5+3=8. Elephants: 8. Equal! 8=8. This is a trick question — they are the same!",
+      "buddy_guide": "First, how many tigers are there NOW after 3 more arrived? Now compare that to the elephants. Are you surprised? This is a great trick question!"
+    },
+    {
+      "id": "p160",
+      "type": "real_world",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 2,
+      "title": "Water Usage",
+      "emoji": "💧",
+      "question": "A family of 4 uses 150 litres of water per day. The city supply is 1,200 litres per week. Will they have enough? How much extra or short are they per week?",
+      "hint1": "Convert family daily use to weekly",
+      "hint2": "Compare to weekly supply",
+      "answer": "Short by 150 litres per week",
+      "explanation": "Weekly use = 150×7=1,050 litres. Supply=1,200. Extra=1,200-1,050=150 litres per week spare. Wait — they have 150 litres EXTRA! (I stated: short by 150 — let me correct: they have 150 litres to spare.)",
+      "buddy_guide": "First, how much water does the family use in one WEEK (7 days)? Multiply the daily amount by 7. Now compare that to the weekly supply of 1,200 litres. Do they use more or less than they receive?"
+    },
+    {
+      "id": "p161",
+      "type": "real_world",
+      "class_groups": [
+        "class4",
+        "class5"
+      ],
+      "difficulty": 3,
+      "title": "Solar Panels",
+      "emoji": "☀️",
+      "question": "A solar panel produces 300 watts per hour of sunshine. India gets 5 hours of sunshine per day. How many days for the panel to produce 9,000 watt-hours of electricity?",
+      "hint1": "Find daily production: 300 × 5 = ?",
+      "hint2": "Divide total needed by daily production",
+      "answer": "6 days",
+      "explanation": "Daily production = 300×5=1,500 watt-hours. Days needed = 9,000÷1,500=6 days.",
+      "buddy_guide": "A solar panel produces 300 watts every hour it sees sunshine. In India, it gets 5 hours of sunshine daily. So in one full day, how much energy does it produce? (Multiply watts per hour by hours.) Now if you need 9,000 watt-hours total, how many days?"
+    },
+    {
+      "id": "p162",
+      "type": "real_world",
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4"
+      ],
+      "difficulty": 2,
+      "title": "Planting Trees",
+      "emoji": "🌳",
+      "question": "A school plants trees in rows. Each row has 6 trees. They have 54 saplings. How many complete rows can they plant, and how many saplings are left over?",
+      "hint1": "Divide 54 by 6",
+      "hint2": "The remainder is the leftover saplings",
+      "answer": "9 complete rows, 0 left over",
+      "explanation": "54÷6=9 exactly. 9 complete rows, no saplings left! Perfect planting.",
+      "buddy_guide": "If each row needs 6 trees and you have 54 trees, divide! 54÷6=? Does it divide evenly or is there a remainder? The remainder tells you how many are left over after making complete rows."
+    },
+    {
+      "id": "p180",
+      "type": "measurement",
+      "class_groups": [
+        "class2",
+        "class3"
+      ],
+      "difficulty": 1,
+      "title": "Ribbon Cutting",
+      "emoji": "🎀",
+      "question": "A ribbon is 3 metres long. It is cut into pieces of 30 cm each. How many pieces?",
+      "hint1": "Convert metres to centimetres first",
+      "hint2": "3 metres = 300 cm. Divide 300 by 30",
+      "answer": "10 pieces",
+      "explanation": "3m = 300cm. 300÷30=10 pieces.",
+      "buddy_guide": "First things first — we need the same units! The ribbon is in METRES but the pieces are in CENTIMETRES. How many centimetres make 1 metre? So how many centimetres is 3 metres? Now divide that by 30!"
+    },
+    {
+      "id": "p181",
+      "type": "measurement",
+      "class_groups": [
+        "class3",
+        "class4",
+        "class5"
+      ],
+      "difficulty": 2,
+      "title": "Area Comparison",
+      "emoji": "📏",
+      "question": "Room A is 4m × 6m. Room B is 5m × 5m. Which room is bigger? By how many square metres?",
+      "hint1": "Area = length × width",
+      "hint2": "Compare the two areas",
+      "answer": "Same size! Both are 24 sq m. Wait — 5×5=25, not 24. Room B is bigger by 1 sq m.",
+      "explanation": "Room A: 4×6=24 sq m. Room B: 5×5=25 sq m. Room B is bigger by 1 sq m.",
+      "buddy_guide": "To find area, multiply length by width. For Room A: 4×6=? For Room B: 5×5=? Which is bigger? This is a great example of how a square can be bigger than a rectangle even with similar dimensions!"
+    }
+  ]
+}

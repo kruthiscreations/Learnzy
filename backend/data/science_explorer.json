@@ -1,0 +1,494 @@
+{
+  "description": "Learnzy Science Explorer — Class 1 to 5, Biology, Chemistry, Physics, Space. Structured discovery with hands-on experiments and AI buddy.",
+  "modules": [
+    {
+      "id": "junior",
+      "title": "Junior Explorers",
+      "classes": ["class1","class2"],
+      "emoji": "🔍",
+      "color": "#10B981",
+      "tagline": "Observe the world around you!",
+      "subjects": {
+        "class1": [
+          {
+            "id": "s1_bio",
+            "subject": "Biology",
+            "emoji": "🌱",
+            "title": "Plants & Animals",
+            "big_idea": "Living things are incredibly varied — and we can sort them into groups!",
+            "topics": [
+              {
+                "id": "t_plants",
+                "name": "Parts of a Plant",
+                "explanation": "Every plant has four main parts, each with a job! Roots drink water from the soil and hold the plant steady. The stem is like a straw — it carries water up. Leaves catch sunlight to make food. Flowers make seeds so new plants can grow!",
+                "buddy_activity": "Look at any plant near you — can you point out the roots, stem, leaves and flowers? Tell me which part you can see and which part is hiding underground!",
+                "real_world": "When you eat a carrot, you are eating the ROOT! When you eat spinach, you eat the LEAF. When you eat a banana flower — that becomes the fruit!",
+                "quiz": [
+                  {"q": "Which part of a plant makes seeds?", "opts": ["Root","Stem","Flower","Leaf"], "ans": 2},
+                  {"q": "What does the root do?", "opts": ["Make food","Drink water","Catch sunlight","Make seeds"], "ans": 1},
+                  {"q": "Which part carries water up the plant?", "opts": ["Leaf","Root","Flower","Stem"], "ans": 3}
+                ]
+              },
+              {
+                "id": "t_animals",
+                "name": "Animal Groups",
+                "explanation": "Scientists sort animals into groups! Fish live in water and have scales. Amphibians can live in water AND on land — like frogs! Reptiles have scaly skin — like lizards and snakes. Birds have feathers and beaks. Mammals have hair or fur and feed milk to their babies — that includes YOU!",
+                "buddy_activity": "Let's play Animal Classifier! I'll name an animal — you tell me which group it belongs to. Ready? First animal: FROG! Is it a fish, amphibian, reptile, bird, or mammal?",
+                "real_world": "A dolphin looks like a fish but it is actually a MAMMAL — it breathes air and feeds milk to its babies. Animals can surprise you!",
+                "quiz": [
+                  {"q": "Which animal is a mammal?", "opts": ["Frog","Eagle","Shark","Dog"], "ans": 3},
+                  {"q": "Amphibians can live in...", "opts": ["Only water","Only land","Both water and land","Only trees"], "ans": 2},
+                  {"q": "Birds are covered in...", "opts": ["Scales","Fur","Feathers","Skin"], "ans": 2}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s1_chem",
+            "subject": "Chemistry",
+            "emoji": "🧱",
+            "title": "Everyday Materials",
+            "big_idea": "Everything around us is made of a material — each one has special properties!",
+            "topics": [
+              {
+                "id": "t_materials",
+                "name": "Wood, Plastic, Glass, Metal",
+                "explanation": "Look around you — everything is made of a MATERIAL! Wood comes from trees — it is strong and can be carved. Plastic is made from oil — it can be shaped into almost anything. Glass is made from sand heated until it melts — it is see-through but breaks easily. Metal is dug from the ground — it is very strong and conducts electricity.",
+                "buddy_activity": "Material detective time! Find one object near you. Tell me: what material is it made of? Is it hard or soft? Heavy or light? Can you see through it? Does it bend?",
+                "real_world": "Your phone screen is made of special super-hard glass. Your chair might be made of wood. Your water bottle might be plastic. Materials are everywhere!",
+                "quiz": [
+                  {"q": "Which material comes from trees?", "opts": ["Metal","Plastic","Glass","Wood"], "ans": 3},
+                  {"q": "Glass is made from...", "opts": ["Wood","Sand","Oil","Metal"], "ans": 1},
+                  {"q": "Which material conducts electricity?", "opts": ["Wood","Plastic","Metal","Glass"], "ans": 2}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s1_phys",
+            "subject": "Physics",
+            "emoji": "🧲",
+            "title": "Magnetism",
+            "big_idea": "Magnets have an invisible force that pulls certain things toward them!",
+            "topics": [
+              {
+                "id": "t_magnets",
+                "name": "What Magnets Do",
+                "explanation": "A magnet has an invisible force called magnetism that can pull certain things toward it WITHOUT touching! It only attracts things made of iron, nickel, or cobalt — mostly metals. Non-metals like wood, plastic, paper, and glass are NOT attracted to magnets. Every magnet has a north pole and a south pole. Opposite poles attract, same poles repel!",
+                "buddy_activity": "Magnet prediction game! I'll name 5 objects — you predict each one: attracted to a magnet (MAGNETIC) or not attracted (NOT MAGNETIC)? Paper clip, wooden spoon, iron nail, plastic ruler, safety pin. Go!",
+                "real_world": "Fridge magnets use this force! Cranes in scrap yards use giant electromagnets to lift entire cars. Earth itself is a huge magnet — that's why compasses work!",
+                "quiz": [
+                  {"q": "Which material is attracted to a magnet?", "opts": ["Wood","Plastic","Iron","Glass"], "ans": 2},
+                  {"q": "Magnets attract things...", "opts": ["By touching them","Without touching","Only in water","Only in sunlight"], "ans": 1},
+                  {"q": "What happens when two SAME poles of magnets meet?", "opts": ["They attract","They repel","Nothing happens","They stick"], "ans": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "class2": [
+          {
+            "id": "s2_bio",
+            "subject": "Biology",
+            "emoji": "🐸",
+            "title": "Living, Dead & Never Alive",
+            "big_idea": "Not everything that moves is alive — and not everything alive can move!",
+            "topics": [
+              {
+                "id": "t_living",
+                "name": "Living Things & Habitats",
+                "explanation": "Living things do 7 things: Move, Reproduce, Sense, Grow, Respire, Excrete, Nutrition (remember: MRSGREN!). A DEAD thing was once alive — like a fallen leaf. A NEVER ALIVE thing was never alive — like a rock or a coin. Every living thing is suited to its habitat. A camel has a hump to store fat in the desert. A polar bear has thick fur for the Arctic cold.",
+                "buddy_activity": "MRS GREN quiz! I'll name something — you tell me if it's LIVING, DEAD, or NEVER ALIVE. Ready? A rock. A fallen leaf. A sleeping cat. A candle flame. A growing seed!",
+                "real_world": "Fire moves, grows, and needs food (fuel) — but it is NOT alive because it does not reproduce or respond like living things do!",
+                "quiz": [
+                  {"q": "How many things do living things do? (MRS GREN)", "opts": ["5","6","7","8"], "ans": 2},
+                  {"q": "A fallen leaf is...", "opts": ["Living","Dead","Never alive","Sleeping"], "ans": 1},
+                  {"q": "A camel's hump helps it survive in...", "opts": ["Arctic","Ocean","Desert","Forest"], "ans": 2}
+                ]
+              },
+              {
+                "id": "t_foodchain",
+                "name": "Simple Food Chains",
+                "explanation": "Everything in nature is connected through food! A food chain shows who eats who. It ALWAYS starts with a plant (producer). The plant is eaten by an animal (first consumer). That animal might be eaten by another animal (second consumer). Arrows in a food chain show the DIRECTION that energy travels — from food to eater!",
+                "buddy_activity": "Build a food chain with me! Grass → ? → Fox. What animal in India might eat grass and then be eaten by a fox? Think of small animals that eat grass... Hint: it is small, furry, and rhymes with 'rabbit'!",
+                "real_world": "If all the frogs in a pond disappeared, the insects they eat would multiply out of control, and the snakes that eat frogs would starve. Every link in the chain matters!",
+                "quiz": [
+                  {"q": "Food chains always start with a...", "opts": ["Predator","Animal","Plant","Fish"], "ans": 2},
+                  {"q": "What do arrows in a food chain show?", "opts": ["Who is biggest","Direction of energy","Who runs fastest","Where animals live"], "ans": 1},
+                  {"q": "An animal that eats plants is called a...", "opts": ["Carnivore","Omnivore","Herbivore","Predator"], "ans": 2}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s2_chem",
+            "subject": "Chemistry",
+            "emoji": "🌀",
+            "title": "Changing Shapes",
+            "big_idea": "Solid objects can be changed by force — but the material stays the same!",
+            "topics": [
+              {
+                "id": "t_shapes",
+                "name": "Squash, Bend, Twist, Stretch",
+                "explanation": "You can change the shape of solids using FORCE! Squashing pushes material together (like squashing clay). Bending changes the angle (like bending a straw). Twisting rotates one part against another (like wringing a wet cloth). Stretching pulls the material apart (like stretching an elastic band). The material itself does NOT change — only its shape!",
+                "buddy_activity": "Think of something made of clay or dough at home. Which of these could you do to it? Squash? Bend? Twist? Stretch? Try doing all four to an imaginary ball of dough with your hands right now — I'll watch!",
+                "real_world": "Roti-making is science! You squash the dough, stretch it, and use a rolling pin to flatten it. Car safety bumpers are designed to squash in a crash to absorb the force instead of breaking!",
+                "quiz": [
+                  {"q": "Stretching a rubber band is an example of...", "opts": ["Squashing","Bending","Twisting","Stretching"], "ans": 3},
+                  {"q": "When you change a material's shape, the material itself...", "opts": ["Changes completely","Stays the same","Becomes liquid","Disappears"], "ans": 1},
+                  {"q": "Wringing a wet cloth uses which force?", "opts": ["Squashing","Bending","Twisting","Stretching"], "ans": 2}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s2_phys",
+            "subject": "Physics",
+            "emoji": "💡",
+            "title": "Electricity Basics",
+            "big_idea": "Electricity flows around a circuit — and we can control it!",
+            "topics": [
+              {
+                "id": "t_circuits",
+                "name": "Circuits, Batteries & Bulbs",
+                "explanation": "Electricity needs a complete CIRCUIT (loop) to flow! The main parts: Battery (the power source — pushes electricity around). Wires (the path electricity travels along). Bulb or buzzer (the component that uses the electricity). Switch (opens or closes the circuit — like a door for electricity!). If you break the circuit ANYWHERE, the electricity stops and the bulb goes out!",
+                "buddy_activity": "Electricity detective! I describe a circuit — you tell me if the bulb lights up or not. Circuit 1: battery → wire → bulb → wire back to battery. Circuit 2: battery → wire → GAP → bulb → wire back. Circuit 3: battery → wire → switch (OPEN) → bulb → wire back. What happens in each?",
+                "real_world": "When you flip a light switch at home, you are literally opening and closing a circuit millions of times over your lifetime. Every switch in your house works this way!",
+                "quiz": [
+                  {"q": "What does a switch do in a circuit?", "opts": ["Powers the bulb","Opens or closes the circuit","Stores electricity","Carries electricity"], "ans": 1},
+                  {"q": "For a bulb to light, the circuit must be...", "opts": ["Open","Broken","Complete","Very long"], "ans": 2},
+                  {"q": "What is the power source in a circuit?", "opts": ["Bulb","Wire","Battery","Switch"], "ans": 2}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "investigators",
+      "title": "Curious Investigators",
+      "classes": ["class3","class4"],
+      "emoji": "🧪",
+      "color": "#6366F1",
+      "tagline": "Find the patterns and relationships!",
+      "subjects": {
+        "class3": [
+          {
+            "id": "s3_bio",
+            "subject": "Biology",
+            "emoji": "🦴",
+            "title": "Skeletons, Muscles & Plants",
+            "big_idea": "Structure supports function — in both bodies and plants!",
+            "topics": [
+              {
+                "id": "t_skeleton",
+                "name": "Skeletons & Muscles",
+                "explanation": "Your skeleton has 206 bones and does THREE jobs: Support (holds your body up), Protection (skull protects your brain, ribcage protects your heart), Movement (muscles pull on bones like levers!). Muscles ALWAYS work in pairs — when one contracts (shortens), the other relaxes. Your bicep bends your arm. Your tricep straightens it. They can NEVER both contract at the same time!",
+                "buddy_activity": "Bend your arm slowly. Feel the front of your upper arm — that is your BICEP hardening as it contracts. Now straighten it — feel the TRICEP at the back take over! Try it 5 times and tell me which part gets hard when you bend, and which when you straighten!",
+                "real_world": "Exoskeletons are the opposite of our skeleton — insects like beetles have their 'bones' on the OUTSIDE! That is why crabs and lobsters have a hard shell.",
+                "quiz": [
+                  {"q": "How many bones does an adult human have?", "opts": ["100","150","206","300"], "ans": 2},
+                  {"q": "Muscles always work in...", "opts": ["Groups of 3","Pairs","Alone","Groups of 5"], "ans": 1},
+                  {"q": "The ribcage protects the...", "opts": ["Brain","Liver","Heart and lungs","Stomach"], "ans": 2}
+                ]
+              },
+              {
+                "id": "t_plant_growth",
+                "name": "What Plants Need to Grow",
+                "explanation": "Plants need FIVE things to grow: Water (absorbed through roots), Light (for photosynthesis — making food from sunlight), Air (specifically carbon dioxide from the air), Nutrients (minerals from soil), Warmth (most plants stop growing when cold). Without ANY ONE of these, the plant cannot thrive! This is why plants in dark cupboards go pale and weak — they cannot make food without light.",
+                "buddy_activity": "Plant growth experiment! I have two identical plants. Plant A: sunny windowsill, watered every 2 days. Plant B: dark cupboard, watered every 2 days. After 2 weeks, what will be different about them? Predict 3 changes and tell me WHY each happens!",
+                "real_world": "Farmers in space on the International Space Station have grown lettuce! They use special LED lights to replace sunlight. They proved plants just need the RIGHT conditions, not necessarily Earth itself.",
+                "quiz": [
+                  {"q": "Plants make their own food using...", "opts": ["Soil nutrients","Sunlight","Water only","Air only"], "ans": 1},
+                  {"q": "Which gas do plants take in from the air?", "opts": ["Oxygen","Nitrogen","Carbon dioxide","Hydrogen"], "ans": 2},
+                  {"q": "Plants absorb water through their...", "opts": ["Leaves","Flowers","Stems","Roots"], "ans": 3}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s3_chem",
+            "subject": "Chemistry",
+            "emoji": "🪨",
+            "title": "Rocks & Fossils",
+            "big_idea": "Rocks tell the story of Earth's history — and fossils are nature's photographs!",
+            "topics": [
+              {
+                "id": "t_rocks",
+                "name": "Types of Rock & Fossils",
+                "explanation": "There are 3 types of rock! Igneous: formed when magma cools (granite, basalt). Sedimentary: formed from layers of sediment squashed over millions of years — fossils are found HERE! Metamorphic: formed when rocks are heated and squashed deep underground (marble). Fossils form when a creature dies, gets buried in sediment, and over millions of years the bones are slowly replaced by minerals. They become rock!",
+                "buddy_activity": "Rock detective! I describe a rock — you identify the type. Rock 1: has layers you can see, found near a river, contains a shell-shaped imprint. Rock 2: has crystals that sparkle, formed from cooled lava. Rock 3: has swirling patterns, was once a different rock but was heated deep underground. What type is each?",
+                "real_world": "The Himalayas contain marine fossils at their peaks — because those rocks were once at the bottom of an ancient sea! Mountains tell incredible stories.",
+                "quiz": [
+                  {"q": "In which type of rock are fossils found?", "opts": ["Igneous","Sedimentary","Metamorphic","All types"], "ans": 1},
+                  {"q": "Marble is what type of rock?", "opts": ["Igneous","Sedimentary","Metamorphic","Crystal"], "ans": 2},
+                  {"q": "Igneous rocks form from...", "opts": ["Sediment layers","Cooled magma","Squashed rocks","River deposits"], "ans": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s3_phys",
+            "subject": "Physics",
+            "emoji": "💡",
+            "title": "Forces & Light",
+            "big_idea": "Forces make things move, stop, or change direction — and light travels in straight lines!",
+            "topics": [
+              {
+                "id": "t_forces",
+                "name": "Forces, Light & Shadows",
+                "explanation": "A FORCE is a push or a pull! Contact forces need touching (friction, air resistance). Non-contact forces act at a distance (magnetism, gravity). Light travels in straight lines — this is why shadows form! When light hits an opaque object, it cannot pass through — a shadow forms behind it in the shape of the object. Transparent materials let light through (glass). Translucent let some light through (tracing paper). Opaque block all light (wood).",
+                "buddy_activity": "Shadow puppet science! Hold your hand in front of a torch beam. Make a fist — what shape is the shadow? Spread your fingers — what changes? Now move your hand CLOSER to the wall. FURTHER from the torch. What happens to the shadow's size each time? Tell me your observations!",
+                "real_world": "Cats' eyes in the middle of a road are not electrical — they are small reflectors that reflect car headlights back. Pure physics! Astronomers track total solar eclipses to the minute — because they know exactly how light and shadows work.",
+                "quiz": [
+                  {"q": "Gravity is what type of force?", "opts": ["Contact","Non-contact","Friction","Push"], "ans": 1},
+                  {"q": "Light travels in...", "opts": ["Curves","Circles","Straight lines","Waves only"], "ans": 2},
+                  {"q": "Glass is what type of material for light?", "opts": ["Opaque","Translucent","Transparent","Reflective"], "ans": 2}
+                ]
+              }
+            ]
+          }
+        ],
+        "class4": [
+          {
+            "id": "s4_bio",
+            "subject": "Biology",
+            "emoji": "🦷",
+            "title": "Digestion & Classification",
+            "big_idea": "Your body is a food-processing machine — and living things can be sorted by their features!",
+            "topics": [
+              {
+                "id": "t_digestion",
+                "name": "The Digestive System",
+                "explanation": "Follow your food on its 9-metre journey! Mouth: teeth chew, saliva starts breaking down starch. Oesophagus: pushes food down to the stomach. Stomach: churns food with acid for 2-4 hours. Small intestine (6m long!): digested food is absorbed into the blood. Large intestine: absorbs water from leftover food. Rectum and anus: waste leaves the body! The whole journey takes 24-72 hours!",
+                "buddy_activity": "Digestion sorting game! I'll list parts of the digestive system — you put them in the right ORDER that food travels through: Stomach, Mouth, Large intestine, Oesophagus, Small intestine, Anus. Take your time — there is a logical flow from top to bottom!",
+                "real_world": "Your small intestine is 6 METRES long but it fits inside you because it is coiled up tightly. If you laid out all the blood vessels in your body end to end, they would circle the Earth 2.5 times!",
+                "quiz": [
+                  {"q": "Where is most food absorbed into the blood?", "opts": ["Mouth","Stomach","Small intestine","Large intestine"], "ans": 2},
+                  {"q": "How long is the small intestine?", "opts": ["1m","3m","6m","10m"], "ans": 2},
+                  {"q": "Which organ produces acid to break down food?", "opts": ["Mouth","Oesophagus","Stomach","Intestine"], "ans": 2}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s4_chem",
+            "subject": "Chemistry",
+            "emoji": "🌡️",
+            "title": "States of Matter",
+            "big_idea": "Matter can change state — but the particles are always the same!",
+            "topics": [
+              {
+                "id": "t_states",
+                "name": "Solids, Liquids & Gases",
+                "explanation": "Everything is made of tiny particles! In a SOLID, particles are packed tight and vibrate in place — fixed shape, fixed volume. In a LIQUID, particles are close but slide past each other — no fixed shape but fixed volume. In a GAS, particles zoom freely in all directions — no fixed shape, no fixed volume! Melting: solid to liquid (add heat). Freezing: liquid to solid (remove heat). Evaporating: liquid to gas. Condensing: gas to liquid.",
+                "buddy_activity": "State of matter relay! I name changes — you name the process: Ice becoming water? Water becoming steam? Steam touching a cold mirror? Chocolate left out in summer sun? Dew forming on grass in the morning? Speed round — answer as fast as you can!",
+                "real_world": "The water cycle is states of matter in action! Oceans evaporate (liquid to gas), clouds form (condensation), rain falls (gas to liquid), rivers flow (liquid), and sometimes snow falls (liquid to solid). One endless cycle!",
+                "quiz": [
+                  {"q": "A gas has...", "opts": ["Fixed shape and volume","No fixed shape but fixed volume","No fixed shape or volume","Fixed shape only"], "ans": 2},
+                  {"q": "What is it called when a liquid becomes a gas?", "opts": ["Melting","Freezing","Condensing","Evaporating"], "ans": 3},
+                  {"q": "In a solid, particles...", "opts": ["Move freely","Flow past each other","Vibrate in place","Disappear"], "ans": 2}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s4_phys",
+            "subject": "Physics",
+            "emoji": "🔊",
+            "title": "Sound & Circuits",
+            "big_idea": "Sound is vibration — and electricity flows in a loop!",
+            "topics": [
+              {
+                "id": "t_sound",
+                "name": "Sound & Vibrations",
+                "explanation": "Sound is created when something VIBRATES — moves back and forth rapidly! The vibrations travel through a medium (solid, liquid, or gas — never through a vacuum!). That is why space is completely silent. Loudness is measured in decibels (dB). Pitch is how high or low a sound is — a guitar string vibrates faster to make a higher pitch. Slower vibrations = lower pitch, lower frequency.",
+                "buddy_activity": "Sound detective! Tap on a table gently. Now put your ear flat against the table and tap again. Which was louder? Why? Now hum with your mouth closed and touch your throat — can you feel the vibration? Tell me what you notice about sound travelling through different materials!",
+                "real_world": "Whales communicate across ENTIRE OCEANS using sound — water carries vibrations far better than air. A whale song can travel thousands of kilometres! Doctors use ultrasound (very high frequency vibrations) to see inside your body.",
+                "quiz": [
+                  {"q": "Sound travels BEST through...", "opts": ["Vacuum","Air","Water","Solids"], "ans": 3},
+                  {"q": "A higher pitch sound has...", "opts": ["Slower vibrations","Faster vibrations","No vibrations","Larger vibrations"], "ans": 1},
+                  {"q": "Sound cannot travel through...", "opts": ["Air","Water","Vacuum","Solid"], "ans": 2}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "innovators",
+      "title": "Master Innovators",
+      "classes": ["class5"],
+      "emoji": "🚀",
+      "color": "#D97706",
+      "tagline": "Design investigations and understand complex systems!",
+      "subjects": {
+        "class5": [
+          {
+            "id": "s5_bio",
+            "subject": "Biology",
+            "emoji": "🦋",
+            "title": "Life Cycles & Human Development",
+            "big_idea": "Every living thing has a life cycle — and no two are exactly the same!",
+            "topics": [
+              {
+                "id": "t_lifecycles",
+                "name": "Life Cycles of Animals",
+                "explanation": "Mammals: born live, fed on milk, grow gradually (baby → child → adult). Amphibians (frogs): egg → tadpole → froglet → adult frog (metamorphosis!). Insects: two types — Complete metamorphosis: egg → larva → pupa → adult (butterfly, beetle). Incomplete metamorphosis: egg → nymph → adult (grasshopper, dragonfly). Birds: egg → chick → juvenile → adult. Each life cycle is perfectly designed for survival in that habitat!",
+                "buddy_activity": "Life cycle sorting! I'll describe an animal stage — you tell me which animal and what stage of its life cycle: A creature with gills that swims in water but has tiny legs growing. A silk cocoon hanging from a branch, perfectly still. A tiny creature that looks like a tiny version of its parent (no wings yet). Match each to: frog, butterfly, or grasshopper!",
+                "real_world": "The Monarch butterfly migrates 4,000km from Canada to Mexico — but no individual butterfly makes the complete round trip! It takes 3-4 generations, each picking up where the last one ended. How do they know where to go?",
+                "quiz": [
+                  {"q": "A butterfly goes through how many stages?", "opts": ["2","3","4","5"], "ans": 2},
+                  {"q": "Which animal goes through incomplete metamorphosis?", "opts": ["Butterfly","Beetle","Grasshopper","Moth"], "ans": 2},
+                  {"q": "What comes AFTER the larva stage in a butterfly?", "opts": ["Egg","Adult","Nymph","Pupa"], "ans": 3}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s5_chem",
+            "subject": "Chemistry",
+            "emoji": "🧂",
+            "title": "Mixtures, Solubility & Changes",
+            "big_idea": "Some changes can be reversed — others cannot!",
+            "topics": [
+              {
+                "id": "t_mixtures",
+                "name": "Separating Mixtures",
+                "explanation": "A MIXTURE is two or more things combined but NOT chemically joined. You can separate them! Filtering: separates insoluble solids from liquids (sand from water). Evaporating: separates dissolved solids from liquid (salt from saltwater — heat the water away, salt stays). Sieving: separates different-sized solids. REVERSIBLE changes: melting, freezing, dissolving. IRREVERSIBLE changes: burning, cooking, rusting — you CANNOT undo these!",
+                "buddy_activity": "Separation challenge! I give you a mixture — you tell me the BEST way to separate it and whether the original substances can be recovered. Challenge 1: sand and water. Challenge 2: salt dissolved in water. Challenge 3: a mixture of rice and flour. Challenge 4: iron filings and sand. Think carefully — some have surprising solutions!",
+                "real_world": "Water treatment plants use FILTRATION and EVAPORATION to clean water for your home! Every sip you take has been scientifically separated from dirt, bacteria, and chemicals. Pure science saving your life daily.",
+                "quiz": [
+                  {"q": "Which method separates sand from water?", "opts": ["Evaporation","Sieving","Filtering","Dissolving"], "ans": 2},
+                  {"q": "Burning wood is a... change", "opts": ["Reversible","Temporary","Irreversible","Physical"], "ans": 2},
+                  {"q": "To recover salt from saltwater you use...", "opts": ["Filtering","Evaporation","Sieving","Freezing"], "ans": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s5_phys",
+            "subject": "Physics",
+            "emoji": "⚙️",
+            "title": "Forces & Simple Machines",
+            "big_idea": "Simple machines multiply your force — allowing you to move more with less effort!",
+            "topics": [
+              {
+                "id": "t_machines",
+                "name": "The 6 Simple Machines",
+                "explanation": "Simple machines make work EASIER by redirecting or multiplying force! 1. LEVER: a rigid bar on a pivot (seesaw, scissors, bottle opener). 2. PULLEY: a wheel with a rope — redirects or multiplies force (flagpole, cranes). 3. WHEEL & AXLE: reduces friction (bicycle wheels, doorknob). 4. INCLINED PLANE: a ramp — easier to push than lift (wheelchair ramps, pyramids built this way!). 5. WEDGE: two inclined planes (knife blade, axe, chisel). 6. SCREW: an inclined plane wrapped in a spiral (screws, bolts, jar lids).",
+                "buddy_activity": "Machine spotter! I describe a task — you name which simple machine would help most. Task 1: Lift a heavy load to the top of a building. Task 2: Split a log of wood. Task 3: Roll a heavy barrel up into a truck. Task 4: Open a jar. Task 5: Cut a piece of fruit. Task 6: Raise a flag. Match each to the right machine!",
+                "real_world": "The ancient Egyptians built the pyramids with NO modern machinery — using ONLY inclined planes, levers, and rollers (wheel and axle)! 2.3 million stone blocks, each weighing 2.5 tonnes, moved with pure physics. Simple machines changed history.",
+                "quiz": [
+                  {"q": "A ramp is an example of which simple machine?", "opts": ["Lever","Pulley","Wedge","Inclined plane"], "ans": 3},
+                  {"q": "A knife blade is a type of...", "opts": ["Screw","Lever","Wedge","Pulley"], "ans": 2},
+                  {"q": "A screw is basically a... wrapped in a spiral", "opts": ["Lever","Pulley","Inclined plane","Wedge"], "ans": 2}
+                ]
+              },
+              {
+                "id": "t_gravity",
+                "name": "Gravity, Air Resistance & Friction",
+                "explanation": "GRAVITY pulls everything toward Earth's centre — the bigger the mass, the stronger the pull. AIR RESISTANCE opposes motion through air — a parachute uses this to slow a fall! FRICTION opposes motion between surfaces — useful for car brakes and shoes gripping the ground, but wasteful in engines (that's why oil lubricates). All three forces can COMBINE — a falling parachutist feels gravity pulling down and air resistance pushing up. When they balance, terminal velocity is reached!",
+                "buddy_activity": "Drop test! Take a sheet of paper and a book. Drop them both from the same height at the same time — which lands first? Now scrunch the paper into a tight ball and drop again against the book. What changes? Why? Tell me what you observed and explain the science!",
+                "real_world": "Felix Baumgartner jumped from 39km above Earth in 2012. He briefly exceeded the speed of sound during freefall! As air got denser lower down, air resistance slowed him to a parachute-aided safe landing. Gravity and air resistance in spectacular action.",
+                "quiz": [
+                  {"q": "Air resistance acts in which direction on a falling object?", "opts": ["Downward","Upward","Sideways","In all directions"], "ans": 1},
+                  {"q": "Oil reduces which force in engines?", "opts": ["Gravity","Air resistance","Friction","Magnetism"], "ans": 2},
+                  {"q": "Terminal velocity is reached when gravity and air resistance are...", "opts": ["Both zero","Both maximum","Equal and opposite","Unequal"], "ans": 2}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s5_space",
+            "subject": "Space",
+            "emoji": "🌍",
+            "title": "Earth, Sun & Planets",
+            "big_idea": "We are on a spinning rock orbiting a star — and that creates everything we call time!",
+            "topics": [
+              {
+                "id": "t_space",
+                "name": "Day, Night & Seasons",
+                "explanation": "Earth rotates on its axis once every 24 hours — THIS causes day and night! The side facing the Sun has day; the opposite side has night. Earth orbits the Sun once every 365.25 days (that's why we have a leap year every 4 years!). Earth is TILTED at 23.5° — this tilt causes SEASONS. When India leans toward the Sun, it is summer. When it leans away, winter. The planets orbit the Sun in order: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Closer planets orbit faster!",
+                "buddy_activity": "Planetary order quiz! I'll give you a number — you name the planet in that position from the Sun. Position 1? Position 4? Position 6? Position 3? And here is the tricky one — which planet has the LONGEST year (takes longest to orbit the Sun)? Think about the pattern: closer = faster!",
+                "real_world": "One day on Venus lasts longer than one year on Venus! It rotates so slowly (243 Earth days per rotation) but orbits the Sun in just 225 Earth days. So on Venus, the year ends before the day does! Space is wonderfully weird.",
+                "quiz": [
+                  {"q": "What causes day and night on Earth?", "opts": ["Earth orbiting Sun","Moon blocking Sun","Earth rotating on its axis","Clouds covering Sun"], "ans": 2},
+                  {"q": "Earth's tilt is approximately...", "opts": ["10°","23.5°","45°","90°"], "ans": 1},
+                  {"q": "Which planet is 4th from the Sun?", "opts": ["Venus","Earth","Mars","Jupiter"], "ans": 2}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "experiments": [
+    {
+      "id": "exp_umbrella",
+      "title": "Best Umbrella Experiment",
+      "emoji": "☂️",
+      "class_groups": ["class1","class2"],
+      "subject": "Chemistry",
+      "difficulty": 1,
+      "what_you_need": ["4 small pieces of different materials: plastic bag, cotton cloth, paper, foil", "A bowl of water", "An eyedropper or spoon"],
+      "instructions": ["Hold each material over a bowl", "Drop 5 drops of water onto each", "Watch what happens — does water soak through or bead up?", "Rank them from most to least waterproof"],
+      "what_to_observe": "Which material stops water completely? Which soaks it up? Which lets it through slowly?",
+      "science_explanation": "Waterproof materials have tiny pores so small that water molecules cannot pass through. Plastic is waterproof because it has no pores at all. Cotton is NOT waterproof — it has many gaps between fibres that water can seep through.",
+      "buddy_prompt": "Ask the child to predict BEFORE they test: which material will be the best umbrella? After testing, ask if their prediction was right and WHY the best material works so well.",
+      "stars": 4
+    },
+    {
+      "id": "exp_water_cycle",
+      "title": "Water Cycle in a Bag",
+      "emoji": "💧",
+      "class_groups": ["class3","class4"],
+      "subject": "Chemistry",
+      "difficulty": 2,
+      "what_you_need": ["A clear zip-lock bag", "A cup of water", "Blue food colouring (optional)", "Sticky tape", "A sunny window"],
+      "instructions": ["Add a cup of water (with food colouring) to the bag", "Seal the bag tightly", "Tape it to a sunny window — water side down", "Wait 30-60 minutes", "Observe the inside of the bag"],
+      "what_to_observe": "Tiny water droplets form on the inside of the bag above the water level. Then they drip back down into the water.",
+      "science_explanation": "The Sun heats the water (EVAPORATION — liquid to gas). The water vapour rises and hits the cold bag surface (CONDENSATION — gas to liquid). The drops get heavy and fall (PRECIPITATION). You've made a mini water cycle!",
+      "buddy_prompt": "Before the experiment, ask: 'Where do you think clouds come from?' After: 'What is the CLOUD in your bag experiment? What is the RAIN? What is the SUN?' Connect to the real water cycle.",
+      "stars": 4
+    },
+    {
+      "id": "exp_cabbage_chemistry",
+      "title": "Cabbage Chemistry — pH Indicator",
+      "emoji": "🥬",
+      "class_groups": ["class5"],
+      "subject": "Chemistry",
+      "difficulty": 3,
+      "what_you_need": ["Half a red cabbage", "Hot water", "Clear glasses or cups", "Household liquids: lemon juice, vinegar, baking soda water, soap water, plain water"],
+      "instructions": ["Boil or steep red cabbage in hot water for 5 minutes", "The water will turn purple — this is your indicator!", "Pour some into each glass", "Add a different household liquid to each glass", "Record the colour change"],
+      "what_to_observe": "Acids turn the indicator red/pink. Neutral stays purple. Bases/alkalis turn it green/yellow.",
+      "science_explanation": "Red cabbage contains a pigment called anthocyanin that changes colour depending on pH. Acids (lemon juice, vinegar) have lots of hydrogen ions — they turn it red. Bases (baking soda) have lots of hydroxide ions — they turn it green. This is the same principle used in laboratory pH indicators!",
+      "buddy_prompt": "Ask the child to predict each liquid's colour BEFORE testing. Ask: Is lemon juice acid or base? What about baking soda? After results: 'Which household liquid is safest to drink? How do you know from the colour?'",
+      "stars": 5
+    }
+  ],
+  "vocabulary_cards": [
+    {"word": "Atom", "emoji": "⚛️", "definition": "The smallest particle of an element that still has the properties of that element", "class_groups": ["class4","class5"], "example": "Everything you can touch is made of atoms — even you!"},
+    {"word": "Photosynthesis", "emoji": "🌿", "definition": "The process plants use to convert sunlight, water and carbon dioxide into food (glucose) and oxygen", "class_groups": ["class3","class4","class5"], "example": "Every breath of oxygen you take was made by photosynthesis in plants!"},
+    {"word": "Ecosystem", "emoji": "🌳", "definition": "All the living things and non-living things in an area, and their interactions with each other", "class_groups": ["class3","class4","class5"], "example": "A pond is an ecosystem — it has fish, plants, insects, water, mud, all interacting"},
+    {"word": "Photosynthesis", "emoji": "☀️", "definition": "Plants making food from sunlight", "class_groups": ["class2","class3"], "example": "Leaves are like solar panels for the plant!"},
+    {"word": "Renewable Resource", "emoji": "♻️", "definition": "A resource that can be replenished naturally over time — like solar energy, wind, or trees", "class_groups": ["class4","class5"], "example": "Sunlight is renewable. Coal is not — once it's burned, it's gone forever!"},
+    {"word": "Metamorphosis", "emoji": "🦋", "definition": "A dramatic transformation in body form during an animal's life cycle", "class_groups": ["class3","class4","class5"], "example": "A caterpillar going through metamorphosis becomes a completely different animal — a butterfly!"},
+    {"word": "Vertebrate", "emoji": "🦴", "definition": "An animal with a backbone (spine)", "class_groups": ["class2","class3","class4","class5"], "example": "You are a vertebrate! So are fish, frogs, birds, and dogs"},
+    {"word": "Invertebrate", "emoji": "🐛", "definition": "An animal WITHOUT a backbone", "class_groups": ["class2","class3","class4","class5"], "example": "Insects, worms, jellyfish, and crabs are all invertebrates"},
+    {"word": "Gravity", "emoji": "🍎", "definition": "A force that pulls objects toward each other — especially toward the centre of the Earth", "class_groups": ["class3","class4","class5"], "example": "Gravity keeps you on the ground and makes apples fall from trees!"},
+    {"word": "Evaporation", "emoji": "💨", "definition": "When a liquid turns into a gas due to heat energy", "class_groups": ["class2","class3","class4","class5"], "example": "Puddles disappear after rain because the water evaporates into the air"},
+    {"word": "Irreversible", "emoji": "🔥", "definition": "A change that cannot be undone — the original material cannot be recovered", "class_groups": ["class4","class5"], "example": "Burning, cooking, and rusting are irreversible — you cannot unbake a cake!"},
+    {"word": "Friction", "emoji": "🛑", "definition": "A force that opposes motion between two surfaces in contact", "class_groups": ["class3","class4","class5"], "example": "Friction lets your shoes grip the ground so you can walk without slipping!"}
+  ],
+  "science_pathway": [
+    {"class": "class1", "milestone": "Everyday Explorer", "topics": ["Plants & Animal Groups", "Materials", "Magnets"], "emoji": "🔍"},
+    {"class": "class2", "milestone": "Life Discoverer", "topics": ["Living Things", "Food Chains", "States of Matter", "Electricity"], "emoji": "🌱"},
+    {"class": "class3", "milestone": "Pattern Finder", "topics": ["Skeleton & Muscles", "Rocks & Fossils", "Forces & Light"], "emoji": "🦴"},
+    {"class": "class4", "milestone": "System Thinker", "topics": ["Digestion", "States of Matter", "Sound & Circuits"], "emoji": "🧪"},
+    {"class": "class5", "milestone": "Master Innovator", "topics": ["Life Cycles", "Mixtures & Changes", "Simple Machines", "Space & Planets"], "emoji": "🚀"}
+  ]
+}

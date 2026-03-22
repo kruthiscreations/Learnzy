@@ -1,0 +1,713 @@
+{
+  "total": 35,
+  "description": "Learnzy Let's Talk Today — daily AI conversation starters. Buddy raises a topic, child responds, conversation flows naturally. Time-limited by existing voice limit.",
+  "topics": [
+    {
+      "day": 1,
+      "theme": "School Day",
+      "emoji": "🏫",
+      "title": "What happened in school today?",
+      "starter": "Hey! Tell me about ONE thing that happened in school today — something funny, something interesting, or something you learned!",
+      "followups": [
+        "What subject was that in?",
+        "Did your friend know the answer?",
+        "Would you like to learn more about that topic?",
+        "What do you think about that?"
+      ],
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Favourite Food",
+      "emoji": "🍛",
+      "title": "Your favourite food and why!",
+      "starter": "I'm so hungry just thinking about this — what is your FAVOURITE food in the whole world? Tell me everything about it!",
+      "followups": [
+        "Where does your mum/dad make it?",
+        "What does it smell like?",
+        "Do you know any of the ingredients?",
+        "Which festival do you eat it at?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Superpower",
+      "emoji": "🦸",
+      "title": "If you had one superpower...",
+      "starter": "Quick — you wake up tomorrow with ONE superpower. You can only pick one! What would it be, and what is the FIRST thing you would do with it?",
+      "followups": [
+        "Would you tell anyone?",
+        "Could it go wrong?",
+        "Which superhero already has a power like yours?",
+        "Would you use it to help others or for yourself?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Animals",
+      "emoji": "🐯",
+      "title": "Your favourite animal and its secret",
+      "starter": "Tell me your favourite animal! And here is the challenge — tell me ONE fact about it that most people don't know. I'll add an amazing fact of my own!",
+      "followups": [
+        "Where does it live?",
+        "Is it in danger of extinction?",
+        "Would you like to visit it?",
+        "If you could BE that animal for a day, what would you do?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 5,
+      "theme": "Best Friend",
+      "emoji": "👫",
+      "title": "Tell me about your best friend",
+      "starter": "Tell me about your best friend! What is their name, and what is the ONE thing that makes them YOUR best friend?",
+      "followups": [
+        "What do you both love doing?",
+        "Did you ever have a fight? What happened?",
+        "What is the funniest thing you've done together?",
+        "What would you do for them if they were sad?"
+      ],
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 6,
+      "theme": "Dream Holiday",
+      "emoji": "✈️",
+      "title": "Your dream holiday destination",
+      "starter": "If you could go ANYWHERE in the world tomorrow — all expenses paid — where would you go? And WHY that place?",
+      "followups": [
+        "What would you eat there?",
+        "Who would you take with you?",
+        "What language do they speak there?",
+        "What is that place famous for?"
+      ],
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 7,
+      "theme": "Weekend Plans",
+      "emoji": "🌅",
+      "title": "What are you looking forward to this weekend?",
+      "starter": "The weekend is here! Tell me — what is the ONE thing you are most looking forward to doing? Even if it's just sleeping in!",
+      "followups": [
+        "Who will you spend it with?",
+        "Is this something you do every weekend?",
+        "What is your perfect Sunday morning like?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 8,
+      "theme": "Inventions",
+      "emoji": "💡",
+      "title": "Invent something the world needs",
+      "starter": "You are now an inventor! Tell me: what is one thing that DOES NOT EXIST yet that you wish someone would invent? Describe it!",
+      "followups": [
+        "How would it work?",
+        "Who would use it?",
+        "What would you call it?",
+        "Would it cost a lot to make?"
+      ],
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 9,
+      "theme": "India",
+      "emoji": "🇮🇳",
+      "title": "The most amazing thing about India",
+      "starter": "India is one of the oldest and most incredible countries in the world. Tell me — what do YOU think is the most amazing thing about India?",
+      "followups": [
+        "Have you been there?",
+        "What Indian festival is your favourite?",
+        "Which part of India would you most like to visit?",
+        "What food from that region would you want to try?"
+      ],
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 10,
+      "theme": "Books",
+      "emoji": "📚",
+      "title": "The best book you have ever read",
+      "starter": "Tell me about a book — any book — that you really enjoyed. It can be a storybook, a comic, even a textbook chapter! What made it great?",
+      "followups": [
+        "Who is your favourite character?",
+        "Would you change the ending?",
+        "Would you recommend it to me?",
+        "Has it taught you anything real?"
+      ],
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 11,
+      "theme": "Kindness",
+      "emoji": "💛",
+      "title": "The kindest thing someone did for you",
+      "starter": "I want to hear about kindness today! Tell me about the KINDEST thing anyone has ever done for you — big or small. How did it make you feel?",
+      "followups": [
+        "Did you say thank you?",
+        "Did you do something kind back?",
+        "Can you think of a way to pay that kindness forward?",
+        "What is the kindest thing YOU have done for someone?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 12,
+      "theme": "Space",
+      "emoji": "🚀",
+      "title": "Would you go to space?",
+      "starter": "Scientists say by the time you grow up, ordinary people might be able to go to space! Would YOU go? Tell me your honest answer — and why!",
+      "followups": [
+        "What would scare you most?",
+        "What would excite you most?",
+        "What would you miss about Earth?",
+        "Which planet would you want to visit?"
+      ],
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 13,
+      "theme": "Helping at Home",
+      "emoji": "🏠",
+      "title": "How do you help at home?",
+      "starter": "Everyone has a job at home, even kids! Tell me — what do YOU do to help your family at home? Any chores, any caring, anything!",
+      "followups": [
+        "Do you enjoy it or find it boring?",
+        "Who taught you to do that?",
+        "What would happen if nobody did it?",
+        "Is there something you'd like to help with that you don't yet?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 14,
+      "theme": "Rain",
+      "emoji": "🌧️",
+      "title": "Do you love the rain or hate it?",
+      "starter": "Rain! Some people love it, some hate it. What about YOU? Tell me exactly how you feel when it rains — and tell me one specific memory of rain!",
+      "followups": [
+        "Have you ever danced in the rain?",
+        "Does rain affect school for you?",
+        "What do you do inside on a rainy day?",
+        "Do you know how rain is formed?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 15,
+      "theme": "Future Job",
+      "emoji": "👩‍🚀",
+      "title": "What do you want to be when you grow up?",
+      "starter": "Big question time! What do you want to be when you grow up? And has the answer changed from what you used to say when you were younger?",
+      "followups": [
+        "Why that job?",
+        "What subject in school will help you most?",
+        "Do you know anyone who does that job?",
+        "What is the hardest part of that job?"
+      ],
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 16,
+      "theme": "Maths in Real Life",
+      "emoji": "🔢",
+      "title": "Where did you spot maths today?",
+      "starter": "Maths is hiding EVERYWHERE around us — not just in textbooks! Tell me: where did you spot maths in real life today? In the kitchen? On the road? Shopping?",
+      "followups": [
+        "Did you calculate anything yourself?",
+        "Was it addition, multiplication, or something else?",
+        "Could you have solved it without maths?",
+        "What would happen if maths didn't exist?"
+      ],
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 17,
+      "theme": "Colours",
+      "emoji": "🎨",
+      "title": "Your favourite colour and what it feels like",
+      "starter": "Tell me your favourite colour! But here's the tricky part — describe how that colour makes you FEEL. Not what it looks like — how it makes you feel inside!",
+      "followups": [
+        "Does it remind you of something?",
+        "Where in nature do you see that colour?",
+        "Does the colour of a room affect your mood?",
+        "If your personality were a colour, which would it be?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 18,
+      "theme": "Something Scary",
+      "emoji": "😨",
+      "title": "Something that used to scare you (but doesn't anymore)",
+      "starter": "Tell me something that USED TO scare you when you were younger — but doesn't scare you anymore! How did you stop being scared of it?",
+      "followups": [
+        "What changed?",
+        "Did someone help you?",
+        "Are you proud of yourself?",
+        "Is there something that still scares you?"
+      ],
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 19,
+      "theme": "Trees and Nature",
+      "emoji": "🌳",
+      "title": "Your favourite place in nature",
+      "starter": "Close your eyes for a moment. Picture your favourite place outside — in nature. It could be a park, a beach, a hill, a garden. Got it? Now describe it to me!",
+      "followups": [
+        "What sounds can you hear there?",
+        "Who do you go there with?",
+        "How does it make you feel?",
+        "Is it in danger of being destroyed?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 20,
+      "theme": "Technology",
+      "emoji": "📱",
+      "title": "What technology do you use every day?",
+      "starter": "Look around you — technology is everywhere! Tell me: which piece of technology do you use EVERY single day? And what would your life be like without it?",
+      "followups": [
+        "Who invented it?",
+        "How old is that technology?",
+        "Is it good for you or bad for you?",
+        "What technology do you wish existed?"
+      ],
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 21,
+      "theme": "Learning from Mistakes",
+      "emoji": "💪",
+      "title": "A mistake that taught you something",
+      "starter": "I believe mistakes are the best teachers! Tell me about a mistake you made — at school, at home, anywhere — and what it taught you. Be brave!",
+      "followups": [
+        "Did you feel embarrassed?",
+        "Did you tell anyone?",
+        "Would you do the same thing now?",
+        "Has anyone ever told you about THEIR big mistake?"
+      ],
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 22,
+      "theme": "Music",
+      "emoji": "🎵",
+      "title": "A song that you love",
+      "starter": "Tell me a song you absolutely LOVE — it can be in any language! Describe it to me. What does it sound like? How does it make you feel when you hear it?",
+      "followups": [
+        "Who sings it?",
+        "Do you know the words?",
+        "When do you usually listen to it?",
+        "Can you hum a tiny bit of the tune for me?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 23,
+      "theme": "Water",
+      "emoji": "💧",
+      "title": "Why is water so important?",
+      "starter": "Here is a thinking question — imagine one day you woke up and there was NO water anywhere. No rain, no rivers, no taps. Tell me: what would be the very FIRST problem?",
+      "followups": [
+        "What would you drink?",
+        "Could plants survive?",
+        "How long could humans last?",
+        "What do people in dry areas do to get water?"
+      ],
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 24,
+      "theme": "Heroes",
+      "emoji": "🦸",
+      "title": "A real hero you admire",
+      "starter": "Not a movie hero — a REAL person, alive or from history, who you truly admire. Who is it and what ONE thing did they do that amazes you most?",
+      "followups": [
+        "How did they change the world?",
+        "What challenges did they face?",
+        "What can you learn from them?",
+        "Could you be a hero in a small way?"
+      ],
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 25,
+      "theme": "Environment",
+      "emoji": "🌍",
+      "title": "One thing you do to help the Earth",
+      "starter": "The Earth needs our help! Tell me honestly — is there ONE thing you already do to help the environment? Even something small counts!",
+      "followups": [
+        "Who taught you to do that?",
+        "Do your friends do the same?",
+        "What is ONE more thing you could start doing?",
+        "What would happen if everyone did that one thing?"
+      ],
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 26,
+      "theme": "Morning Routine",
+      "emoji": "🌅",
+      "title": "Describe your morning from waking up!",
+      "starter": "Tell me about YOUR morning today — from the moment you opened your eyes to right now! Every detail, even boring ones — I love hearing about real life!",
+      "followups": [
+        "What is the first thing you do?",
+        "Do you eat breakfast?",
+        "Do you rush or take your time?",
+        "What would your perfect morning look like?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 27,
+      "theme": "Questions",
+      "emoji": "❓",
+      "title": "The question you most want answered",
+      "starter": "If you could ask ANY question — to any scientist, historian, explorer, or wise person — and get a truthful answer, what would you ask? There are no wrong answers!",
+      "followups": [
+        "Why does that question matter to you?",
+        "Who would you ask it to?",
+        "What do you think the answer might be?",
+        "Has anyone ever tried to answer it?"
+      ],
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 28,
+      "theme": "Gratitude",
+      "emoji": "🙏",
+      "title": "Three things you are grateful for today",
+      "starter": "Let's start with something wonderful! Tell me three things you are genuinely grateful for TODAY. They can be tiny things or huge things — both count equally!",
+      "followups": [
+        "Why does each one matter?",
+        "Did you tell anyone you are grateful for them?",
+        "Is there something you usually take for granted?",
+        "How does thinking about gratitude make you feel?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 29,
+      "theme": "Science Curiosity",
+      "emoji": "🔬",
+      "title": "A science question that puzzles you",
+      "starter": "Tell me one thing about science — or about the world — that you find really puzzling or confusing. Something where you want to know HOW or WHY!",
+      "followups": [
+        "Where did you first wonder about this?",
+        "Have you tried to find the answer?",
+        "Shall we explore it together right now?",
+        "How does it feel to not know the answer yet?"
+      ],
+      "class_groups": [
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 30,
+      "theme": "One Month In!",
+      "emoji": "🎉",
+      "title": "What have you learned this month?",
+      "starter": "We have been talking every day for a month! Tell me: what is the ONE most interesting thing you have learned or talked about with me? I want to know which conversation stayed with you!",
+      "followups": [
+        "Why did that one stick?",
+        "Have you shared it with anyone?",
+        "What do you want to talk about next month?",
+        "Are you a different learner than you were 30 days ago?"
+      ],
+      "class_groups": [
+        "class1",
+        "class2",
+        "class3",
+        "class4",
+        "class5"
+      ]
+    },
+    {
+      "day": 31,
+      "theme": "Colours Around Me",
+      "emoji": "🌈",
+      "title": "Find something every colour of the rainbow!",
+      "starter": "Rainbow challenge! Can you find something RED near you? Tell me what it is! Then we'll do ORANGE, YELLOW, GREEN, BLUE, and PURPLE! Ready — find something RED first!",
+      "followups": [
+        "What about orange?",
+        "Now yellow — this one is tricky!",
+        "Can you find something blue?",
+        "Which colour was hardest to find?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1"
+      ]
+    },
+    {
+      "day": 32,
+      "theme": "My Family",
+      "emoji": "👨‍👩‍👧",
+      "title": "Tell me about your family!",
+      "starter": "Tell me about your family! Who do you live with? I want to know their names and one thing that is special about each person!",
+      "followups": [
+        "Who makes you laugh the most?",
+        "Who do you go to when you are sad?",
+        "What does your family like to do together?",
+        "What would you say to them if you could say one special thing?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2"
+      ]
+    },
+    {
+      "day": 33,
+      "theme": "Counting Game",
+      "emoji": "1️⃣",
+      "title": "Let's count everything!",
+      "starter": "Counting game time! Look around the room you are in RIGHT NOW. Count how many WINDOWS you can see. Tell me the number! Then I'll ask you to count something else!",
+      "followups": [
+        "Now count the doors!",
+        "Count everything that is blue!",
+        "Count the corners in the room!",
+        "How many people are in your home right now?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1"
+      ]
+    },
+    {
+      "day": 34,
+      "theme": "Bedtime Story",
+      "emoji": "🌙",
+      "title": "Your favourite bedtime story or cartoon",
+      "starter": "Tell me about your favourite story! It can be a book someone reads to you, or a cartoon you love. Tell me the main character's name and what they do!",
+      "followups": [
+        "What is your favourite part?",
+        "Is there a villain in the story?",
+        "How does it end?",
+        "If you could be any character, who would you be?"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1",
+        "class2"
+      ]
+    },
+    {
+      "day": 35,
+      "theme": "Pretend Play",
+      "emoji": "🎭",
+      "title": "Let's do some pretend play!",
+      "starter": "Let's PRETEND! Choose: are you a doctor, a chef, a pilot, or a teacher today? Tell me which one — and then I'll ask you questions about your pretend job!",
+      "followups": [
+        "Who are your patients/students/passengers?",
+        "What is the hardest part of your job?",
+        "What did you do at work today?",
+        "Show me something you do in your job!"
+      ],
+      "class_groups": [
+        "lkg",
+        "ukg",
+        "class1"
+      ]
+    }
+  ]
+}
